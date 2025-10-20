@@ -109,12 +109,13 @@
               "type": "string",
               "title": "Stil",
               "default": "default",
-              "enum": ["default", "emphasized", "light", "hide"],
+              "enum": ["default", "emphasized", "light", "hide", "sphere"],
               "enumNames": [
                 "Standard",
                 "Hervorgehoben",
                 "Zurückgenommen",
-                "Verbindung"
+                "Verbindung",
+                "Kreisbereich"
               ]
             },
             "bgColor": {

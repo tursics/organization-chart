@@ -224,6 +224,58 @@
             }
           }
         }
+
+        &.sphere {
+          .oc-container {
+            border-radius: 1rem;
+
+            .oc-content {
+              border-radius: 1rem;
+
+              .address {
+                display: none;
+              }
+              ul.contact {
+                display: none;
+              }
+              ul.departments {}
+              ul.positions {
+                li {
+                  > div {
+                    height: 2em;
+                    position: relative;
+
+                    .position {
+                      background: #ffc107;
+                      border-radius: 50%;
+                      font-size: 2em;
+                      height: 1.2em;
+                      left: -.1em;
+                      overflow: hidden;
+                      position: absolute;
+                      text-indent: 1.2em;
+                      top: -.1em;
+                      width: 1.2em;
+                    }
+                    .person {
+                      background: #607d8b;
+                      border-radius: 50%;
+                      font-size: 2em;
+                      height: 1em;
+                      left: 0;
+                      overflow: hidden;
+                      position: absolute;
+                      text-indent: 1em;
+                      top: 0;
+                      width: 1em;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
         &.emphasized {
           $supCurrentColor: lighten($currentColor, 5%);
           h4.person {
