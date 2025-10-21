@@ -1,9 +1,10 @@
 {
-  "name": "organigramming-berlin",
+  "name": "organization-chart",
   "version": "0.1.0",
-  "author": "Timo Hartmann",
+  "author": "Timo Tursics",
   "main": "index.js",
   "description": "A simple organisation chart app for public service of Berlin",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@dabeng/react-orgchart": "^1.0.0",
