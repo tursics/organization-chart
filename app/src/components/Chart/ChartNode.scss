@@ -237,16 +237,120 @@
               position: absolute;
               top: 50%;
               transform: translateY(-50%);
+              z-index: 1;
 
               h1 {
                 margin: 0;
                 text-align: center;
               }
+              h3 {
+                text-align: center !important;
+              }
+            }
+
+            // 0 children
+            &:not(:has(ul.positions > li)) {
+              height: 5em;
+              width: 5em;
+              .oc-heading {
+                top: 50%;
+              }
+            }
+
+            // 1 child
+            &:has(ul.positions > li:first-child:nth-last-child(1)) {
+              height: 6em;
+              width: 6em;
+              .oc-heading {
+                top: 42%;
+              }
+            }
+            ul.positions > li {
+              &:nth-child(1):nth-last-child(1) {
+                left: 50%;
+                top: 83%;
+              }
+            }
+
+            // 2 children
+            &:has(ul.positions > li:first-child:nth-last-child(2)) {
+              height: 6em;
+              width: 6em;
+              .oc-heading {
+                top: 38%;
+              }
+            }
+            ul.positions > li {
+              &:nth-child(1):nth-last-child(2) {
+                left: 35%;
+                top: 75%;
+              }
+              &:nth-child(2):nth-last-child(1) {
+                left: 65%;
+                top: 75%;
+              }
+            }
+
+            // 3 children
+            &:has(ul.positions > li:first-child:nth-last-child(3)) {
+              height: 6em;
+              width: 6em;
+              .oc-heading {
+                top: 40%;
+              }
+            }
+            ul.positions > li {
+              &:nth-child(1):nth-last-child(3) {
+                left: 25%;
+                top: 72%;
+              }
+              &:nth-child(2):nth-last-child(2) {
+                left: 50%;
+                top: 85%;
+              }
+              &:nth-child(3):nth-last-child(1) {
+                left: 75%;
+                top: 72%;
+              }
+            }
+
+            // 4 children
+            &:has(ul.positions > li:first-child:nth-last-child(4)) {
+              height: 7em;
+              width: 7em;
+              .oc-heading {
+                top: 37%;
+              }
+            }
+            ul.positions > li {
+              &:nth-child(1):nth-last-child(4) {
+                left: 28%;
+                top: 73%;
+              }
+              &:nth-child(2):nth-last-child(3) {
+                left: 50%;
+                top: 85%;
+              }
+              &:nth-child(3):nth-last-child(2) {
+                left: 50%;
+                top: 61%;
+              }
+              &:nth-child(4):nth-last-child(1) {
+                left: 72%;
+                top: 73%;
+              }
+            }
+
+            // head of children
+            &:has(ul.positions > li:first-child .position) ul.positions > li:first-child {
+                left: 50%;
+                top: 0;
             }
 
             .oc-content {
               border-radius: 50%;
               height: 100%;
+              position: relative;
 
               .address {
                 display: none;
@@ -259,8 +363,13 @@
               }
               ul.positions {
                 li {
+                  position: absolute;
+                  transform: translateX(-50%) translateY(-50%);
+                  width: 2em;
+
                   > div {
                     height: 2em;
+                    margin: 0 !important;
                     position: relative;
 
                     .position {
