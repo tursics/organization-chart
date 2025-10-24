@@ -99,7 +99,7 @@
               "organisations": [],
               "suborganizationOrientation": "horizontal",
               "type": "Organisationseinheit",
-              "name": "Geschäftsstelle NOOTS",
+              "name": "Geschäfts-stelle NOOTS",
               "id": "nd7fcc5e7-e6e3-4b7c-a290-d650dc4af851",
               "purpose": ""
             },
@@ -380,7 +380,7 @@
               ],
               "suborganizationOrientation": "horizontal",
               "type": "Organisationseinheit",
-              "name": "Communitymanagement und Veranstaltungen",
+              "name": "Community-management",
               "id": "nd5d26b81-3c22-4af9-ae07-dadc6ba32b31",
               "purpose": ""
             }
