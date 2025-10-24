@@ -1,1344 +1,1161 @@
 {
-  "document":{
-    "paperSize":"A3",
-    "schemaVersion":"1.1.0",
-    "paperOrientation":"landscape",
-    "uri":{
-      "uri":""
+  "document": {
+    "paperSize": "A3",
+    "schemaVersion": "1.1.0",
+    "paperOrientation": "landscape",
+    "uri": {
+      "uri": ""
     },
-    "title":"FITKO, work in progress",
-    "note":"# Allgemeine Informationen können Sie in die Fußzeile schreiben \n\n## Sie können die Inhalte in der Fußzeile aber auch löschen.\n\nLorem markdownum inguinibus vis confinia patriam constitit maduere cognoverat\nlevi! Edere ingens glaebas mente. Se silva Cnosiacas ferrum repertum deferre\nposcimus amantes intenta, fraternaeque.\n\n- Zum Beispiel *allgemeine Telefonnummer*.\n- **Zum Beispiel** allgemeine Postanschrift. \n- Zum Beispiel [allgemeine Internetadresse](https://www.berlin.de/) \n- Amnesque. Fixus quidem simulacra eo, coercebat fuerat. \n- Cum **deque iaces** defendite.",
-    "version":"2025-10-01",
-    "logo":"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI1LjMuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxMjggMTAyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMjggMTAyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO30KCS5zdDF7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojQkYyMDI2O30KCS5zdDJ7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojRjhEMjAwO30KPC9zdHlsZT4KPHBhdGggaWQ9IkZpbGwtMSIgY2xhc3M9InN0MCIgZD0iTTQwLjcsNTcuMmMyLjIsMCwzLjksMS44LDMuOSwzLjljMCwyLjItMS44LDMuOS0zLjksMy45Yy0yLjIsMC0zLjktMS44LTMuOS0zLjkKCUMzNi44LDU4LjksMzguNSw1Ny4yLDQwLjcsNTcuMiBNNDAuNyw2Ny4zYzMuNCwwLDYuMi0yLjgsNi4yLTYuMmMwLTMuNC0yLjgtNi4yLTYuMi02LjJjLTMuNCwwLTYuMiwyLjgtNi4yLDYuMgoJQzM0LjUsNjQuNSwzNy4zLDY3LjMsNDAuNyw2Ny4zIi8+CjxwYXRoIGlkPSJGaWxsLTMiIGNsYXNzPSJzdDAiIGQ9Ik00NS4xLDY5LjZoLTguNGMtMi41LDAtNC41LDItNC41LDQuNXY4YzAsMi4yLDEuNCw0LjQsNCw0LjRjMCwwLDAuNCwwLDAuNSwwdjE0LjhIMzlsMC0xN2gtMi4yCgljLTEuMiwwLTIuMy0xLTIuMy0yLjJ2LThjMC0xLjMsMS0yLjMsMi4zLTIuM2g3LjljMS4zLDAsMi4zLDEsMi4zLDIuM1Y4MmMwLDEuMi0xLDIuMi0yLjMsMi4yaC0yLjJsMCwxN2gyLjJWODYuNQoJYzIuNi0wLjEsNC41LTIuMiw0LjUtNC40di04QzQ5LjIsNzEuNiw0Ny42LDY5LjYsNDUuMSw2OS42Ii8+CjxwYXRoIGlkPSJGaWxsLTUiIGNsYXNzPSJzdDEiIGQ9Ik00NC45LDQwLjljMCwyLjItMS44LDMuOS0zLjksMy45Yy0yLjIsMC0zLjktMS44LTMuOS0zLjljMC0yLjIsMS44LTMuOSwzLjktMy45CglDNDMuMSwzNyw0NC45LDM4LjcsNDQuOSw0MC45IE0zNC44LDQwLjljMCwzLjQsMi44LDYuMiw2LjIsNi4yYzMuNCwwLDYuMi0yLjgsNi4yLTYuMmMwLTMuNC0yLjgtNi4yLTYuMi02LjIKCUMzNy42LDM0LjcsMzQuOCwzNy41LDM0LjgsNDAuOSIvPgo8cGF0aCBpZD0iRmlsbC03IiBjbGFzcz0ic3QxIiBkPSJNMzIuNSw0NS4zVjM3YzAtMi41LTItNC41LTQuNS00LjVoLThjLTIuMiwwLTQuNCwxLjQtNC40LDRjMCwwLDAsMC40LDAsMC41SDAuOHYyLjJsMTcsMFYzNwoJYzAtMS4yLDEtMi4zLDIuMi0yLjNoOGMxLjMsMCwyLjMsMSwyLjMsMi4zdjcuOWMwLDEuMy0xLDIuMy0yLjMsMi4zaC03LjljLTEuMiwwLTIuMi0xLTIuMi0yLjN2LTIuMmwtMTcsMFY0NWgxNC44CgljMC4xLDIuNiwyLjIsNC41LDQuNCw0LjVoOEMzMC41LDQ5LjQsMzIuNSw0Ny44LDMyLjUsNDUuMyIvPgo8cGF0aCBpZD0iRmlsbC05IiBjbGFzcz0ic3QyIiBkPSJNNTkuNSw0NC43Yy0yLjIsMC0zLjktMS44LTMuOS0zLjljMC0yLjIsMS44LTMuOSwzLjktMy45YzIuMiwwLDMuOSwxLjgsMy45LDMuOQoJQzYzLjQsNDMsNjEuNiw0NC43LDU5LjUsNDQuNyBNNTkuNSwzNC42Yy0zLjQsMC02LjIsMi44LTYuMiw2LjJjMCwzLjQsMi44LDYuMiw2LjIsNi4yYzMuNCwwLDYuMi0yLjgsNi4yLTYuMgoJQzY1LjYsMzcuNCw2Mi45LDM0LjYsNTkuNSwzNC42Ii8+CjxwYXRoIGlkPSJGaWxsLTExIiBjbGFzcz0ic3QyIiBkPSJNNTUsMzIuM2g4LjRjMi41LDAsNC41LTIsNC41LTQuNXYtOGMwLTIuMi0xLjQtNC40LTQtNC40YzAsMC0wLjQsMC0wLjUsMFYwLjZoLTIuMmwwLDE3aDIuMgoJYzEuMiwwLDIuMywxLDIuMywyLjJ2OGMwLDEuMy0xLDIuMy0yLjMsMi4zaC03LjljLTEuMywwLTIuMy0xLTIuMy0yLjN2LTcuOWMwLTEuMiwxLTIuMiwyLjMtMi4yaDIuMmwwLTE3aC0yLjJ2MTQuOAoJYy0yLjYsMC4xLTQuNSwyLjItNC41LDQuNHY4QzUwLjksMzAuMyw1Mi41LDMyLjMsNTUsMzIuMyIvPgo8cGF0aCBpZD0iRmlsbC0xMyIgY2xhc3M9InN0MCIgZD0iTTU5LjQsNjcuNWgyLjNjMCwwLDAsMCwwLDB2LTUuNkg2NmwwLDBWNjBjMCwwLDAsMCwwLDBoLTQuMnYtMi44djBoNy43aDBWNTVoMGgtMTBWNjcuNXoiLz4KPHBvbHlnb24gaWQ9IkZpbGwtMTYiIGNsYXNzPSJzdDAiIHBvaW50cz0iNzguOCw1NSA3OC44LDY3LjUgNzYuNCw2Ny41IDc2LjQsNTUgIi8+Cjxwb2x5Z29uIGlkPSJGaWxsLTE3IiBjbGFzcz0ic3QwIiBwb2ludHM9IjkwLjEsNjcuNSA5MC4xLDU3LjMgODUuNyw1Ny4zIDg1LjcsNTUgOTYuNSw1NSA5Ni41LDU3LjMgOTIuNCw1Ny4zIDkyLjQsNjcuNSAiLz4KPHBvbHlnb24gaWQ9IkZpbGwtMTgiIGNsYXNzPSJzdDAiIHBvaW50cz0iMTA4LjQsNjYuMSAxMDYuOCw2Ny43IDEwMC4yLDYxLjIgMTA2LjUsNTQuOCAxMDguMiw1Ni40IDEwMy41LDYxLjIgIi8+CjxwYXRoIGlkPSJGaWxsLTE5IiBjbGFzcz0ic3QwIiBkPSJNMTIwLjEsNTcuM2MyLjIsMCw0LDEuOCw0LDRjMCwyLjItMS44LDQtNCw0Yy0yLjIsMC00LTEuOC00LTRDMTE2LjEsNTksMTE3LjksNTcuMywxMjAuMSw1Ny4zCgkgTTEyMC4xLDY3LjVjMy41LDAsNi4zLTIuOCw2LjMtNi4zYzAtMy41LTIuOC02LjMtNi4zLTYuM2MtMy41LDAtNi4zLDIuOC02LjMsNi4zQzExMy44LDY0LjcsMTE2LjYsNjcuNSwxMjAuMSw2Ny41Ii8+Cjwvc3ZnPgo=",
-    "creator":"Thomas Tursics"
+    "title": "FITKO, work in progress",
+    "note": "# Allgemeine Informationen können Sie in die Fußzeile schreiben \n\n## Sie können die Inhalte in der Fußzeile aber auch löschen.\n\nLorem markdownum inguinibus vis confinia patriam constitit maduere cognoverat\nlevi! Edere ingens glaebas mente. Se silva Cnosiacas ferrum repertum deferre\nposcimus amantes intenta, fraternaeque.\n\n- Zum Beispiel *allgemeine Telefonnummer*.\n- **Zum Beispiel** allgemeine Postanschrift. \n- Zum Beispiel [allgemeine Internetadresse](https://www.berlin.de/) \n- Amnesque. Fixus quidem simulacra eo, coercebat fuerat. \n- Cum **deque iaces** defendite.",
+    "version": "2025-10-01",
+    "logo": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI1LjMuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkViZW5lXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxMjggMTAyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMjggMTAyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO30KCS5zdDF7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojQkYyMDI2O30KCS5zdDJ7ZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojRjhEMjAwO30KPC9zdHlsZT4KPHBhdGggaWQ9IkZpbGwtMSIgY2xhc3M9InN0MCIgZD0iTTQwLjcsNTcuMmMyLjIsMCwzLjksMS44LDMuOSwzLjljMCwyLjItMS44LDMuOS0zLjksMy45Yy0yLjIsMC0zLjktMS44LTMuOS0zLjkKCUMzNi44LDU4LjksMzguNSw1Ny4yLDQwLjcsNTcuMiBNNDAuNyw2Ny4zYzMuNCwwLDYuMi0yLjgsNi4yLTYuMmMwLTMuNC0yLjgtNi4yLTYuMi02LjJjLTMuNCwwLTYuMiwyLjgtNi4yLDYuMgoJQzM0LjUsNjQuNSwzNy4zLDY3LjMsNDAuNyw2Ny4zIi8+CjxwYXRoIGlkPSJGaWxsLTMiIGNsYXNzPSJzdDAiIGQ9Ik00NS4xLDY5LjZoLTguNGMtMi41LDAtNC41LDItNC41LDQuNXY4YzAsMi4yLDEuNCw0LjQsNCw0LjRjMCwwLDAuNCwwLDAuNSwwdjE0LjhIMzlsMC0xN2gtMi4yCgljLTEuMiwwLTIuMy0xLTIuMy0yLjJ2LThjMC0xLjMsMS0yLjMsMi4zLTIuM2g3LjljMS4zLDAsMi4zLDEsMi4zLDIuM1Y4MmMwLDEuMi0xLDIuMi0yLjMsMi4yaC0yLjJsMCwxN2gyLjJWODYuNQoJYzIuNi0wLjEsNC41LTIuMiw0LjUtNC40di04QzQ5LjIsNzEuNiw0Ny42LDY5LjYsNDUuMSw2OS42Ii8+CjxwYXRoIGlkPSJGaWxsLTUiIGNsYXNzPSJzdDEiIGQ9Ik00NC45LDQwLjljMCwyLjItMS44LDMuOS0zLjksMy45Yy0yLjIsMC0zLjktMS44LTMuOS0zLjljMC0yLjIsMS44LTMuOSwzLjktMy45CglDNDMuMSwzNyw0NC45LDM4LjcsNDQuOSw0MC45IE0zNC44LDQwLjljMCwzLjQsMi44LDYuMiw2LjIsNi4yYzMuNCwwLDYuMi0yLjgsNi4yLTYuMmMwLTMuNC0yLjgtNi4yLTYuMi02LjIKCUMzNy42LDM0LjcsMzQuOCwzNy41LDM0LjgsNDAuOSIvPgo8cGF0aCBpZD0iRmlsbC03IiBjbGFzcz0ic3QxIiBkPSJNMzIuNSw0NS4zVjM3YzAtMi41LTItNC41LTQuNS00LjVoLThjLTIuMiwwLTQuNCwxLjQtNC40LDRjMCwwLDAsMC40LDAsMC41SDAuOHYyLjJsMTcsMFYzNwoJYzAtMS4yLDEtMi4zLDIuMi0yLjNoOGMxLjMsMCwyLjMsMSwyLjMsMi4zdjcuOWMwLDEuMy0xLDIuMy0yLjMsMi4zaC03LjljLTEuMiwwLTIuMi0xLTIuMi0yLjN2LTIuMmwtMTcsMFY0NWgxNC44CgljMC4xLDIuNiwyLjIsNC41LDQuNCw0LjVoOEMzMC41LDQ5LjQsMzIuNSw0Ny44LDMyLjUsNDUuMyIvPgo8cGF0aCBpZD0iRmlsbC05IiBjbGFzcz0ic3QyIiBkPSJNNTkuNSw0NC43Yy0yLjIsMC0zLjktMS44LTMuOS0zLjljMC0yLjIsMS44LTMuOSwzLjktMy45YzIuMiwwLDMuOSwxLjgsMy45LDMuOQoJQzYzLjQsNDMsNjEuNiw0NC43LDU5LjUsNDQuNyBNNTkuNSwzNC42Yy0zLjQsMC02LjIsMi44LTYuMiw2LjJjMCwzLjQsMi44LDYuMiw2LjIsNi4yYzMuNCwwLDYuMi0yLjgsNi4yLTYuMgoJQzY1LjYsMzcuNCw2Mi45LDM0LjYsNTkuNSwzNC42Ii8+CjxwYXRoIGlkPSJGaWxsLTExIiBjbGFzcz0ic3QyIiBkPSJNNTUsMzIuM2g4LjRjMi41LDAsNC41LTIsNC41LTQuNXYtOGMwLTIuMi0xLjQtNC40LTQtNC40YzAsMC0wLjQsMC0wLjUsMFYwLjZoLTIuMmwwLDE3aDIuMgoJYzEuMiwwLDIuMywxLDIuMywyLjJ2OGMwLDEuMy0xLDIuMy0yLjMsMi4zaC03LjljLTEuMywwLTIuMy0xLTIuMy0yLjN2LTcuOWMwLTEuMiwxLTIuMiwyLjMtMi4yaDIuMmwwLTE3aC0yLjJ2MTQuOAoJYy0yLjYsMC4xLTQuNSwyLjItNC41LDQuNHY4QzUwLjksMzAuMyw1Mi41LDMyLjMsNTUsMzIuMyIvPgo8cGF0aCBpZD0iRmlsbC0xMyIgY2xhc3M9InN0MCIgZD0iTTU5LjQsNjcuNWgyLjNjMCwwLDAsMCwwLDB2LTUuNkg2NmwwLDBWNjBjMCwwLDAsMCwwLDBoLTQuMnYtMi44djBoNy43aDBWNTVoMGgtMTBWNjcuNXoiLz4KPHBvbHlnb24gaWQ9IkZpbGwtMTYiIGNsYXNzPSJzdDAiIHBvaW50cz0iNzguOCw1NSA3OC44LDY3LjUgNzYuNCw2Ny41IDc2LjQsNTUgIi8+Cjxwb2x5Z29uIGlkPSJGaWxsLTE3IiBjbGFzcz0ic3QwIiBwb2ludHM9IjkwLjEsNjcuNSA5MC4xLDU3LjMgODUuNyw1Ny4zIDg1LjcsNTUgOTYuNSw1NSA5Ni41LDU3LjMgOTIuNCw1Ny4zIDkyLjQsNjcuNSAiLz4KPHBvbHlnb24gaWQ9IkZpbGwtMTgiIGNsYXNzPSJzdDAiIHBvaW50cz0iMTA4LjQsNjYuMSAxMDYuOCw2Ny43IDEwMC4yLDYxLjIgMTA2LjUsNTQuOCAxMDguMiw1Ni40IDEwMy41LDYxLjIgIi8+CjxwYXRoIGlkPSJGaWxsLTE5IiBjbGFzcz0ic3QwIiBkPSJNMTIwLjEsNTcuM2MyLjIsMCw0LDEuOCw0LDRjMCwyLjItMS44LDQtNCw0Yy0yLjIsMC00LTEuOC00LTRDMTE2LjEsNTksMTE3LjksNTcuMywxMjAuMSw1Ny4zCgkgTTEyMC4xLDY3LjVjMy41LDAsNi4zLTIuOCw2LjMtNi4zYzAtMy41LTIuOC02LjMtNi4zLTYuM2MtMy41LDAtNi4zLDIuOC02LjMsNi4zQzExMy44LDY0LjcsMTE2LjYsNjcuNSwxMjAuMSw2Ny41Ii8+Cjwvc3ZnPgo=",
+    "creator": "Thomas Tursics"
   },
-  "export":{
-    "saveExport":"save",
-    "includeLogo":true,
-    "exportType":"pdf",
-    "pdfType":"print",
-    "filename":"fitko"
+  "export": {
+    "saveExport": "save",
+    "includeLogo": true,
+    "exportType": "pdf",
+    "pdfType": "print",
+    "filename": "fitko"
   },
-  "meta":{
-    "about":"This file was created using the Organigramm-Tool: an online, open source tool for creating organizational charts in PDF format, machine-readable JSON format and Linked Open Data (LOD) formats.",
-    "url":"https://github.com/technologiestiftung/organigramming-berlin"
+  "meta": {
+    "about": "This file was created using the Organigramm-Tool: an online, open source tool for creating organizational charts in PDF format, machine-readable JSON format and Linked Open Data (LOD) formats.",
+    "url": "https://github.com/technologiestiftung/organigramming-berlin"
   },
-  "organisations":[
+  "organisations": [
     {
-      "id":"n3",
-      "name":"FITKO",
-      "isMainOrganisation":true,
-      "organisations":[
+      "id": "n3",
+      "name": "FITKO",
+      "isMainOrganisation": true,
+      "organisations": [
         {
-          "isMainOrganisation":false,
-          "layout":{
-            "style":"default",
-            "bgColor":"#db9f29",
-            "bgStyle":"default",
-            "grid":"none"
+          "isMainOrganisation": false,
+          "layout": {
+            "style": "default",
+            "bgColor": "#db9f29",
+            "bgStyle": "default",
+            "grid": "none"
           },
-          "address":{
-            
+          "address": {},
+          "contact": {},
+          "uri": {
+            "uri": "https://berlin.github.io/lod-organigram/organisation-dcaea387fa"
           },
-          "contact":{
-            
-          },
-          "uri":{
-            "uri":"https://berlin.github.io/lod-organigram/organisation-dcaea387fa"
-          },
-          "positions":[
+          "positions": [
             {
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/position-efb4a85a2a"
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/position-efb4a85a2a"
               },
-              "person":{
-                "gender":"m",
-                "contact":{
-                  "telephone":"+49 (69) 401270 166",
-                  "email":"michael.pfleger@fitko.de"
+              "person": {
+                "gender": "m",
+                "contact": {
+                  "telephone": "+49 (69) 401270 166",
+                  "email": "michael.pfleger@fitko.de"
                 },
-                "uri":{
-                  "uri":"https://berlin.github.io/lod-organigram/person-b6c68087c4"
+                "uri": {
+                  "uri": "https://berlin.github.io/lod-organigram/person-b6c68087c4"
                 },
-                "firstName":"Michael",
-                "lastName":"Pfleger"
+                "firstName": "Michael",
+                "lastName": "Pfleger"
               },
-              "positionType":"Stabstellenleitung"
+              "positionType": "Stabstellenleitung"
             }
           ],
-          "departments":[
-            
-          ],
-          "organisations":[
+          "departments": [],
+          "organisations": [
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "address":{
-                
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-b0f0a29581"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-b0f0a29581"
-              },
-              "positions":[
-                
-              ],
-              "organisations":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Geschäftsstelle NOOTS gem. Staatsvertrag",
-              "id":"nd7fcc5e7-e6e3-4b7c-a290-d650dc4af851",
-              "purpose":""
+              "positions": [],
+              "organisations": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Geschäftsstelle NOOTS gem. Staatsvertrag",
+              "id": "nd7fcc5e7-e6e3-4b7c-a290-d650dc4af851",
+              "purpose": ""
             },
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "address":{
-                
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-e314e8ffc3"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-e314e8ffc3"
-              },
-              "positions":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Fachliche Koordinierungsstelle gemäß Staatsvertrag",
-              "id":"n2f93d708-2898-40bd-a2b2-ffd14b956cd1",
-              "purpose":""
+              "positions": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Fachliche Koordinierungsstelle gemäß Staatsvertrag",
+              "id": "n2f93d708-2898-40bd-a2b2-ffd14b956cd1",
+              "purpose": ""
             }
           ],
-          "suborganizationOrientation":"vertical",
-          "name":"Stabsstelle NOOTS",
-          "id":"n0f3220c2-e33b-4134-b72e-af7805af447f",
-          "purpose":"",
-          "type":"Stabsstelle",
-          "altName":"Aufbaustab Geschäftsstelle und Fachlich koordinierende Stelle NOOTS"
+          "suborganizationOrientation": "vertical",
+          "name": "Stabsstelle NOOTS",
+          "id": "n0f3220c2-e33b-4134-b72e-af7805af447f",
+          "purpose": "",
+          "type": "Stabsstelle",
+          "altName": "Aufbaustab Geschäftsstelle und Fachlich koordinierende Stelle NOOTS"
         },
         {
-          "isMainOrganisation":false,
-          "layout":{
-            "style":"default",
-            "bgColor":"#db9f29",
-            "bgStyle":"default",
-            "grid":"none"
+          "isMainOrganisation": false,
+          "layout": {
+            "style": "default",
+            "bgColor": "#db9f29",
+            "bgStyle": "default",
+            "grid": "none"
           },
-          "address":{
-            
+          "address": {},
+          "contact": {},
+          "uri": {
+            "uri": "https://berlin.github.io/lod-organigram/organisation-1abf67155f"
           },
-          "contact":{
-            
-          },
-          "uri":{
-            "uri":"https://berlin.github.io/lod-organigram/organisation-1abf67155f"
-          },
-          "positions":[
+          "positions": [
             {
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/position-00779a8dfd"
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/position-00779a8dfd"
               },
-              "person":{
-                "gender":"w",
-                "contact":{
-                  "telephone":"+49 (69) 401270 105",
-                  "email":"Ariana.Neves@fitko.de"
+              "person": {
+                "gender": "w",
+                "contact": {
+                  "telephone": "+49 (69) 401270 105",
+                  "email": "Ariana.Neves@fitko.de"
                 },
-                "uri":{
-                  "uri":"https://berlin.github.io/lod-organigram/person-c2214cac0d"
+                "uri": {
+                  "uri": "https://berlin.github.io/lod-organigram/person-c2214cac0d"
                 },
-                "firstName":"Ariana",
-                "lastName":"Neves"
+                "firstName": "Ariana",
+                "lastName": "Neves"
               },
-              "positionType":"Teamleitung"
+              "positionType": "Teamleitung"
             }
           ],
-          "organisations":[
+          "suborganizationOrientation": "vertical",
+          "type": "Stabsstelle",
+          "name": "Stabsstelle Dialog",
+          "id": "nda9e33f6-8a00-48e3-857b-e83212ff5a33",
+          "purpose": "",
+          "organisations": [
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "address":{
-                
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-7a217c40ea"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-7a217c40ea"
-              },
-              "positions":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "name":"Kommunikation",
-              "id":"n35b51394-c00d-4d2d-b1db-fd9842e31fd5",
-              "type":"Organisationseinheit",
-              "purpose":""
+              "positions": [],
+              "suborganizationOrientation": "horizontal",
+              "name": "Kommunikation",
+              "id": "n35b51394-c00d-4d2d-b1db-fd9842e31fd5",
+              "type": "Organisationseinheit",
+              "purpose": ""
             },
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "address":{
-                
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-46ef9a409c"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-46ef9a409c"
-              },
-              "positions":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Marketing",
-              "id":"n32ad7fb7-7a36-42ff-952c-b7365632c88b",
-              "purpose":""
+              "positions": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Marketing",
+              "id": "n32ad7fb7-7a36-42ff-952c-b7365632c88b",
+              "purpose": ""
             },
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "address":{
-                
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-0ed7a80492"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-0ed7a80492"
-              },
-              "positions":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Communitymanagement und Veranstaltungen",
-              "id":"nd5d26b81-3c22-4af9-ae07-dadc6ba32b31",
-              "purpose":""
+              "positions": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Communitymanagement und Veranstaltungen",
+              "id": "nd5d26b81-3c22-4af9-ae07-dadc6ba32b31",
+              "purpose": ""
             }
-          ],
-          "suborganizationOrientation":"vertical",
-          "type":"Stabsstelle",
-          "name":"Stabsstelle Dialog",
-          "id":"nda9e33f6-8a00-48e3-857b-e83212ff5a33",
-          "purpose":""
+          ]
         },
         {
-          "isMainOrganisation":false,
-          "layout":{
-            "style":"default",
-            "bgColor":"#db9f29",
-            "bgStyle":"default",
-            "grid":"none"
+          "isMainOrganisation": false,
+          "layout": {
+            "style": "default",
+            "bgColor": "#db9f29",
+            "bgStyle": "default",
+            "grid": "none"
           },
-          "address":{
-            
+          "address": {},
+          "contact": {},
+          "uri": {
+            "uri": "https://berlin.github.io/lod-organigram/organisation-7febc39921"
           },
-          "contact":{
-            
-          },
-          "uri":{
-            "uri":"https://berlin.github.io/lod-organigram/organisation-7febc39921"
-          },
-          "positions":[
+          "positions": [
             {
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/position-063a81ce50"
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/position-063a81ce50"
               },
-              "person":{
-                "gender":"m",
-                "contact":{
-                  "telephone":"+49 (69) 401270 126",
-                  "email":"Yacine.Jung@fitko.de"
+              "person": {
+                "gender": "m",
+                "contact": {
+                  "telephone": "+49 (69) 401270 126",
+                  "email": "Yacine.Jung@fitko.de"
                 },
-                "uri":{
-                  "uri":"https://berlin.github.io/lod-organigram/person-692cea17b7"
+                "uri": {
+                  "uri": "https://berlin.github.io/lod-organigram/person-692cea17b7"
                 },
-                "firstName":"Yacine",
-                "lastName":"Jung"
+                "firstName": "Yacine",
+                "lastName": "Jung"
               },
-              "positionType":"Teamleitung"
+              "positionType": "Teamleitung"
             }
           ],
-          "departments":[
-            
-          ],
-          "organisations":[
+          "departments": [],
+          "organisations": [
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "address":{
-                
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-c3bc25276a"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-c3bc25276a"
-              },
-              "positions":[
-                
-              ],
-              "organisations":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Föderales Strategiemanagement",
-              "id":"ne280942e-ed93-4b96-befb-d857a6a745f5",
-              "purpose":""
+              "positions": [],
+              "organisations": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Strategie",
+              "id": "ne280942e-ed93-4b96-befb-d857a6a745f5",
+              "purpose": ""
             },
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "address":{
-                
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-ff23cd12bb"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-ff23cd12bb"
-              },
-              "positions":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Koordinierung IT-Planungsrat",
-              "id":"n86a115e3-fa32-474b-a4b7-923942f79324",
-              "purpose":""
+              "positions": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Koordinierung IT-Planungsrat",
+              "id": "n86a115e3-fa32-474b-a4b7-923942f79324",
+              "purpose": ""
             }
           ],
-          "suborganizationOrientation":"vertical",
-          "name":"Stabsstelle IT-PLR",
-          "id":"ndf4e021b-79ff-41b5-91e3-b33522200128",
-          "type":"Stabsstelle",
-          "purpose":"",
-          "altName":"Stabsstelle Koordination IT-PLR & Strategie"
+          "suborganizationOrientation": "vertical",
+          "name": "Stabsstelle Koordination IT-PLR & Strategie",
+          "id": "ndf4e021b-79ff-41b5-91e3-b33522200128",
+          "type": "Stabsstelle",
+          "purpose": ""
         },
         {
-          "isMainOrganisation":false,
-          "layout":{
-            "style":"default",
-            "bgColor":"#db9f29",
-            "bgStyle":"default",
-            "grid":"none"
+          "isMainOrganisation": false,
+          "layout": {
+            "style": "default",
+            "bgColor": "#db9f29",
+            "bgStyle": "default",
+            "grid": "none"
           },
-          "address":{
-            
+          "address": {},
+          "contact": {},
+          "uri": {
+            "uri": "https://berlin.github.io/lod-organigram/organisation-3cf4af83d2"
           },
-          "contact":{
-            
-          },
-          "uri":{
-            "uri":"https://berlin.github.io/lod-organigram/organisation-3cf4af83d2"
-          },
-          "positions":[
+          "positions": [
             {
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/position-c89d7c4103"
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/position-c89d7c4103"
               },
-              "person":{
-                "gender":"w",
-                "contact":{
-                  "telephone":"+49 (69) 401270 104",
-                  "email":"Ulrike.Czech@fitko.de"
+              "person": {
+                "gender": "w",
+                "contact": {
+                  "telephone": "+49 (69) 401270 104",
+                  "email": "Ulrike.Czech@fitko.de"
                 },
-                "uri":{
-                  "uri":"https://berlin.github.io/lod-organigram/person-2656afcc95"
+                "uri": {
+                  "uri": "https://berlin.github.io/lod-organigram/person-2656afcc95"
                 },
-                "firstName":"Ulrike",
-                "lastName":"Czech"
+                "firstName": "Ulrike",
+                "lastName": "Czech"
               },
-              "positionType":"Abteilungsleitung"
+              "positionType": "Abteilungsleitung"
+            },
+            {
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/position-f157177bfa"
+              },
+              "person": {
+                "gender": "w",
+                "contact": {
+                  "telephone": "+49 (69) 401270 102",
+                  "email": "Sybille.Graeff@fitko.de"
+                },
+                "uri": {
+                  "uri": "https://berlin.github.io/lod-organigram/person-52f1967dd1"
+                },
+                "firstName": "Sybille",
+                "lastName": "Gräff"
+              },
+              "positionType": "Vertretung Abteilungsleitung",
+              "positionStatus": "in Abwesenheit"
             }
           ],
-          "departments":[
-            
-          ],
-          "organisations":[
+          "departments": [],
+          "organisations": [
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "address":{
-                
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-d3a24c651f"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-d3a24c651f"
-              },
-              "positions":[
+              "positions": [
                 {
-                  "uri":{
-                    "uri":"https://berlin.github.io/lod-organigram/position-7cd8e4b49a"
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-7cd8e4b49a"
                   },
-                  "person":{
-                    "gender":"w",
-                    "contact":{
-                      "telephone":"+49 (69) 401270 102",
-                      "email":"Sybille.Graeff@fitko.de"
+                  "person": {
+                    "gender": "w",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 102",
+                      "email": "Sybille.Graeff@fitko.de"
                     },
-                    "uri":{
-                      "uri":"https://berlin.github.io/lod-organigram/person-e74cf3094e"
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-e74cf3094e"
                     },
-                    "firstName":"Sybille",
-                    "lastName":"Gräff"
+                    "firstName": "Sybille",
+                    "lastName": "Gräff"
                   },
-                  "positionType":"Teamleitung"
+                  "positionType": "Teamleitung"
                 }
               ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Organisation und Personal",
-              "id":"n9ef19aed-7af8-4737-b048-a103018a7473",
-              "purpose":""
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Organisation und Personal",
+              "id": "n9ef19aed-7af8-4737-b048-a103018a7473",
+              "purpose": ""
             },
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "address":{
-                
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-e5633a570b"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-e5633a570b"
-              },
-              "positions":[
+              "positions": [
                 {
-                  "uri":{
-                    "uri":"https://berlin.github.io/lod-organigram/position-d8d4ae0631"
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-d8d4ae0631"
                   },
-                  "person":{
-                    "gender":"m",
-                    "contact":{
-                      "telephone":"+49 (69) 401270 141",
-                      "email":"Alexander.Sturm@fitko.de"
+                  "person": {
+                    "gender": "m",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 141",
+                      "email": "Alexander.Sturm@fitko.de"
                     },
-                    "uri":{
-                      "uri":"https://berlin.github.io/lod-organigram/person-2711c783d2"
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-2711c783d2"
                     },
-                    "firstName":"Alexander",
-                    "lastName":"Sturm"
+                    "firstName": "Alexander",
+                    "lastName": "Sturm"
                   },
-                  "positionType":"Teamleitung"
+                  "positionType": "Teamleitung"
                 }
               ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Finanzmanagement und -controlling",
-              "id":"n64bd0c00-f35b-4279-b12b-c3c440c53f02",
-              "purpose":""
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Finanzmanagement und -controlling",
+              "id": "n64bd0c00-f35b-4279-b12b-c3c440c53f02",
+              "purpose": ""
             },
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "address":{
-                
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-2be4ac6d0c"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-2be4ac6d0c"
-              },
-              "positions":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"FITKO-IT",
-              "id":"n0ebe0c9e-828c-4b7e-b83c-a355f2e9e3d6",
-              "purpose":""
+              "positions": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "FITKO-IT",
+              "id": "n0ebe0c9e-828c-4b7e-b83c-a355f2e9e3d6",
+              "purpose": ""
             }
           ],
-          "suborganizationOrientation":"vertical",
-          "type":"Abteilung",
-          "name":"Abteilung Q",
-          "id":"n3cf12c88-00f1-49a6-b2a2-e743dbd322ff",
-          "purpose":"",
-          "altName":"Querschnittsmanagement"
+          "suborganizationOrientation": "vertical",
+          "type": "Abteilung",
+          "name": "Abteilung Q",
+          "id": "n3cf12c88-00f1-49a6-b2a2-e743dbd322ff",
+          "purpose": "",
+          "altName": "Querschnittsmanagement"
         },
         {
-          "isMainOrganisation":false,
-          "layout":{
-            "style":"default",
-            "bgColor":"#db9f29",
-            "bgStyle":"default",
-            "grid":"none"
+          "type": "Abteilung",
+          "name": "Abteilung ASC",
+          "id": "n8aa8bb76-797e-4e82-ae43-2587645fed22",
+          "uri": {
+            "uri": "https://berlin.github.io/lod-organigram/organisation-06df024455"
           },
-          "address":{
-            
+          "isMainOrganisation": false,
+          "layout": {
+            "style": "default",
+            "bgColor": "#db9f29",
+            "bgStyle": "default",
+            "grid": "none"
           },
-          "contact":{
-            
-          },
-          "uri":{
-            "uri":"https://berlin.github.io/lod-organigram/organisation-06df024455"
-          },
-          "positions":[
+          "address": {},
+          "contact": {},
+          "suborganizationOrientation": "vertical",
+          "altName": "Architektur- und Standardisierungsmanagement, Cybersicherheit",
+          "organisations": [
             {
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/position-f89c456dd6"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "person":{
-                "gender":"m",
-                "contact":{
-                  "telephone":"+49 (69) 401270 103",
-                  "email":"joerg.kremer@fitko.de"
-                },
-                "uri":{
-                  "uri":"https://berlin.github.io/lod-organigram/person-1b8511788c"
-                },
-                "firstName":"Jörg",
-                "lastName":"Kremer"
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-b0d5dac27a"
               },
-              "positionType":"Abteilungsleitung"
+              "positions": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Föderales IT-Architekturmanagement",
+              "id": "n7db6933b-07f5-43ac-b4ab-98ea27cc921a",
+              "purpose": ""
             },
             {
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/position-fa5870027d"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "person":{
-                "gender":"m",
-                "contact":{
-                  "telephone":"+49 (69) 401270 142",
-                  "email":"Tobias.Schuh@fitko.de"
-                },
-                "uri":{
-                  "uri":"https://berlin.github.io/lod-organigram/person-d5ad631595"
-                },
-                "firstName":"Tobias",
-                "lastName":"Schuh"
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-b0f7702d5a"
               },
-              "positionType":"Vertretung Abteilungsleitung",
-              "positionStatus":"in Abwesenheit"
+              "positions": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Standardisierung / KoSIT",
+              "id": "n78948f8a-2885-4843-8dd6-befc43162ae3",
+              "purpose": ""
+            },
+            {
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
+              },
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-25fc5340f1"
+              },
+              "positions": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "IT-Sicherheit",
+              "id": "n8815688a-67e6-496b-a92a-0282979e5542",
+              "purpose": ""
             }
           ],
-          "organisations":[
+          "positions": [
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/position-f89c456dd6"
               },
-              "address":{
-                
+              "person": {
+                "gender": "m",
+                "contact": {
+                  "telephone": "+49 (69) 401270 103",
+                  "email": "joerg.kremer@fitko.de"
+                },
+                "uri": {
+                  "uri": "https://berlin.github.io/lod-organigram/person-1b8511788c"
+                },
+                "firstName": "Jörg",
+                "lastName": "Kremer"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-b0d5dac27a"
-              },
-              "positions":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Föderales IT-Architekturmanagement",
-              "id":"n7db6933b-07f5-43ac-b4ab-98ea27cc921a",
-              "purpose":""
+              "positionType": "Abteilungsleitung"
             },
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/position-fa5870027d"
               },
-              "address":{
-                
+              "person": {
+                "gender": "m",
+                "contact": {
+                  "telephone": "+49 (69) 401270 142",
+                  "email": "Tobias.Schuh@fitko.de"
+                },
+                "uri": {
+                  "uri": "https://berlin.github.io/lod-organigram/person-d5ad631595"
+                },
+                "firstName": "Tobias",
+                "lastName": "Schuh"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-b0f7702d5a"
-              },
-              "positions":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Standardisierung / KoSIT",
-              "id":"n78948f8a-2885-4843-8dd6-befc43162ae3",
-              "purpose":""
-            },
-            {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
-              },
-              "address":{
-                
-              },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-25fc5340f1"
-              },
-              "positions":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"IT-Sicherheit",
-              "id":"n8815688a-67e6-496b-a92a-0282979e5542",
-              "purpose":""
+              "positionType": "Vertretung Abteilungsleitung",
+              "positionStatus": "in Abwesenheit"
             }
           ],
-          "suborganizationOrientation":"vertical",
-          "type":"Abteilung",
-          "name":"Abteilung ASC",
-          "id":"n8aa8bb76-797e-4e82-ae43-2587645fed22",
-          "altName":"Architektur- und Standardisierungsmanagement, Cybersicherheit",
-          "purpose":""
+          "purpose": ""
         },
         {
-          "isMainOrganisation":false,
-          "layout":{
-            "style":"default",
-            "bgColor":"#db9f29",
-            "bgStyle":"default",
-            "grid":"none"
+          "type": "Abteilung",
+          "name": "Abteilung PM",
+          "id": "nb714d93d-f182-4d16-95e8-06e531e62b33",
+          "uri": {
+            "uri": "https://berlin.github.io/lod-organigram/organisation-63be913b52"
           },
-          "address":{
-            
+          "isMainOrganisation": false,
+          "layout": {
+            "style": "default",
+            "bgColor": "#db9f29",
+            "bgStyle": "default",
+            "grid": "none"
           },
-          "contact":{
-            
-          },
-          "uri":{
-            "uri":"https://berlin.github.io/lod-organigram/organisation-63be913b52"
-          },
-          "positions":[
+          "address": {},
+          "contact": {},
+          "suborganizationOrientation": "vertical",
+          "altName": "Produktmanagement",
+          "positions": [
             {
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/position-beb5257168"
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/position-beb5257168"
               },
-              "person":{
-                "gender":"m",
-                "contact":{
-                  "telephone":"+49 (69) 401270 138",
-                  "email":"Stephan.Bartholmei@fitko.de"
+              "person": {
+                "gender": "m",
+                "contact": {
+                  "telephone": "+49 (69) 401270 138",
+                  "email": "Stephan.Bartholmei@fitko.de"
                 },
-                "uri":{
-                  "uri":"https://berlin.github.io/lod-organigram/person-33d7484bc2"
+                "uri": {
+                  "uri": "https://berlin.github.io/lod-organigram/person-33d7484bc2"
                 },
-                "firstName":"Stephan",
-                "lastName":"Bartholmei"
+                "firstName": "Stephan",
+                "lastName": "Bartholmei"
               },
-              "positionType":"Abteilungsleitung"
+              "positionType": "Abteilungsleitung"
             },
             {
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/position-4e67979c62"
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/position-4e67979c62"
               },
-              "person":{
-                "gender":"w",
-                "contact":{
-                  "telephone":"+49 (69) 401270 134",
-                  "email":"Lisa.Eckhardt@fitko.de"
+              "person": {
+                "gender": "w",
+                "contact": {
+                  "telephone": "+49 (69) 401270 134",
+                  "email": "Lisa.Eckhardt@fitko.de"
                 },
-                "uri":{
-                  "uri":"https://berlin.github.io/lod-organigram/person-cab4b8e174"
+                "uri": {
+                  "uri": "https://berlin.github.io/lod-organigram/person-cab4b8e174"
                 },
-                "firstName":"Lisa",
-                "lastName":"Strasser"
+                "firstName": "Lisa",
+                "lastName": "Strasser"
               },
-              "positionType":"Vertretung Abteilungsleitung",
-              "positionStatus":"in Abwesenheit"
+              "positionType": "Vertretung Abteilungsleitung",
+              "positionStatus": "in Abwesenheit"
             }
           ],
-          "organisations":[
+          "organisations": [
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "address":{
-                
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-21a86d9362"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-21a86d9362"
-              },
-              "positions":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Sicherer Transport",
-              "id":"n872bf5ad-056e-4d2b-9839-73fdf503f0a0",
-              "purpose":""
+              "positions": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Sicherer Transport",
+              "id": "n872bf5ad-056e-4d2b-9839-73fdf503f0a0",
+              "purpose": ""
             },
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "address":{
-                
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-b45ac10c56"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-b45ac10c56"
-              },
-              "positions":[
+              "positions": [
                 {
-                  "uri":{
-                    "uri":"https://berlin.github.io/lod-organigram/position-be68cc4287"
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-be68cc4287"
                   },
-                  "person":{
-                    "gender":"m",
-                    "contact":{
-                      "telephone":"+49 (69) 401270 106",
-                      "email":"Thorsten.Maid@fitko.de"
+                  "person": {
+                    "gender": "m",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 106",
+                      "email": "Thorsten.Maid@fitko.de"
                     },
-                    "uri":{
-                      "uri":"https://berlin.github.io/lod-organigram/person-51dcda2fd5"
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-51dcda2fd5"
                     },
-                    "firstName":"Thorsten",
-                    "lastName":"Maid"
+                    "firstName": "Thorsten",
+                    "lastName": "Maid"
                   },
-                  "positionType":"Teamleitung"
+                  "positionType": "Teamleitung"
                 }
               ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"📞 115",
-              "id":"nb93b191e-4cee-4307-a7a2-aff2ff37e5c2",
-              "purpose":""
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "📞 115",
+              "id": "nb93b191e-4cee-4307-a7a2-aff2ff37e5c2",
+              "purpose": ""
             },
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "address":{
-                
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-e8649fb18a"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-e8649fb18a"
-              },
-              "positions":[
+              "positions": [
                 {
-                  "uri":{
-                    "uri":"https://berlin.github.io/lod-organigram/position-b08acc9d52"
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-b08acc9d52"
                   },
-                  "person":{
-                    "gender":"w",
-                    "contact":{
-                      "telephone":"+49 (69) 401270 134",
-                      "email":"Lisa.Eckhardt@fitko.de"
+                  "person": {
+                    "gender": "w",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 134",
+                      "email": "Lisa.Eckhardt@fitko.de"
                     },
-                    "uri":{
-                      "uri":"https://berlin.github.io/lod-organigram/person-b9f7ee1b63"
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-b9f7ee1b63"
                     },
-                    "firstName":"Lisa",
-                    "lastName":"Strasser"
+                    "firstName": "Lisa",
+                    "lastName": "Strasser"
                   },
-                  "positionType":"Teamleitung"
+                  "positionType": "Teamleitung"
                 }
               ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Querschnitt und Marktplätze",
-              "id":"n1b0f3649-dc8d-412b-a6f2-d5f295db0cd6",
-              "purpose":""
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Querschnitt und Marktplätze",
+              "id": "n1b0f3649-dc8d-412b-a6f2-d5f295db0cd6",
+              "purpose": ""
             },
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "address":{
-                
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-f228b48c32"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-f228b48c32"
-              },
-              "positions":[
+              "positions": [
                 {
-                  "uri":{
-                    "uri":"https://berlin.github.io/lod-organigram/position-1a76cbafc1"
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-1a76cbafc1"
                   },
-                  "person":{
-                    "gender":"m",
-                    "contact":{
-                      "telephone":"+49 (69) 401270 154",
-                      "email":"thomas.tursics@fitko.de"
+                  "person": {
+                    "gender": "m",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 154",
+                      "email": "thomas.tursics@fitko.de"
                     },
-                    "uri":{
-                      "uri":"https://berlin.github.io/lod-organigram/person-7c348676ac"
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-7c348676ac"
                     },
-                    "firstName":"Thomas",
-                    "lastName":"Tursics"
+                    "firstName": "Thomas",
+                    "lastName": "Tursics"
                   },
-                  "positionType":"Teamleitung"
+                  "positionType": "Teamleitung"
                 }
               ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"FIM, PVOG und GovData",
-              "id":"n1f778dc1-1ece-4149-9838-018f99eb40d7",
-              "purpose":""
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "FIM, PVOG und GovData",
+              "id": "n1f778dc1-1ece-4149-9838-018f99eb40d7",
+              "purpose": ""
             }
           ],
-          "suborganizationOrientation":"vertical",
-          "type":"Abteilung",
-          "name":"Abteilung PM",
-          "id":"nb714d93d-f182-4d16-95e8-06e531e62b33",
-          "altName":"Produktmanagement",
-          "purpose":""
+          "purpose": ""
         },
         {
-          "isMainOrganisation":false,
-          "layout":{
-            "style":"default",
-            "bgColor":"#db9f29",
-            "bgStyle":"default",
-            "grid":"none"
+          "type": "Abteilung",
+          "name": "Abteilung RuC",
+          "id": "nf933560c-58da-4222-a89c-18131d15cdbd",
+          "uri": {
+            "uri": "https://berlin.github.io/lod-organigram/organisation-defd9c4334"
           },
-          "address":{
-            
+          "isMainOrganisation": false,
+          "layout": {
+            "style": "default",
+            "bgColor": "#db9f29",
+            "bgStyle": "default",
+            "grid": "none"
           },
-          "contact":{
-            
-          },
-          "uri":{
-            "uri":"https://berlin.github.io/lod-organigram/organisation-defd9c4334"
-          },
-          "positions":[
+          "address": {},
+          "contact": {},
+          "suborganizationOrientation": "vertical",
+          "organisations": [
             {
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/position-e6d71de9e0"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "person":{
-                "gender":"w",
-                "contact":{
-                  "telephone":"+49 (69) 401270 111",
-                  "email":"Christine.Kamburg@fitko.de"
-                },
-                "uri":{
-                  "uri":"https://berlin.github.io/lod-organigram/person-b80ed87635"
-                },
-                "firstName":"Christine",
-                "lastName":"Kamburg"
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-530b60c89a"
               },
-              "positionType":"Abteilungsleitung"
+              "positions": [],
+              "organisations": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Recht",
+              "id": "n2bf46ea5-3657-41ed-93b9-a9364cae56a7",
+              "purpose": ""
             },
             {
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/position-3813af512e"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "person":{
-                "gender":"m",
-                "contact":{
-                  "telephone":"+49 (69) 401270 145",
-                  "email":"christian.kreuzer@fitko.de"
-                },
-                "uri":{
-                  "uri":"https://berlin.github.io/lod-organigram/person-72a4e48896"
-                },
-                "firstName":"Christian",
-                "lastName":"Kreuzer"
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-d6c2a2c159"
               },
-              "positionType":"Vertretung Abteilungsleitung",
-              "positionStatus":"in Abwesenheit"
-            }
-          ],
-          "organisations":[
-            {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
-              },
-              "address":{
-                
-              },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-530b60c89a"
-              },
-              "positions":[
-                
-              ],
-              "organisations":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Recht",
-              "id":"n2bf46ea5-3657-41ed-93b9-a9364cae56a7",
-              "purpose":""
+              "positions": [],
+              "organisations": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Datenschutz",
+              "id": "ncf1c3b28-9b7a-4bf2-bec2-da6775dfff5c",
+              "purpose": ""
             },
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "address":{
-                
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-f3c34eb323"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-d6c2a2c159"
-              },
-              "positions":[
-                
-              ],
-              "organisations":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Datenschutz",
-              "id":"ncf1c3b28-9b7a-4bf2-bec2-da6775dfff5c",
-              "purpose":""
+              "positions": [],
+              "organisations": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Compliance",
+              "id": "ncfb9c835-56fe-4128-b875-5eeae50c849f",
+              "purpose": ""
             },
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "address":{
-                
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-fa63e81404"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-f3c34eb323"
-              },
-              "positions":[
-                
-              ],
-              "organisations":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Compliance",
-              "id":"ncfb9c835-56fe-4128-b875-5eeae50c849f",
-              "purpose":""
-            },
-            {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
-              },
-              "address":{
-                
-              },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-fa63e81404"
-              },
-              "positions":[
+              "positions": [
                 {
-                  "uri":{
-                    "uri":"https://berlin.github.io/lod-organigram/position-bf564faaa7"
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-bf564faaa7"
                   },
-                  "person":{
-                    "gender":"m",
-                    "contact":{
-                      "telephone":"+49 (69) 401270 113",
-                      "email":"moritz.ahlers@fitko.de"
+                  "person": {
+                    "gender": "m",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 113",
+                      "email": "moritz.ahlers@fitko.de"
                     },
-                    "uri":{
-                      "uri":"https://berlin.github.io/lod-organigram/person-0cf0300f6c"
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-0cf0300f6c"
                     },
-                    "firstName":"Moritz",
-                    "lastName":"Ahlers"
+                    "firstName": "Moritz",
+                    "lastName": "Ahlers"
                   },
-                  "positionType":"Teamleitung"
+                  "positionType": "Teamleitung"
                 }
               ],
-              "organisations":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Vergabe- und Vertragsmanagement",
-              "id":"n989ebef9-c1b1-4e1f-ae86-fe2952139008",
-              "purpose":""
+              "organisations": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Vergabe- und Vertragsmanagement",
+              "id": "n989ebef9-c1b1-4e1f-ae86-fe2952139008",
+              "purpose": ""
             },
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "address":{
-                
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-40c0a38d7e"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-40c0a38d7e"
-              },
-              "positions":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"FIT-Store",
-              "id":"naefc1529-3be3-49c7-adb5-07d6b396f3ef",
-              "purpose":""
+              "positions": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "FIT-Store",
+              "id": "naefc1529-3be3-49c7-adb5-07d6b396f3ef",
+              "purpose": ""
             }
           ],
-          "suborganizationOrientation":"vertical",
-          "type":"Abteilung",
-          "name":"Abteilung RuC",
-          "id":"nf933560c-58da-4222-a89c-18131d15cdbd",
-          "altName":"Recht und Compliance",
-          "purpose":""
+          "altName": "Recht und Compliance",
+          "positions": [
+            {
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/position-e6d71de9e0"
+              },
+              "person": {
+                "gender": "w",
+                "contact": {
+                  "telephone": "+49 (69) 401270 111",
+                  "email": "Christine.Kamburg@fitko.de"
+                },
+                "uri": {
+                  "uri": "https://berlin.github.io/lod-organigram/person-b80ed87635"
+                },
+                "firstName": "Christine",
+                "lastName": "Kamburg"
+              },
+              "positionType": "Abteilungsleitung"
+            },
+            {
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/position-3813af512e"
+              },
+              "person": {
+                "gender": "m",
+                "contact": {
+                  "telephone": "+49 (69) 401270 145",
+                  "email": "christian.kreuzer@fitko.de"
+                },
+                "uri": {
+                  "uri": "https://berlin.github.io/lod-organigram/person-72a4e48896"
+                },
+                "firstName": "Christian",
+                "lastName": "Kreuzer"
+              },
+              "positionType": "Vertretung Abteilungsleitung",
+              "positionStatus": "in Abwesenheit"
+            }
+          ],
+          "purpose": ""
         },
         {
-          "isMainOrganisation":false,
-          "layout":{
-            "style":"default",
-            "bgColor":"#db9f29",
-            "bgStyle":"default",
-            "grid":"none"
+          "type": "Abteilung",
+          "name": "Abteilung ACK",
+          "id": "n15577f0a-f9c4-4665-89a8-9f897c59a000",
+          "uri": {
+            "uri": "https://berlin.github.io/lod-organigram/organisation-df92da45cf"
           },
-          "address":{
-            
+          "isMainOrganisation": false,
+          "layout": {
+            "style": "default",
+            "bgColor": "#db9f29",
+            "bgStyle": "default",
+            "grid": "none"
           },
-          "contact":{
-            
-          },
-          "uri":{
-            "uri":"https://berlin.github.io/lod-organigram/organisation-df92da45cf"
-          },
-          "positions":[
+          "address": {},
+          "contact": {},
+          "suborganizationOrientation": "vertical",
+          "altName": "Auftragsklärung, Controlling und Kapazitätsmanagement",
+          "positions": [
             {
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/position-3c7d49467d"
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/position-3c7d49467d"
               },
-              "person":{
-                "gender":"w",
-                "contact":{
-                  "telephone":"49 (69) 401270 159",
-                  "email":"annaluisa.lippold@fitko.de"
+              "person": {
+                "gender": "w",
+                "contact": {
+                  "telephone": "49 (69) 401270 159",
+                  "email": "annaluisa.lippold@fitko.de"
                 },
-                "uri":{
-                  "uri":"https://berlin.github.io/lod-organigram/person-9af7912b7e"
+                "uri": {
+                  "uri": "https://berlin.github.io/lod-organigram/person-9af7912b7e"
                 },
-                "title":"Dr.",
-                "firstName":"Anna Luisa",
-                "lastName":"Lippold"
+                "title": "Dr.",
+                "firstName": "Anna Luisa",
+                "lastName": "Lippold"
               },
-              "positionType":"Abteilungsleitung"
+              "positionType": "Abteilungsleitung"
             }
           ],
-          "organisations":[
+          "organisations": [
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "type": "Organisationseinheit",
+              "name": "FITKO-Portfolio/ Boards",
+              "id": "n406585f7-b104-48fd-bec9-d7615b1ef72e",
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-e41d7746d6"
               },
-              "address":{
-                
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "light",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-94a4f292d4"
-              },
-              "positions":[
-                
-              ],
-              "organisations":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Programmmanagement Schwerpunktthemen",
-              "id":"n960e2201-7015-4c65-973b-aa1b6f6ea124",
-              "purpose":""
+              "address": {},
+              "contact": {},
+              "suborganizationOrientation": "horizontal",
+              "positions": [],
+              "purpose": ""
             },
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "type": "Organisationseinheit",
+              "name": "Abteilungsübergreifende Prozesse, Daten, Systeme",
+              "id": "n6a3788fb-1a2f-45a5-b4b6-72998fd6c39a",
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-7a432bb672"
               },
-              "address":{
-                
+              "organisations": [],
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-a49ed238b6"
-              },
-              "positions":[
-                
-              ],
-              "organisations":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Portfoliomanagement und Boards",
-              "id":"n861c3b14-577a-4f26-b0af-0e3f5a6dbdb8",
-              "purpose":""
+              "address": {},
+              "contact": {},
+              "suborganizationOrientation": "horizontal",
+              "positions": [],
+              "purpose": ""
             },
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "type": "Organisationseinheit",
+              "name": "Auftragsleitung PLR-Portfolio & SPT-Programme",
+              "id": "n960e2201-7015-4c65-973b-aa1b6f6ea124",
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-94a4f292d4"
               },
-              "address":{
-                
+              "organisations": [],
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-7a432bb672"
-              },
-              "positions":[
-                
-              ],
-              "organisations":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Prozesse, Daten & Systeme",
-              "id":"n6a3788fb-1a2f-45a5-b4b6-72998fd6c39a",
-              "purpose":""
+              "address": {},
+              "contact": {},
+              "suborganizationOrientation": "horizontal",
+              "positions": [],
+              "purpose": ""
             },
             {
-              "isMainOrganisation":false,
-              "layout":{
-                "style":"default",
-                "bgColor":"#db9f29",
-                "bgStyle":"default",
-                "grid":"none"
+              "type": "Organisationseinheit",
+              "name": "Projektmanagement-Pool",
+              "id": "nfe240375-a62e-48b0-85c0-15c9a6694e29",
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-da80cd1dd6"
               },
-              "address":{
-                
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "default",
+                "bgColor": "#db9f29",
+                "bgStyle": "default",
+                "grid": "none"
               },
-              "contact":{
-                
-              },
-              "uri":{
-                "uri":"https://berlin.github.io/lod-organigram/organisation-da80cd1dd6"
-              },
-              "positions":[
-                
-              ],
-              "suborganizationOrientation":"horizontal",
-              "type":"Organisationseinheit",
-              "name":"Projekt-Management-Pool-Ressourcen",
-              "id":"nfe240375-a62e-48b0-85c0-15c9a6694e29",
-              "purpose":""
+              "address": {},
+              "contact": {},
+              "suborganizationOrientation": "horizontal",
+              "positions": [],
+              "purpose": ""
             }
           ],
-          "suborganizationOrientation":"vertical",
-          "type":"Abteilung",
-          "name":"Abteilung ACK",
-          "id":"n15577f0a-f9c4-4665-89a8-9f897c59a000",
-          "altName":"Auftragsklärung, Controlling und Kapazitätsmanagement",
-          "purpose":""
+          "purpose": ""
         }
       ],
-      "layout":{
-        "style":"emphasized",
-        "bgColor":"#db9f29",
-        "bgStyle":"default",
-        "grid":"grid2"
+      "layout": {
+        "style": "emphasized",
+        "bgColor": "#db9f29",
+        "bgStyle": "default",
+        "grid": "grid2"
       },
-      "contact":{
-        "website":"https://www.fitko.de/",
-        "telephone":"+49 (69) 401270 0",
-        "email":"poststelle@fitko.de"
+      "contact": {
+        "website": "https://www.fitko.de/",
+        "telephone": "+49 (69) 401270 0",
+        "email": "poststelle@fitko.de"
       },
-      "address":{
-        "street":"Zum Gottschalkhof",
-        "housenumber":"3",
-        "zipCode":"60594",
-        "city":"Frankfurt am Main"
+      "address": {
+        "street": "Zum Gottschalkhof",
+        "housenumber": "3",
+        "zipCode": "60594",
+        "city": "Frankfurt am Main"
       },
-      "positions":[
+      "positions": [
         {
-          "uri":{
-            "uri":"https://berlin.github.io/lod-organigram/position-f56f647319"
+          "uri": {
+            "uri": "https://berlin.github.io/lod-organigram/position-f56f647319"
           },
-          "person":{
-            "gender":"m",
-            "contact":{
-              "telephone":"+49 (69) 401270 101",
-              "email":"andre.goebel@fitko.de"
+          "person": {
+            "gender": "m",
+            "contact": {
+              "telephone": "+49 (69) 401270 101",
+              "email": "andre.goebel@fitko.de"
             },
-            "uri":{
-              "uri":"https://forschung-sachsen-anhalt.de/pl/goebel-83450"
+            "uri": {
+              "uri": "https://forschung-sachsen-anhalt.de/pl/goebel-83450"
             },
-            "firstName":"André",
-            "lastName":"Göbel",
-            "title":"Dr."
+            "firstName": "André",
+            "lastName": "Göbel",
+            "title": "Dr."
           },
-          "positionType":"Präsident:in"
+          "positionType": "Präsident:in"
         },
         {
-          "uri":{
-            "uri":"https://berlin.github.io/lod-organigram/position-cc5fed5e18"
+          "uri": {
+            "uri": "https://berlin.github.io/lod-organigram/position-cc5fed5e18"
           },
-          "person":{
-            "gender":"w",
-            "contact":{
-              "telephone":"+49 (69) 401270 100",
-              "email":"praesident@fitko.de"
+          "person": {
+            "gender": "w",
+            "contact": {
+              "telephone": "+49 (69) 401270 100",
+              "email": "praesident@fitko.de"
             },
-            "uri":{
-              "uri":"https://berlin.github.io/lod-organigram/person-1aac429377"
+            "uri": {
+              "uri": "https://berlin.github.io/lod-organigram/person-1aac429377"
             },
-            "firstName":"Afrah",
-            "lastName":"Musa"
+            "firstName": "Afrah",
+            "lastName": "Musa"
           },
-          "positionType":"Assistenz des Präsidenten"
+          "positionType": "Assistenz des Präsidenten"
         }
       ],
-      "suborganizationOrientation":"horizontal",
-      "uri":{
-        "sameAsUris":[
+      "suborganizationOrientation": "horizontal",
+      "uri": {
+        "sameAsUris": [
           {
-            "uriSameAs":"http://www.wikidata.org/entity/Q104760828",
-            "uriSameAsLabel":"Föderale IT-Kooperation",
-            "uriSameAsDescription":"deutsche Anstalt des öffentlichen Rechts zur Unterstützung des IT-Planungsrat und die Umsetzung seiner Beschlüsse durch Bund und Länder"
+            "uriSameAs": "http://www.wikidata.org/entity/Q104760828",
+            "uriSameAsLabel": "Föderale IT-Kooperation",
+            "uriSameAsDescription": "deutsche Anstalt des öffentlichen Rechts zur Unterstützung des IT-Planungsrat und die Umsetzung seiner Beschlüsse durch Bund und Länder"
           }
         ],
-        "uri":"https://berlin.github.io/lod-organigram/organisation-73e22b11dc"
+        "uri": "https://berlin.github.io/lod-organigram/organisation-73e22b11dc"
       },
-      "type":"Anstalt des öffentlichen Rechts",
-      "altName":"Föderale IT-Kooperation",
-      "purpose":""
+      "type": "Anstalt des öffentlichen Rechts",
+      "altName": "Föderale IT-Kooperation",
+      "purpose": ""
     }
   ]
 }
