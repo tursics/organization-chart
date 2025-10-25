@@ -248,7 +248,6 @@
             }
 
             > .oc-content {
-              background-color: #ffffff50;
               border-radius: 50%;
               height: 100%;
               position: relative;
@@ -306,6 +305,10 @@
             &:has(> .oc-content > ul.positions > li:first-child .position) > .oc-content > ul.positions > li:first-child {
                 left: 50%;
                 top: 0;
+            }
+            &:has(> .oc-content > ul.positions > li:nth-child(2) .position) > .oc-content > ul.positions > li:nth-child(2) {
+                left: calc(50% + 3em);
+                top: .4em;
             }
           }
 
@@ -663,6 +666,19 @@
     }
   }
 
+  li.oc-hierarchy.level-1 > .sphere > .oc-container > .oc-content {
+    background-color: #ffffff00;
+  }
+  li.oc-hierarchy.level-2 > .sphere > .oc-container > .oc-content {
+    background-color: #ffffff40;
+  }
+  li.oc-hierarchy.level-3 > .sphere > .oc-container > .oc-content {
+    background-color: #ffffff80;
+  }
+  li.oc-hierarchy.level-4 > .sphere > .oc-container > .oc-content {
+    background-color: #ffffffc0;
+  }
+
   .chart-container {
     position: relative;
     ul.sub-organisations.horizontal {
@@ -853,10 +869,32 @@
 
           > li {
             position: absolute;
+            transform: translate(-50%, -50%);
+
+            // 1 child
+            &:nth-child(1):nth-last-child(1) { left: 50%; top: 66%; }
 
             // 2 children
-            &:nth-child(1):nth-last-child(2) { left: 50%; top: 2em; transform: translateX(-50%); }
-            &:nth-child(2):nth-last-child(1) { bottom: 1em; left: 50%; transform: translateX(-50%); }
+            &:nth-child(1):nth-last-child(2) { left: 50%; top: 24%; }
+            &:nth-child(2):nth-last-child(1) { left: 50%; top: 76%; }
+
+            // 3 children
+            &:nth-child(1):nth-last-child(3) { left: 50%; top: 27%; }
+            &:nth-child(2):nth-last-child(2) { left: 69%; top: 72%; }
+            &:nth-child(3):nth-last-child(1) { left: 31%; top: 72%; }
+
+            // 4 children
+            &:nth-child(1):nth-last-child(4) { left: 69%; top: 27%; }
+            &:nth-child(2):nth-last-child(3) { left: 69%; top: 72%; }
+            &:nth-child(3):nth-last-child(2) { left: 31%; top: 72%; }
+            &:nth-child(4):nth-last-child(1) { left: 31%; top: 27%; }
+
+            // 5 children
+            &:nth-child(1):nth-last-child(5) { left: 67%; top: 25%; }
+            &:nth-child(2):nth-last-child(4) { left: 74%; top: 66%; }
+            &:nth-child(3):nth-last-child(3) { left: 50%; top: 85%; }
+            &:nth-child(4):nth-last-child(2) { left: 26%; top: 66%; }
+            &:nth-child(5):nth-last-child(1) { left: 33%; top: 25%; }
 
             > .oc-node {
               margin: 0;
@@ -865,14 +903,58 @@
         }
       }
 
+      // 1 child
+      &:has(> .oc-content > ul.sub-organisations.embed > li:first-child:nth-last-child(1)) {
+        height: 11em;
+        min-width: initial;
+        width: 11em;
+        > .oc-heading {
+          padding: 0 0.2em;
+          top: 25%;
+        }
+      }
+
       // 2 children
       &:has(> .oc-content > ul.sub-organisations.embed > li:first-child:nth-last-child(2)) {
         height: 18em;
+        min-width: initial;
         width: 18em;
-
         > .oc-heading {
           padding: 0 0.2em;
-          top: calc(50% - 1em + 2px);
+          top: 50%;
+        }
+      }
+
+      // 3 children
+      &:has(> .oc-content > ul.sub-organisations.embed > li:first-child:nth-last-child(3)) {
+        height: 22em;
+        min-width: initial;
+        width: 22em;
+        > .oc-heading {
+          padding: 0 0.2em;
+          top: 49%;
+        }
+      }
+
+      // 4 children
+      &:has(> .oc-content > ul.sub-organisations.embed > li:first-child:nth-last-child(4)) {
+        height: 26em;
+        min-width: initial;
+        width: 26em;
+        > .oc-heading {
+          padding: 0 0.2em;
+          top: 50%;
+        }
+      }
+
+      // 5 children
+      &:has(> .oc-content > ul.sub-organisations.embed > li:first-child:nth-last-child(5)) {
+        height: 24em;
+        min-width: initial;
+        width: 24em;
+        > .oc-heading {
+          padding: 0 30%;
+          top: 44%;
         }
       }
     }
