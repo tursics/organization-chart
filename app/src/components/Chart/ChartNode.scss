@@ -226,11 +226,11 @@
         }
 
         &.sphere {
-          .oc-container {
+          > .oc-container {
             border-radius: 50%;
             height: 14rem;
 
-            .oc-heading {
+            > .oc-heading {
               background-color: initial !important;
               left: 0;
               position: absolute;
@@ -247,223 +247,7 @@
               }
             }
 
-            ul.positions > li { left: 50%; top: 75%; }
-
-            // 0 children
-            &:not(:has(ul.positions > li)) {
-              height: 5em;
-              min-width: initial;
-              width: 5em;
-              .oc-heading {
-                top: 50%;
-              }
-            }
-
-            // 1 child
-            &:has(ul.positions > li:first-child:nth-last-child(1)) {
-              height: 6em;
-              min-width: initial;
-              width: 6em;
-              .oc-heading {
-                top: 42%;
-              }
-            }
-            ul.positions > li {
-              &:nth-child(1):nth-last-child(1) { left: 50%; top: 83%; }
-            }
-
-            // 2 children
-            &:has(ul.positions > li:first-child:nth-last-child(2)) {
-              height: 6em;
-              min-width: initial;
-              width: 6em;
-              .oc-heading {
-                top: 38%;
-              }
-            }
-            ul.positions > li {
-              &:nth-child(1):nth-last-child(2) { left: 35%; top: 75%; }
-              &:nth-child(2):nth-last-child(1) { left: 65%; top: 75%; }
-            }
-
-            // 3 children
-            &:has(ul.positions > li:first-child:nth-last-child(3)) {
-              height: 6em;
-              min-width: initial;
-              width: 6em;
-              .oc-heading {
-                top: 40%;
-              }
-            }
-            ul.positions > li {
-              &:nth-child(1):nth-last-child(3) { left: 25%; top: 72%; }
-              &:nth-child(2):nth-last-child(2) { left: 50%; top: 85%; }
-              &:nth-child(3):nth-last-child(1) { left: 75%; top: 72%; }
-            }
-
-            // 4 children
-            &:has(ul.positions > li:first-child:nth-last-child(4)) {
-              height: 7em;
-              min-width: initial;
-              width: 7em;
-              .oc-heading {
-                top: 37%;
-              }
-            }
-            ul.positions > li {
-              &:nth-child(1):nth-last-child(4) { left: 50%; top: 61%; }
-              &:nth-child(2):nth-last-child(3) { left: 28%; top: 73%; }
-              &:nth-child(3):nth-last-child(2) { left: 50%; top: 85%; }
-              &:nth-child(4):nth-last-child(1) { left: 72%; top: 73%; }
-            }
-
-            // 5 children
-            &:has(ul.positions > li:first-child:nth-last-child(5)) {
-              height: 7em;
-              min-width: initial;
-              width: 7em;
-              .oc-heading {
-                top: 37%;
-              }
-            }
-            ul.positions > li {
-              &:nth-child(1):nth-last-child(5) { left: 50%; top: 61%; }
-              &:nth-child(2):nth-last-child(4) { left: 28%; top: 61%; }
-              &:nth-child(3):nth-last-child(3) { left: 38%; top: 84%; }
-              &:nth-child(4):nth-last-child(2) { left: 62%; top: 84%; }
-              &:nth-child(5):nth-last-child(1) { left: 72%; top: 61%; }
-            }
-
-            // 6 children
-            &:has(ul.positions > li:first-child:nth-last-child(6)) {
-              height: 8em;
-              min-width: initial;
-              width: 8em;
-              .oc-heading {
-                top: 37%;
-              }
-            }
-            ul.positions > li {
-              &:nth-child(1):nth-last-child(6) { left: 77%; top: 73%; }
-              &:nth-child(2):nth-last-child(5) { left: 39%; top: 60%; }
-              &:nth-child(3):nth-last-child(4) { left: 39%; top: 86%; }
-              &:nth-child(4):nth-last-child(3) { left: 61%; top: 60%; }
-              &:nth-child(5):nth-last-child(2) { left: 61%; top: 86%; }
-              &:nth-child(6):nth-last-child(1) { left: 23%; top: 73%; }
-            }
-
-            // 7 children
-            &:has(ul.positions > li:first-child:nth-last-child(7)) {
-              height: 8em;
-              min-width: initial;
-              width: 8em;
-              .oc-heading {
-                top: 33%;
-              }
-            }
-            ul.positions > li {
-              &:nth-child(1):nth-last-child(7) { left: 50%; top: 60%; }
-              &:nth-child(2):nth-last-child(6) { left: 14%; top: 54%; }
-              &:nth-child(3):nth-last-child(5) { left: 23%; top: 73%; }
-              &:nth-child(4):nth-last-child(4) { left: 39%; top: 86%; }
-              &:nth-child(5):nth-last-child(3) { left: 61%; top: 86%; }
-              &:nth-child(6):nth-last-child(2) { left: 77%; top: 73%; }
-              &:nth-child(7):nth-last-child(1) { left: 86%; top: 54%; }
-            }
-
-            // 8 children
-            &:has(ul.positions > li:first-child:nth-last-child(8)) {
-              height: 8em;
-              min-width: initial;
-              width: 8em;
-              .oc-heading {
-                top: 33%;
-              }
-            }
-            ul.positions > li {
-              &:nth-child(1):nth-last-child(8) { left: 86%; top: 54%; }
-              &:nth-child(2):nth-last-child(7) { left: 14%; top: 54%; }
-              &:nth-child(3):nth-last-child(6) { left: 23%; top: 73%; }
-              &:nth-child(4):nth-last-child(5) { left: 39%; top: 86%; }
-              &:nth-child(5):nth-last-child(4) { left: 61%; top: 86%; }
-              &:nth-child(6):nth-last-child(3) { left: 77%; top: 73%; }
-              &:nth-child(7):nth-last-child(2) { left: 39%; top: 60%; }
-              &:nth-child(8):nth-last-child(1) { left: 61%; top: 60%; }
-            }
-
-            // 9 children
-            &:has(ul.positions > li:first-child:nth-last-child(9)) {
-              height: 8em;
-              min-width: initial;
-              width: 8em;
-              .oc-heading {
-                top: 33%;
-              }
-            }
-            ul.positions > li {
-              &:nth-child(1):nth-last-child(9) { left: 50%; top: 69%; }
-              &:nth-child(2):nth-last-child(8) { left: 14%; top: 54%; }
-              &:nth-child(3):nth-last-child(7) { left: 23%; top: 73%; }
-              &:nth-child(4):nth-last-child(6) { left: 39%; top: 86%; }
-              &:nth-child(5):nth-last-child(5) { left: 61%; top: 86%; }
-              &:nth-child(6):nth-last-child(4) { left: 77%; top: 73%; }
-              &:nth-child(7):nth-last-child(3) { left: 86%; top: 54%; }
-              &:nth-child(8):nth-last-child(2) { left: 63%; top: 54%; }
-              &:nth-child(9):nth-last-child(1) { left: 37%; top: 54%; }
-            }
-
-            // 10 children
-            &:has(ul.positions > li:first-child:nth-last-child(10)) {
-              height: 8em;
-              min-width: initial;
-              width: 8em;
-              .oc-heading {
-                top: 33%;
-              }
-            }
-            ul.positions > li {
-              &:nth-child(1):nth-last-child(10) { left: 50%; top: 69%; }
-              &:nth-child(2):nth-last-child(9) { left: 14%; top: 54%; }
-              &:nth-child(3):nth-last-child(8) { left: 23%; top: 73%; }
-              &:nth-child(4):nth-last-child(7) { left: 39%; top: 86%; }
-              &:nth-child(5):nth-last-child(6) { left: 61%; top: 86%; }
-              &:nth-child(6):nth-last-child(5) { left: 77%; top: 73%; }
-              &:nth-child(7):nth-last-child(4) { left: 86%; top: 54%; }
-              &:nth-child(8):nth-last-child(3) { left: 68%; top: 54%; }
-              &:nth-child(9):nth-last-child(2) { left: 50%; top: 54%; }
-              &:nth-child(10):nth-last-child(1) { left: 32%; top: 54%; }
-            }
-
-            // 11 children
-            &:has(ul.positions > li:first-child:nth-last-child(11)) {
-              height: 9em;
-              min-width: initial;
-              width: 9em;
-              .oc-heading {
-                top: 33%;
-              }
-            }
-            ul.positions > li {
-              &:nth-child(1):nth-last-child(11) { left: 50%; top: 54%; }
-              &:nth-child(2):nth-last-child(10) { left: 14%; top: 54%; }
-              &:nth-child(3):nth-last-child(9) { left: 23%; top: 71%; }
-              &:nth-child(4):nth-last-child(8) { left: 41%; top: 88%; }
-              &:nth-child(5):nth-last-child(7) { left: 59%; top: 88%; }
-              &:nth-child(6):nth-last-child(6) { left: 77%; top: 71%; }
-              &:nth-child(7):nth-last-child(5) { left: 86%; top: 54%; }
-              &:nth-child(8):nth-last-child(4) { left: 68%; top: 54%; }
-              &:nth-child(9):nth-last-child(3) { left: 32%; top: 54%; }
-              &:nth-child(10):nth-last-child(2) { left: 41%; top: 71%; }
-              &:nth-child(11):nth-last-child(1) { left: 59%; top: 71%; }
-            }
-
-            // head of children
-            &:has(ul.positions > li:first-child .position) ul.positions > li:first-child {
-                left: 50%;
-                top: 0;
-            }
-
-            .oc-content {
+            > .oc-content {
               background-color: #ffffff50;
               border-radius: 50%;
               height: 100%;
@@ -517,16 +301,224 @@
                 }
               }
             }
+
+            // head of children
+            &:has(> .oc-content > ul.positions > li:first-child .position) > .oc-content > ul.positions > li:first-child {
+                left: 50%;
+                top: 0;
+            }
           }
 
-          &.has-children {
-            .oc-container {
-              height: 20em !important;
-              width: 20em !important;
+          &.end-node {
+            > .oc-container {
+              ul.positions > li { left: 50%; top: 75%; }
 
-              .oc-heading {
-                padding: 0 5em;
-                top: 50% !important;
+              // 0 children
+              &:not(:has(>.oc-content >ul.positions > li)) {
+                height: 5em;
+                min-width: initial;
+                width: 5em;
+                .oc-heading {
+                  top: 50%;
+                }
+              }
+
+              // 1 child
+              &:has(> .oc-content > ul.positions > li:first-child:nth-last-child(1)) {
+                height: 6em;
+                min-width: initial;
+                width: 6em;
+                .oc-heading {
+                  top: 42%;
+                }
+              }
+              ul.positions > li {
+                &:nth-child(1):nth-last-child(1) { left: 50%; top: 83%; }
+              }
+
+              // 2 children
+              &:has(>.oc-content >ul.positions > li:first-child:nth-last-child(2)) {
+                height: 6em;
+                min-width: initial;
+                width: 6em;
+                .oc-heading {
+                  top: 38%;
+                }
+              }
+              ul.positions > li {
+                &:nth-child(1):nth-last-child(2) { left: 35%; top: 75%; }
+                &:nth-child(2):nth-last-child(1) { left: 65%; top: 75%; }
+              }
+
+              // 3 children
+              &:has(>.oc-content >ul.positions > li:first-child:nth-last-child(3)) {
+                height: 6em;
+                min-width: initial;
+                width: 6em;
+                .oc-heading {
+                  top: 40%;
+                }
+              }
+              ul.positions > li {
+                &:nth-child(1):nth-last-child(3) { left: 25%; top: 72%; }
+                &:nth-child(2):nth-last-child(2) { left: 50%; top: 85%; }
+                &:nth-child(3):nth-last-child(1) { left: 75%; top: 72%; }
+              }
+
+              // 4 children
+              &:has(>.oc-content >ul.positions > li:first-child:nth-last-child(4)) {
+                height: 7em;
+                min-width: initial;
+                width: 7em;
+                .oc-heading {
+                  top: 37%;
+                }
+              }
+              ul.positions > li {
+                &:nth-child(1):nth-last-child(4) { left: 50%; top: 61%; }
+                &:nth-child(2):nth-last-child(3) { left: 28%; top: 73%; }
+                &:nth-child(3):nth-last-child(2) { left: 50%; top: 85%; }
+                &:nth-child(4):nth-last-child(1) { left: 72%; top: 73%; }
+              }
+
+              // 5 children
+              &:has(>.oc-content >ul.positions > li:first-child:nth-last-child(5)) {
+                height: 7em;
+                min-width: initial;
+                width: 7em;
+                .oc-heading {
+                  top: 37%;
+                }
+              }
+              ul.positions > li {
+                &:nth-child(1):nth-last-child(5) { left: 50%; top: 61%; }
+                &:nth-child(2):nth-last-child(4) { left: 28%; top: 61%; }
+                &:nth-child(3):nth-last-child(3) { left: 38%; top: 84%; }
+                &:nth-child(4):nth-last-child(2) { left: 62%; top: 84%; }
+                &:nth-child(5):nth-last-child(1) { left: 72%; top: 61%; }
+              }
+
+              // 6 children
+              &:has(>.oc-content >ul.positions > li:first-child:nth-last-child(6)) {
+                height: 8em;
+                min-width: initial;
+                width: 8em;
+                .oc-heading {
+                  top: 37%;
+                }
+              }
+              ul.positions > li {
+                &:nth-child(1):nth-last-child(6) { left: 77%; top: 73%; }
+                &:nth-child(2):nth-last-child(5) { left: 39%; top: 60%; }
+                &:nth-child(3):nth-last-child(4) { left: 39%; top: 86%; }
+                &:nth-child(4):nth-last-child(3) { left: 61%; top: 60%; }
+                &:nth-child(5):nth-last-child(2) { left: 61%; top: 86%; }
+                &:nth-child(6):nth-last-child(1) { left: 23%; top: 73%; }
+              }
+
+              // 7 children
+              &:has(>.oc-content >ul.positions > li:first-child:nth-last-child(7)) {
+                height: 8em;
+                min-width: initial;
+                width: 8em;
+                .oc-heading {
+                  top: 33%;
+                }
+              }
+              ul.positions > li {
+                &:nth-child(1):nth-last-child(7) { left: 50%; top: 60%; }
+                &:nth-child(2):nth-last-child(6) { left: 14%; top: 54%; }
+                &:nth-child(3):nth-last-child(5) { left: 23%; top: 73%; }
+                &:nth-child(4):nth-last-child(4) { left: 39%; top: 86%; }
+                &:nth-child(5):nth-last-child(3) { left: 61%; top: 86%; }
+                &:nth-child(6):nth-last-child(2) { left: 77%; top: 73%; }
+                &:nth-child(7):nth-last-child(1) { left: 86%; top: 54%; }
+              }
+
+              // 8 children
+              &:has(>.oc-content >ul.positions > li:first-child:nth-last-child(8)) {
+                height: 8em;
+                min-width: initial;
+                width: 8em;
+                .oc-heading {
+                  top: 33%;
+                }
+              }
+              ul.positions > li {
+                &:nth-child(1):nth-last-child(8) { left: 86%; top: 54%; }
+                &:nth-child(2):nth-last-child(7) { left: 14%; top: 54%; }
+                &:nth-child(3):nth-last-child(6) { left: 23%; top: 73%; }
+                &:nth-child(4):nth-last-child(5) { left: 39%; top: 86%; }
+                &:nth-child(5):nth-last-child(4) { left: 61%; top: 86%; }
+                &:nth-child(6):nth-last-child(3) { left: 77%; top: 73%; }
+                &:nth-child(7):nth-last-child(2) { left: 39%; top: 60%; }
+                &:nth-child(8):nth-last-child(1) { left: 61%; top: 60%; }
+              }
+
+              // 9 children
+              &:has(>.oc-content >ul.positions > li:first-child:nth-last-child(9)) {
+                height: 8em;
+                min-width: initial;
+                width: 8em;
+                .oc-heading {
+                  top: 33%;
+                }
+              }
+              ul.positions > li {
+                &:nth-child(1):nth-last-child(9) { left: 50%; top: 69%; }
+                &:nth-child(2):nth-last-child(8) { left: 14%; top: 54%; }
+                &:nth-child(3):nth-last-child(7) { left: 23%; top: 73%; }
+                &:nth-child(4):nth-last-child(6) { left: 39%; top: 86%; }
+                &:nth-child(5):nth-last-child(5) { left: 61%; top: 86%; }
+                &:nth-child(6):nth-last-child(4) { left: 77%; top: 73%; }
+                &:nth-child(7):nth-last-child(3) { left: 86%; top: 54%; }
+                &:nth-child(8):nth-last-child(2) { left: 63%; top: 54%; }
+                &:nth-child(9):nth-last-child(1) { left: 37%; top: 54%; }
+              }
+
+              // 10 children
+              &:has(>.oc-content >ul.positions > li:first-child:nth-last-child(10)) {
+                height: 8em;
+                min-width: initial;
+                width: 8em;
+                .oc-heading {
+                  top: 33%;
+                }
+              }
+              ul.positions > li {
+                &:nth-child(1):nth-last-child(10) { left: 50%; top: 69%; }
+                &:nth-child(2):nth-last-child(9) { left: 14%; top: 54%; }
+                &:nth-child(3):nth-last-child(8) { left: 23%; top: 73%; }
+                &:nth-child(4):nth-last-child(7) { left: 39%; top: 86%; }
+                &:nth-child(5):nth-last-child(6) { left: 61%; top: 86%; }
+                &:nth-child(6):nth-last-child(5) { left: 77%; top: 73%; }
+                &:nth-child(7):nth-last-child(4) { left: 86%; top: 54%; }
+                &:nth-child(8):nth-last-child(3) { left: 68%; top: 54%; }
+                &:nth-child(9):nth-last-child(2) { left: 50%; top: 54%; }
+                &:nth-child(10):nth-last-child(1) { left: 32%; top: 54%; }
+              }
+
+              // 11 children
+              &:has(>.oc-content >ul.positions > li:first-child:nth-last-child(11)) {
+                height: 9em;
+                min-width: initial;
+                width: 9em;
+                .oc-heading {
+                  top: 33%;
+                }
+              }
+              ul.positions > li {
+                &:nth-child(1):nth-last-child(11) { left: 50%; top: 54%; }
+                &:nth-child(2):nth-last-child(10) { left: 14%; top: 54%; }
+                &:nth-child(3):nth-last-child(9) { left: 23%; top: 71%; }
+                &:nth-child(4):nth-last-child(8) { left: 41%; top: 88%; }
+                &:nth-child(5):nth-last-child(7) { left: 59%; top: 88%; }
+                &:nth-child(6):nth-last-child(6) { left: 77%; top: 71%; }
+                &:nth-child(7):nth-last-child(5) { left: 86%; top: 54%; }
+                &:nth-child(8):nth-last-child(4) { left: 68%; top: 54%; }
+                &:nth-child(9):nth-last-child(3) { left: 32%; top: 54%; }
+                &:nth-child(10):nth-last-child(2) { left: 41%; top: 71%; }
+                &:nth-child(11):nth-last-child(1) { left: 59%; top: 71%; }
               }
             }
           }
@@ -848,6 +840,41 @@
     ul.sub-organisations.embed {
       flex-direction: column;
       position: relative;
+    }
+    .oc-node.sphere > .oc-container {
+      > .oc-content {
+        padding: 0;
+
+        > ul.sub-organisations.embed {
+          height: 100%;
+          position: relative;
+          width: 100%;
+          z-index: 2;
+
+          > li {
+            position: absolute;
+
+            // 2 children
+            &:nth-child(1):nth-last-child(2) { left: 50%; top: 2em; transform: translateX(-50%); }
+            &:nth-child(2):nth-last-child(1) { bottom: 1em; left: 50%; transform: translateX(-50%); }
+
+            > .oc-node {
+              margin: 0;
+            }
+          }
+        }
+      }
+
+      // 2 children
+      &:has(> .oc-content > ul.sub-organisations.embed > li:first-child:nth-last-child(2)) {
+        height: 18em;
+        width: 18em;
+
+        > .oc-heading {
+          padding: 0 0.2em;
+          top: calc(50% - 1em + 2px);
+        }
+      }
     }
   }
   .oc-node {
