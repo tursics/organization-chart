@@ -65,7 +65,7 @@
 
         .oc-container {
           font-size: 1rem;
-          width: 14rem;
+          min-width: 14rem;
           background-color: $currentColor;
           padding: 2px;
           border-radius: $border-radius;
@@ -252,6 +252,7 @@
             // 0 children
             &:not(:has(ul.positions > li)) {
               height: 5em;
+              min-width: initial;
               width: 5em;
               .oc-heading {
                 top: 50%;
@@ -261,6 +262,7 @@
             // 1 child
             &:has(ul.positions > li:first-child:nth-last-child(1)) {
               height: 6em;
+              min-width: initial;
               width: 6em;
               .oc-heading {
                 top: 42%;
@@ -273,6 +275,7 @@
             // 2 children
             &:has(ul.positions > li:first-child:nth-last-child(2)) {
               height: 6em;
+              min-width: initial;
               width: 6em;
               .oc-heading {
                 top: 38%;
@@ -286,6 +289,7 @@
             // 3 children
             &:has(ul.positions > li:first-child:nth-last-child(3)) {
               height: 6em;
+              min-width: initial;
               width: 6em;
               .oc-heading {
                 top: 40%;
@@ -300,6 +304,7 @@
             // 4 children
             &:has(ul.positions > li:first-child:nth-last-child(4)) {
               height: 7em;
+              min-width: initial;
               width: 7em;
               .oc-heading {
                 top: 37%;
@@ -315,6 +320,7 @@
             // 5 children
             &:has(ul.positions > li:first-child:nth-last-child(5)) {
               height: 7em;
+              min-width: initial;
               width: 7em;
               .oc-heading {
                 top: 37%;
@@ -331,6 +337,7 @@
             // 6 children
             &:has(ul.positions > li:first-child:nth-last-child(6)) {
               height: 8em;
+              min-width: initial;
               width: 8em;
               .oc-heading {
                 top: 37%;
@@ -348,6 +355,7 @@
             // 7 children
             &:has(ul.positions > li:first-child:nth-last-child(7)) {
               height: 8em;
+              min-width: initial;
               width: 8em;
               .oc-heading {
                 top: 33%;
@@ -366,6 +374,7 @@
             // 8 children
             &:has(ul.positions > li:first-child:nth-last-child(8)) {
               height: 8em;
+              min-width: initial;
               width: 8em;
               .oc-heading {
                 top: 33%;
@@ -385,6 +394,7 @@
             // 9 children
             &:has(ul.positions > li:first-child:nth-last-child(9)) {
               height: 8em;
+              min-width: initial;
               width: 8em;
               .oc-heading {
                 top: 33%;
@@ -405,6 +415,7 @@
             // 10 children
             &:has(ul.positions > li:first-child:nth-last-child(10)) {
               height: 8em;
+              min-width: initial;
               width: 8em;
               .oc-heading {
                 top: 33%;
@@ -426,6 +437,7 @@
             // 11 children
             &:has(ul.positions > li:first-child:nth-last-child(11)) {
               height: 9em;
+              min-width: initial;
               width: 9em;
               .oc-heading {
                 top: 33%;
@@ -503,6 +515,18 @@
                     }
                   }
                 }
+              }
+            }
+          }
+
+          &.has-children {
+            .oc-container {
+              height: 20em !important;
+              width: 20em !important;
+
+              .oc-heading {
+                padding: 0 5em;
+                top: 50% !important;
               }
             }
           }
@@ -820,6 +844,10 @@
           }
         }
       }
+    }
+    ul.sub-organisations.embed {
+      flex-direction: column;
+      position: relative;
     }
   }
   .oc-node {

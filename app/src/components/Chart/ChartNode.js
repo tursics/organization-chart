@@ -390,11 +390,34 @@ const ChartNode = forwardRef(
                     {ds.address.city}
                   </div>
                 )}
+
+                {ds.organisations && ds.organisations.length > 0 && (ds.suborganizationOrientation === 'embed') && (
+                  <ul
+                    className={"sub-organisations " + ds.suborganizationOrientation}
+                  >
+                    {ds.organisations.map((node, index) => (
+                      <ChartNode
+                        index={index}
+                        data={node}
+                        level={level + 1}
+                        id={node.id}
+                        key={node.id}
+                        draggable={draggable}
+                        collapsible={collapsible}
+                        multipleSelect={multipleSelect}
+                        changeHierarchy={changeHierarchy}
+                        onClickNode={onClickNode}
+                        onContextMenu={onContextMenu}
+                        onDragNode={onDragNode}
+                      />
+                    ))}
+                  </ul>
+                )}
               </div>
             )}
           </div>
         </div>
-        {ds.organisations && ds.organisations.length > 0 ? (
+        {ds.organisations && ds.organisations.length > 0 && (ds.suborganizationOrientation !== 'embed') ? (
           // <Droppable
           //   droppableId={"organisation-" + ds.id}
           //   type={"organisation"}

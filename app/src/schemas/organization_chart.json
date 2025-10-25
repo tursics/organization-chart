@@ -223,8 +223,8 @@
           "type": "string",
           "title": "Suborganisation Anordnen",
           "default": "horizontal",
-          "enum": ["vertical", "horizontal"],
-          "enumNames": ["Vertikal", "Horizontal"]
+          "enum": ["vertical", "horizontal", "embed"],
+          "enumNames": ["Vertikal", "Horizontal", "Einbetten"]
         }
       },
 
