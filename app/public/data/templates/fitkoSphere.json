@@ -32,8 +32,8 @@
         {
           "isMainOrganisation": false,
           "layout": {
-            "style": "default",
-            "bgColor": "#db9f29",
+            "style": "sphere",
+            "bgColor": "#97d700",
             "bgStyle": "default",
             "grid": "none"
           },
@@ -124,7 +124,7 @@
               "purpose": ""
             }
           ],
-          "suborganizationOrientation": "vertical",
+          "suborganizationOrientation": "embed",
           "name": "Stabsstelle NOOTS",
           "id": "n0f3220c2-e33b-4134-b72e-af7805af447f",
           "purpose": "",
@@ -134,8 +134,8 @@
         {
           "isMainOrganisation": false,
           "layout": {
-            "style": "default",
-            "bgColor": "#db9f29",
+            "style": "sphere",
+            "bgColor": "#97d700",
             "bgStyle": "default",
             "grid": "none"
           },
@@ -164,11 +164,6 @@
               "positionType": "Teamleitung"
             }
           ],
-          "suborganizationOrientation": "vertical",
-          "type": "Stabsstelle",
-          "name": "Stabsstelle Dialog",
-          "id": "nda9e33f6-8a00-48e3-857b-e83212ff5a33",
-          "purpose": "",
           "organisations": [
             {
               "isMainOrganisation": false,
@@ -384,13 +379,18 @@
               "id": "nd5d26b81-3c22-4af9-ae07-dadc6ba32b31",
               "purpose": ""
             }
-          ]
+          ],
+          "suborganizationOrientation": "embed",
+          "type": "Stabsstelle",
+          "name": "Stabsstelle Dialog",
+          "id": "nda9e33f6-8a00-48e3-857b-e83212ff5a33",
+          "purpose": ""
         },
         {
           "isMainOrganisation": false,
           "layout": {
-            "style": "default",
-            "bgColor": "#db9f29",
+            "style": "sphere",
+            "bgColor": "#97d700",
             "bgStyle": "default",
             "grid": "none"
           },
@@ -618,7 +618,7 @@
               "purpose": ""
             }
           ],
-          "suborganizationOrientation": "vertical",
+          "suborganizationOrientation": "embed",
           "name": "Stabsstelle Koordination IT-PLR & Strategie",
           "id": "ndf4e021b-79ff-41b5-91e3-b33522200128",
           "type": "Stabsstelle",
@@ -627,8 +627,8 @@
         {
           "isMainOrganisation": false,
           "layout": {
-            "style": "default",
-            "bgColor": "#db9f29",
+            "style": "sphere",
+            "bgColor": "#c41b31",
             "bgStyle": "default",
             "grid": "none"
           },
@@ -682,7 +682,7 @@
               "isMainOrganisation": false,
               "layout": {
                 "style": "sphere",
-                "bgColor": "#c41b31",
+                "bgColor": "#db9f29",
                 "bgStyle": "default",
                 "grid": "none"
               },
@@ -823,7 +823,7 @@
               "isMainOrganisation": false,
               "layout": {
                 "style": "sphere",
-                "bgColor": "#c41b31",
+                "bgColor": "#db9f29",
                 "bgStyle": "default",
                 "grid": "none"
               },
@@ -999,7 +999,7 @@
               "purpose": ""
             }
           ],
-          "suborganizationOrientation": "vertical",
+          "suborganizationOrientation": "embed",
           "type": "Abteilung",
           "name": "Abteilung Q",
           "id": "n3cf12c88-00f1-49a6-b2a2-e743dbd322ff",
@@ -1007,23 +1007,57 @@
           "altName": "Querschnittsmanagement"
         },
         {
-          "type": "Abteilung",
-          "name": "Abteilung ASC",
-          "id": "n8aa8bb76-797e-4e82-ae43-2587645fed22",
-          "uri": {
-            "uri": "https://berlin.github.io/lod-organigram/organisation-06df024455"
-          },
           "isMainOrganisation": false,
           "layout": {
-            "style": "default",
-            "bgColor": "#db9f29",
+            "style": "sphere",
+            "bgColor": "#c41b31",
             "bgStyle": "default",
             "grid": "none"
           },
           "address": {},
           "contact": {},
-          "suborganizationOrientation": "vertical",
-          "altName": "Architektur- und Standardisierungsmanagement, Cybersicherheit",
+          "uri": {
+            "uri": "https://berlin.github.io/lod-organigram/organisation-06df024455"
+          },
+          "positions": [
+            {
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/position-f89c456dd6"
+              },
+              "person": {
+                "gender": "m",
+                "contact": {
+                  "telephone": "+49 (69) 401270 103",
+                  "email": "joerg.kremer@fitko.de"
+                },
+                "uri": {
+                  "uri": "https://berlin.github.io/lod-organigram/person-1b8511788c"
+                },
+                "firstName": "Jörg",
+                "lastName": "Kremer"
+              },
+              "positionType": "Abteilungsleitung"
+            },
+            {
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/position-fa5870027d"
+              },
+              "person": {
+                "gender": "m",
+                "contact": {
+                  "telephone": "+49 (69) 401270 142",
+                  "email": "Tobias.Schuh@fitko.de"
+                },
+                "uri": {
+                  "uri": "https://berlin.github.io/lod-organigram/person-d5ad631595"
+                },
+                "firstName": "Tobias",
+                "lastName": "Schuh"
+              },
+              "positionType": "Vertretung Abteilungsleitung",
+              "positionStatus": "in Abwesenheit"
+            }
+          ],
           "organisations": [
             {
               "isMainOrganisation": false,
@@ -1292,65 +1326,26 @@
               "purpose": ""
             }
           ],
-          "positions": [
-            {
-              "uri": {
-                "uri": "https://berlin.github.io/lod-organigram/position-f89c456dd6"
-              },
-              "person": {
-                "gender": "m",
-                "contact": {
-                  "telephone": "+49 (69) 401270 103",
-                  "email": "joerg.kremer@fitko.de"
-                },
-                "uri": {
-                  "uri": "https://berlin.github.io/lod-organigram/person-1b8511788c"
-                },
-                "firstName": "Jörg",
-                "lastName": "Kremer"
-              },
-              "positionType": "Abteilungsleitung"
-            },
-            {
-              "uri": {
-                "uri": "https://berlin.github.io/lod-organigram/position-fa5870027d"
-              },
-              "person": {
-                "gender": "m",
-                "contact": {
-                  "telephone": "+49 (69) 401270 142",
-                  "email": "Tobias.Schuh@fitko.de"
-                },
-                "uri": {
-                  "uri": "https://berlin.github.io/lod-organigram/person-d5ad631595"
-                },
-                "firstName": "Tobias",
-                "lastName": "Schuh"
-              },
-              "positionType": "Vertretung Abteilungsleitung",
-              "positionStatus": "in Abwesenheit"
-            }
-          ],
+          "suborganizationOrientation": "embed",
+          "type": "Abteilung",
+          "name": "Abteilung ASC",
+          "id": "n8aa8bb76-797e-4e82-ae43-2587645fed22",
+          "altName": "Architektur- und Standardisierungsmanagement, Cybersicherheit",
           "purpose": ""
         },
         {
-          "type": "Abteilung",
-          "name": "Abteilung PM",
-          "id": "nb714d93d-f182-4d16-95e8-06e531e62b33",
-          "uri": {
-            "uri": "https://berlin.github.io/lod-organigram/organisation-63be913b52"
-          },
           "isMainOrganisation": false,
           "layout": {
-            "style": "default",
-            "bgColor": "#db9f29",
+            "style": "sphere",
+            "bgColor": "#c41b31",
             "bgStyle": "default",
             "grid": "none"
           },
           "address": {},
           "contact": {},
-          "suborganizationOrientation": "vertical",
-          "altName": "Produktmanagement",
+          "uri": {
+            "uri": "https://berlin.github.io/lod-organigram/organisation-63be913b52"
+          },
           "positions": [
             {
               "uri": {
@@ -1510,7 +1505,7 @@
                   }
                 }
               ],
-              "suborganizationOrientation": "horizontal",
+              "suborganizationOrientation": "embed",
               "type": "Organisationseinheit",
               "name": "Sicherer Transport",
               "id": "n872bf5ad-056e-4d2b-9839-73fdf503f0a0",
@@ -1520,7 +1515,7 @@
               "isMainOrganisation": false,
               "layout": {
                 "style": "sphere",
-                "bgColor": "#c41b31",
+                "bgColor": "#db9f29",
                 "bgStyle": "default",
                 "grid": "none"
               },
@@ -1678,7 +1673,7 @@
               "isMainOrganisation": false,
               "layout": {
                 "style": "sphere",
-                "bgColor": "#c41b31",
+                "bgColor": "#db9f29",
                 "bgStyle": "default",
                 "grid": "none"
               },
@@ -1889,7 +1884,7 @@
               "isMainOrganisation": false,
               "layout": {
                 "style": "sphere",
-                "bgColor": "#c41b31",
+                "bgColor": "#db9f29",
                 "bgStyle": "default",
                 "grid": "none"
               },
@@ -2028,25 +2023,65 @@
               "purpose": ""
             }
           ],
+          "suborganizationOrientation": "embed",
+          "type": "Abteilung",
+          "name": "Abteilung PM",
+          "id": "nb714d93d-f182-4d16-95e8-06e531e62b33",
+          "altName": "Produktmanagement",
           "purpose": ""
         },
         {
-          "type": "Abteilung",
-          "name": "Abteilung RuC",
-          "id": "nf933560c-58da-4222-a89c-18131d15cdbd",
-          "uri": {
-            "uri": "https://berlin.github.io/lod-organigram/organisation-defd9c4334"
-          },
           "isMainOrganisation": false,
           "layout": {
-            "style": "default",
-            "bgColor": "#db9f29",
+            "style": "sphere",
+            "bgColor": "#c41b31",
             "bgStyle": "default",
             "grid": "none"
           },
           "address": {},
           "contact": {},
-          "suborganizationOrientation": "vertical",
+          "uri": {
+            "uri": "https://berlin.github.io/lod-organigram/organisation-defd9c4334"
+          },
+          "positions": [
+            {
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/position-e6d71de9e0"
+              },
+              "person": {
+                "gender": "w",
+                "contact": {
+                  "telephone": "+49 (69) 401270 111",
+                  "email": "Christine.Kamburg@fitko.de"
+                },
+                "uri": {
+                  "uri": "https://berlin.github.io/lod-organigram/person-b80ed87635"
+                },
+                "firstName": "Christine",
+                "lastName": "Kamburg"
+              },
+              "positionType": "Abteilungsleitung"
+            },
+            {
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/position-3813af512e"
+              },
+              "person": {
+                "gender": "m",
+                "contact": {
+                  "telephone": "+49 (69) 401270 145",
+                  "email": "christian.kreuzer@fitko.de"
+                },
+                "uri": {
+                  "uri": "https://berlin.github.io/lod-organigram/person-72a4e48896"
+                },
+                "firstName": "Christian",
+                "lastName": "Kreuzer"
+              },
+              "positionType": "Vertretung Abteilungsleitung",
+              "positionStatus": "in Abwesenheit"
+            }
+          ],
           "organisations": [
             {
               "isMainOrganisation": false,
@@ -2202,7 +2237,7 @@
               "isMainOrganisation": false,
               "layout": {
                 "style": "sphere",
-                "bgColor": "#c41b31",
+                "bgColor": "#db9f29",
                 "bgStyle": "default",
                 "grid": "none"
               },
@@ -2396,66 +2431,26 @@
               "purpose": ""
             }
           ],
+          "suborganizationOrientation": "embed",
+          "type": "Abteilung",
+          "name": "Abteilung RuC",
+          "id": "nf933560c-58da-4222-a89c-18131d15cdbd",
           "altName": "Recht und Compliance",
-          "positions": [
-            {
-              "uri": {
-                "uri": "https://berlin.github.io/lod-organigram/position-e6d71de9e0"
-              },
-              "person": {
-                "gender": "w",
-                "contact": {
-                  "telephone": "+49 (69) 401270 111",
-                  "email": "Christine.Kamburg@fitko.de"
-                },
-                "uri": {
-                  "uri": "https://berlin.github.io/lod-organigram/person-b80ed87635"
-                },
-                "firstName": "Christine",
-                "lastName": "Kamburg"
-              },
-              "positionType": "Abteilungsleitung"
-            },
-            {
-              "uri": {
-                "uri": "https://berlin.github.io/lod-organigram/position-3813af512e"
-              },
-              "person": {
-                "gender": "m",
-                "contact": {
-                  "telephone": "+49 (69) 401270 145",
-                  "email": "christian.kreuzer@fitko.de"
-                },
-                "uri": {
-                  "uri": "https://berlin.github.io/lod-organigram/person-72a4e48896"
-                },
-                "firstName": "Christian",
-                "lastName": "Kreuzer"
-              },
-              "positionType": "Vertretung Abteilungsleitung",
-              "positionStatus": "in Abwesenheit"
-            }
-          ],
           "purpose": ""
         },
         {
-          "type": "Abteilung",
-          "name": "Abteilung ACK",
-          "id": "n15577f0a-f9c4-4665-89a8-9f897c59a000",
-          "uri": {
-            "uri": "https://berlin.github.io/lod-organigram/organisation-df92da45cf"
-          },
           "isMainOrganisation": false,
           "layout": {
-            "style": "default",
-            "bgColor": "#db9f29",
+            "style": "sphere",
+            "bgColor": "#c41b31",
             "bgStyle": "default",
             "grid": "none"
           },
           "address": {},
           "contact": {},
-          "suborganizationOrientation": "vertical",
-          "altName": "Auftragsklärung, Controlling und Kapazitätsmanagement",
+          "uri": {
+            "uri": "https://berlin.github.io/lod-organigram/organisation-df92da45cf"
+          },
           "positions": [
             {
               "uri": {
@@ -2479,12 +2474,6 @@
           ],
           "organisations": [
             {
-              "type": "Organisationseinheit",
-              "name": "FITKO-Portfolio/ Boards",
-              "id": "n406585f7-b104-48fd-bec9-d7615b1ef72e",
-              "uri": {
-                "uri": "https://berlin.github.io/lod-organigram/organisation-e41d7746d6"
-              },
               "isMainOrganisation": false,
               "layout": {
                 "style": "sphere",
@@ -2494,7 +2483,9 @@
               },
               "address": {},
               "contact": {},
-              "suborganizationOrientation": "horizontal",
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-e41d7746d6"
+              },
               "positions": [
                 {
                   "uri": {
@@ -2566,16 +2557,13 @@
                   }
                 }
               ],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "FITKO-Portfolio/ Boards",
+              "id": "n406585f7-b104-48fd-bec9-d7615b1ef72e",
               "purpose": ""
             },
             {
-              "type": "Organisationseinheit",
-              "name": "Prozesse, Daten & Systeme",
-              "id": "n6a3788fb-1a2f-45a5-b4b6-72998fd6c39a",
-              "uri": {
-                "uri": "https://berlin.github.io/lod-organigram/organisation-7a432bb672"
-              },
-              "organisations": [],
               "isMainOrganisation": false,
               "layout": {
                 "style": "sphere",
@@ -2585,7 +2573,9 @@
               },
               "address": {},
               "contact": {},
-              "suborganizationOrientation": "horizontal",
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-7a432bb672"
+              },
               "positions": [
                 {
                   "uri": {
@@ -2640,16 +2630,14 @@
                   }
                 }
               ],
+              "organisations": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Prozesse, Daten & Systeme",
+              "id": "n6a3788fb-1a2f-45a5-b4b6-72998fd6c39a",
               "purpose": ""
             },
             {
-              "type": "Organisationseinheit",
-              "name": "PLR-Portfolio & SPT-Programme",
-              "id": "n960e2201-7015-4c65-973b-aa1b6f6ea124",
-              "uri": {
-                "uri": "https://berlin.github.io/lod-organigram/organisation-94a4f292d4"
-              },
-              "organisations": [],
               "isMainOrganisation": false,
               "layout": {
                 "style": "sphere",
@@ -2659,7 +2647,9 @@
               },
               "address": {},
               "contact": {},
-              "suborganizationOrientation": "horizontal",
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-94a4f292d4"
+              },
               "positions": [
                 {
                   "uri": {
@@ -2776,15 +2766,14 @@
                   }
                 }
               ],
+              "organisations": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "PLR-Portfolio & SPT-Programme",
+              "id": "n960e2201-7015-4c65-973b-aa1b6f6ea124",
               "purpose": ""
             },
             {
-              "type": "Organisationseinheit",
-              "name": "Projekt-Mgmt. Pool",
-              "id": "nfe240375-a62e-48b0-85c0-15c9a6694e29",
-              "uri": {
-                "uri": "https://berlin.github.io/lod-organigram/organisation-da80cd1dd6"
-              },
               "isMainOrganisation": false,
               "layout": {
                 "style": "sphere",
@@ -2794,17 +2783,28 @@
               },
               "address": {},
               "contact": {},
-              "suborganizationOrientation": "horizontal",
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-da80cd1dd6"
+              },
               "positions": [],
+              "suborganizationOrientation": "horizontal",
+              "type": "Organisationseinheit",
+              "name": "Projekt-Mgmt. Pool",
+              "id": "nfe240375-a62e-48b0-85c0-15c9a6694e29",
               "purpose": ""
             }
           ],
+          "suborganizationOrientation": "embed",
+          "type": "Abteilung",
+          "name": "Abteilung ACK",
+          "id": "n15577f0a-f9c4-4665-89a8-9f897c59a000",
+          "altName": "Auftragsklärung, Controlling und Kapazitätsmanagement",
           "purpose": ""
         }
       ],
       "layout": {
         "style": "emphasized",
-        "bgColor": "#db9f29",
+        "bgColor": "#999999",
         "bgStyle": "default",
         "grid": "grid2"
       },
