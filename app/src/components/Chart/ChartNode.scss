@@ -302,11 +302,13 @@
             }
 
             // head of children
-            &:has(> .oc-content > ul.positions > li:first-child .position) > .oc-content > ul.positions > li:first-child {
+            &:has(> .oc-content > ul.positions > li:first-child .position) > .oc-content > ul.positions > li:first-child,
+            &:has(> .oc-content > .grid-container > ul:first-child.positions > li:first-child .position) > .oc-content > .grid-container > ul:first-child.positions > li:first-child {
                 left: 50%;
                 top: 0;
             }
-            &:has(> .oc-content > ul.positions > li:nth-child(2) .position) > .oc-content > ul.positions > li:nth-child(2) {
+            &:has(> .oc-content > ul.positions > li:nth-child(2) .position) > .oc-content > ul.positions > li:nth-child(2),
+            &:has(> .oc-content > .grid-container > ul:nth-child(2).positions > li:first-child .position) > .oc-content > .grid-container > ul:nth-child(2).positions > li:first-child {
                 left: calc(50% + 3em);
                 top: .4em;
             }
@@ -666,8 +668,12 @@
     }
   }
 
-  li.oc-hierarchy.level-1 > .sphere > .oc-container > .oc-content {
-    background-color: #ffffff00;
+  li.oc-hierarchy.level-1 > .sphere > .oc-container {
+    border-radius: 5em !important;
+
+    > .oc-content {
+      background-color: #ffffff00;
+    }
   }
   li.oc-hierarchy.level-2 > .sphere > .oc-container > .oc-content {
     background-color: #ffffff40;
@@ -896,6 +902,16 @@
             &:nth-child(4):nth-last-child(2) { left: 26%; top: 66%; }
             &:nth-child(5):nth-last-child(1) { left: 33%; top: 25%; }
 
+            // 8 children
+            &:nth-child(1):nth-last-child(8) { left: 63%; top: 24%; }
+            &:nth-child(2):nth-last-child(7) { left: 85%; top: 33%; }
+            &:nth-child(3):nth-last-child(6) { left: 85%; top: 67%; }
+            &:nth-child(4):nth-last-child(5) { left: 63%; top: 78%; }
+            &:nth-child(5):nth-last-child(4) { left: 37%; top: 78%; }
+            &:nth-child(6):nth-last-child(3) { left: 15%; top: 67%; }
+            &:nth-child(7):nth-last-child(2) { left: 15%; top: 33%; }
+            &:nth-child(8):nth-last-child(1) { left: 37%; top: 24%; }
+
             > .oc-node {
               margin: 0;
             }
@@ -955,6 +971,18 @@
         > .oc-heading {
           padding: 0 30%;
           top: 44%;
+        }
+      }
+
+      // intendet to be level-1
+      // 8 children
+      &:has(> .oc-content > ul.sub-organisations.embed > li:first-child:nth-last-child(8)) {
+        height: 60em;
+        min-width: initial;
+        width: 90em;
+        > .oc-heading {
+          padding: 0 0.2em;
+          top: 3em;
         }
       }
     }
