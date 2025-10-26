@@ -124,6 +124,10 @@ const ChartNode = forwardRef(
     };
 
     const clickNodeHandler = (event) => {
+      // bugfix: #2 'Embedded organizations cannot be selected'
+      event.stopPropagation();
+      event.nativeEvent.stopImmediatePropagation();
+
       if (onClickNode) {
         onClickNode(ds);
       }
