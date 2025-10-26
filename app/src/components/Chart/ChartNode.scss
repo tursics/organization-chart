@@ -924,6 +924,16 @@
             &:nth-child(8):nth-last-child(2) { left: 37%; top: 24%; }
             &:nth-child(9):nth-last-child(1) { left: 50%; top: 50%; }
 
+            // hack
+            &:nth-child(9):nth-last-child(1) {
+              z-index: -1;
+
+              > .sphere > .oc-container {
+                height: 20em;
+                width: 30em;
+              }
+            }
+
             > .oc-node {
               margin: 0;
             }

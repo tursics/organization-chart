@@ -2800,11 +2800,179 @@
           "id": "n15577f0a-f9c4-4665-89a8-9f897c59a000",
           "altName": "Auftragsklärung, Controlling und Kapazitätsmanagement",
           "purpose": ""
+        },
+        {
+          "type": "Virtuell",
+          "name": "Crossfunktionale Teams",
+          "id": "n283ca1fb-6a04-4d27-9108-17edbb8f08da",
+          "uri": {
+            "uri": "https://berlin.github.io/lod-organigram/organisation-6b7979ad0d"
+          },
+          "isMainOrganisation": false,
+          "layout": {
+            "style": "sphere",
+            "bgColor": "#f2f2f2",
+            "bgStyle": "default",
+            "grid": "none"
+          },
+          "address": {},
+          "contact": {},
+          "suborganizationOrientation": "embed",
+          "organisations": [
+            {
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "sphere",
+                "bgColor": "#bdcde7",
+                "bgStyle": "default",
+                "grid": "none"
+              },
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-e0f6517e5f"
+              },
+              "suborganizationOrientation": "horizontal",
+              "type": "Virtuell",
+              "name": "Team Markplätze",
+              "id": "n1475c3cc-306d-4b18-a1a2-8fe0eddc7fe3",
+              "positions": [
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-7af1a77f24"
+                  },
+                  "person": {
+                    "gender": "1",
+                    "contact": {},
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-890898e514"
+                    }
+                  }
+                },
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-6d5467d96b"
+                  },
+                  "person": {
+                    "gender": "1",
+                    "contact": {},
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-6eeb55c2e2"
+                    }
+                  }
+                },
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-b296dcb6f7"
+                  },
+                  "person": {
+                    "gender": "1",
+                    "contact": {},
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-f50c5c96e6"
+                    }
+                  }
+                },
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-b691fb59f6"
+                  },
+                  "person": {
+                    "gender": "1",
+                    "contact": {},
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-623df61a96"
+                    }
+                  }
+                },
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-18111fb1c4"
+                  },
+                  "person": {
+                    "gender": "1",
+                    "contact": {},
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-8017869c10"
+                    }
+                  }
+                },
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-fa14e2a8d2"
+                  },
+                  "person": {
+                    "gender": "1",
+                    "contact": {},
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-7ade18746c"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "sphere",
+                "bgColor": "#bdcde7",
+                "bgStyle": "default",
+                "grid": "none"
+              },
+              "address": {},
+              "contact": {},
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-e24a1e8bfe"
+              },
+              "suborganizationOrientation": "horizontal",
+              "type": "",
+              "name": "Team OSiP",
+              "id": "neef40edd-8eca-49cf-a831-a2014aa5febf",
+              "positions": [
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-8684426072"
+                  },
+                  "person": {
+                    "gender": "1",
+                    "contact": {},
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-a91aff7fdb"
+                    }
+                  }
+                },
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-6f645f0857"
+                  },
+                  "person": {
+                    "gender": "1",
+                    "contact": {},
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-4924e768c5"
+                    }
+                  }
+                },
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-66812e8fd1"
+                  },
+                  "person": {
+                    "gender": "1",
+                    "contact": {},
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-aea29f5e68"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         }
       ],
       "layout": {
-        "style": "emphasized",
-        "bgColor": "#999999",
+        "style": "sphere",
+        "bgColor": "#cccccc",
         "bgStyle": "default",
         "grid": "grid2"
       },
@@ -2858,7 +3026,7 @@
           "positionType": "Assistenz des Präsidenten"
         }
       ],
-      "suborganizationOrientation": "horizontal",
+      "suborganizationOrientation": "embed",
       "uri": {
         "sameAsUris": [
           {
