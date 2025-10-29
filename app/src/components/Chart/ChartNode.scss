@@ -225,6 +225,7 @@
           }
         }
 
+        &.hide,
         &.sphere {
           > .oc-container {
             border-radius: 50%;
@@ -570,7 +571,7 @@
             }
           }
         }
-        &.hide {
+        &.hide:not(:has(> .oc-container > .oc-content > ul.sub-organisations.embed)) {
           font-size: 0.75rem;
           $supCurrentColor: $currentColor;
           .oc-container {
@@ -669,6 +670,7 @@
     }
   }
 
+  li.oc-hierarchy.level-1 > .hide > .oc-container,
   li.oc-hierarchy.level-1 > .sphere > .oc-container {
     border-radius: 5em !important;
 
@@ -676,12 +678,15 @@
       background-color: #ffffff00;
     }
   }
+  li.oc-hierarchy.level-2 > .hide > .oc-container > .oc-content,
   li.oc-hierarchy.level-2 > .sphere > .oc-container > .oc-content {
     background-color: #ffffff40;
   }
+  li.oc-hierarchy.level-3 > .hide > .oc-container > .oc-content,
   li.oc-hierarchy.level-3 > .sphere > .oc-container > .oc-content {
     background-color: #ffffff80;
   }
+  li.oc-hierarchy.level-4 > .hide > .oc-container > .oc-content,
   li.oc-hierarchy.level-4 > .sphere > .oc-container > .oc-content {
     background-color: #ffffffc0;
   }
@@ -864,6 +869,7 @@
       flex-direction: column;
       position: relative;
     }
+    .oc-node.hide > .oc-container,
     .oc-node.sphere > .oc-container {
       > .oc-content {
         padding: 0;
@@ -904,33 +910,33 @@
             &:nth-child(5):nth-last-child(1) { left: 33%; top: 25%; }
 
             // 8 children
-            &:nth-child(1):nth-last-child(8) { left: 63%; top: 24%; }
-            &:nth-child(2):nth-last-child(7) { left: 85%; top: 33%; }
+            &:nth-child(1):nth-last-child(8) { left: 63%; top: 17%; }
+            &:nth-child(2):nth-last-child(7) { left: 85%; top: 34%; }
             &:nth-child(3):nth-last-child(6) { left: 85%; top: 67%; }
-            &:nth-child(4):nth-last-child(5) { left: 63%; top: 78%; }
-            &:nth-child(5):nth-last-child(4) { left: 37%; top: 78%; }
+            &:nth-child(4):nth-last-child(5) { left: 63%; top: 83%; }
+            &:nth-child(5):nth-last-child(4) { left: 37%; top: 83%; }
             &:nth-child(6):nth-last-child(3) { left: 15%; top: 67%; }
-            &:nth-child(7):nth-last-child(2) { left: 15%; top: 33%; }
-            &:nth-child(8):nth-last-child(1) { left: 37%; top: 24%; }
+            &:nth-child(7):nth-last-child(2) { left: 15%; top: 34%; }
+            &:nth-child(8):nth-last-child(1) { left: 37%; top: 17%; }
 
             // 9 children
-            &:nth-child(1):nth-last-child(9) { left: 63%; top: 24%; }
-            &:nth-child(2):nth-last-child(8) { left: 85%; top: 33%; }
+            &:nth-child(1):nth-last-child(9) { left: 63%; top: 17%; }
+            &:nth-child(2):nth-last-child(8) { left: 85%; top: 34%; }
             &:nth-child(3):nth-last-child(7) { left: 85%; top: 67%; }
-            &:nth-child(4):nth-last-child(6) { left: 63%; top: 78%; }
-            &:nth-child(5):nth-last-child(5) { left: 37%; top: 78%; }
+            &:nth-child(4):nth-last-child(6) { left: 63%; top: 83%; }
+            &:nth-child(5):nth-last-child(5) { left: 37%; top: 83%; }
             &:nth-child(6):nth-last-child(4) { left: 15%; top: 67%; }
-            &:nth-child(7):nth-last-child(3) { left: 15%; top: 33%; }
-            &:nth-child(8):nth-last-child(2) { left: 37%; top: 24%; }
+            &:nth-child(7):nth-last-child(3) { left: 15%; top: 34%; }
+            &:nth-child(8):nth-last-child(2) { left: 37%; top: 17%; }
             &:nth-child(9):nth-last-child(1) { left: 50%; top: 50%; }
 
             // hack
             &:nth-child(9):nth-last-child(1) {
               z-index: -1;
 
-              > .sphere > .oc-container {
-                height: 20em;
-                width: 30em;
+              > .hide > .oc-container {
+                height: 25em;
+                width: 40em;
               }
             }
 
@@ -1011,9 +1017,9 @@
       // intendet to be level-1
       // 9 children
       &:has(> .oc-content > ul.sub-organisations.embed > li:first-child:nth-last-child(9)) {
-        height: 60em;
+        height: 80em;
         min-width: initial;
-        width: 90em;
+        width: 100em;
         > .oc-heading {
           padding: 0 0.2em;
           top: 3em;
