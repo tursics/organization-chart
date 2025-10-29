@@ -2776,7 +2776,7 @@
           "isMainOrganisation": false,
           "layout": {
             "style": "hide",
-            "bgColor": "",
+            "bgColor": "#e6e6e6",
             "bgStyle": "default",
             "grid": "none"
           },
@@ -2790,7 +2790,7 @@
               "isMainOrganisation": false,
               "layout": {
                 "style": "sphere",
-                "bgColor": "#bdcde7",
+                "bgColor": "#7694ce",
                 "bgStyle": "default",
                 "grid": "none"
               },
@@ -2914,7 +2914,7 @@
               "isMainOrganisation": false,
               "layout": {
                 "style": "sphere",
-                "bgColor": "#bdcde7",
+                "bgColor": "#7694ce",
                 "bgStyle": "default",
                 "grid": "none"
               },
@@ -2987,7 +2987,7 @@
               "isMainOrganisation": false,
               "layout": {
                 "style": "sphere",
-                "bgColor": "#bdcde7",
+                "bgColor": "#7694ce",
                 "bgStyle": "default",
                 "grid": "none"
               },
@@ -3093,7 +3093,7 @@
               "isMainOrganisation": false,
               "layout": {
                 "style": "sphere",
-                "bgColor": "#bdcde7",
+                "bgColor": "#7694ce",
                 "bgStyle": "default",
                 "grid": "none"
               },
@@ -3140,7 +3140,7 @@
               "isMainOrganisation": false,
               "layout": {
                 "style": "sphere",
-                "bgColor": "#bdcde7",
+                "bgColor": "#7694ce",
                 "bgStyle": "default",
                 "grid": "none"
               },
