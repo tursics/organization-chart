@@ -82,6 +82,10 @@ const OrganisationTab = ({ sendDataUp, selected, setSelected, dsDigger }) => {
             "ui:placeholder": "z.B. kommisarisch",
             "ui:field": CustomDropdown,
           },
+          positionWorkload: {
+            "ui:placeholder": "z.B. 100%",
+            "ui:field": CustomDropdown,
+          },
           person: {
             // "ui:headless": true,
             // add a title to the person field
@@ -156,6 +160,10 @@ const OrganisationTab = ({ sendDataUp, selected, setSelected, dsDigger }) => {
               },
               positionStatus: {
                 "ui:placeholder": "z.B. kommisarisch",
+                "ui:field": CustomDropdown,
+              },
+              positionWorkload: {
+                "ui:placeholder": "z.B. 100%",
                 "ui:field": CustomDropdown,
               },
               uri: {

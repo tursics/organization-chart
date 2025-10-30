@@ -297,6 +297,47 @@
                       top: 0;
                       width: 1em;
                     }
+
+                    &[data-workload] .person {
+                      background: none;
+                      border: .05em solid #00000040;
+                    }
+                    &[data-workload] .person::after {
+                      background: #00000040;
+                      content: '';
+                      height: .9em;
+                      left: 0;
+                      position: absolute;
+                      top: 0;
+                      width: -.9em;
+
+                      aspect-ratio: 1;
+                      border-radius: 50%;
+                    }
+                    &[data-workload="5"] .person::after {
+                      clip-path: shape(from top,
+                        arc to calc(50% + 50% * sin(5 * 3.6deg)) 
+                               calc(50% - 50% * cos(5 * 3.6deg)) of 50% large cw,
+                        line to center);
+                    }
+                    &[data-workload="25"] .person::after {
+                      clip-path: shape(from top,
+                        arc to calc(50% + 50% * sin(25 * 3.6deg)) 
+                               calc(50% - 50% * cos(25 * 3.6deg)) of 50% large cw,
+                        line to center);
+                    }
+                    &[data-workload="50"] .person::after {
+                      clip-path: shape(from top,
+                        arc to calc(50% + 50% * sin(50 * 3.6deg)) 
+                               calc(50% - 50% * cos(50 * 3.6deg)) of 50% large cw,
+                        line to center);
+                    }
+                    &[data-workload="75"] .person::after {
+                      clip-path: shape(from top,
+                        arc to calc(50% + 50% * sin(75 * 3.6deg)) 
+                               calc(50% - 50% * cos(75 * 3.6deg)) of 50% large cw,
+                        line to center);
+                    }
                   }
                 }
               }

@@ -25,7 +25,10 @@ const ChartNodePositions = forwardRef(({ ds, data, positions }, ref) => {
                   position?.person?.lastName
                 }
               >
-                <div className="ms-1 mb-1">
+                <div
+                  className="ms-1 mb-1"
+                  data-workload={position?.positionWorkload || '100'}
+                >
                   {position.positionType && (
                     <span className="position">
                       {getGenderedPosition(

@@ -299,6 +299,13 @@
           "title": "Zusatzbezeichnung",
           "examples": ["stellvertretend", "kommissarisch", "N.N."]
         },
+        "positionWorkload": {
+          "type": "string",
+          "title": "Auslastung",
+          "format": "int32",
+          "enum": ["5", "25", "50", "75", "100"],
+          "enumNames": ["5%", "25%", "50%", "75%", "100%"]
+        },
         "uri": {
           "$ref": "#/definitions/uri"
         },

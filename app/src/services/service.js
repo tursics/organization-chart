@@ -203,7 +203,7 @@ export function comparableString(inputString) {
 
 export function getRoleTypeDescription(pos) {
   return comparableString(
-    (pos?.positionType || "") + (pos?.positionStatus || "")
+    (pos?.positionType || "") + (pos?.positionStatus || "") + (pos?.positionWorkload || "")
   );
 }
 
