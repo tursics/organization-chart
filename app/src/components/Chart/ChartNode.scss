@@ -950,6 +950,14 @@
             &:nth-child(4):nth-last-child(2) { left: 26%; top: 66%; }
             &:nth-child(5):nth-last-child(1) { left: 33%; top: 25%; }
 
+            // 6 children
+            &:nth-child(1):nth-last-child(6) { left: 67%; top: 25%; }
+            &:nth-child(2):nth-last-child(5) { left: 85%; top: 50%; }
+            &:nth-child(3):nth-last-child(4) { left: 67%; top: 75%; }
+            &:nth-child(4):nth-last-child(3) { left: 33%; top: 75%; }
+            &:nth-child(5):nth-last-child(2) { left: 15%; top: 50%; }
+            &:nth-child(6):nth-last-child(1) { left: 33%; top: 25%; }
+
             // 8 children
             &:nth-child(1):nth-last-child(8) { left: 63%; top: 17%; }
             &:nth-child(2):nth-last-child(7) { left: 85%; top: 34%; }

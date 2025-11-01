@@ -482,7 +482,8 @@
                     },
                     "firstName": "Marie",
                     "lastName": "Lindner"
-                  }
+                  },
+                  "positionWorkload": "75"
                 },
                 {
                   "uri": {
@@ -555,7 +556,8 @@
                     },
                     "firstName": "Pit Tobias",
                     "lastName": "Krichbaum"
-                  }
+                  },
+                  "positionWorkload": "75"
                 },
                 {
                   "uri": {
@@ -864,7 +866,8 @@
                     "firstName": "Alexander",
                     "lastName": "Sturm"
                   },
-                  "positionType": "Teamleitung"
+                  "positionType": "Teamleitung",
+                  "positionWorkload": "50"
                 },
                 {
                   "uri": {
@@ -898,7 +901,8 @@
                     },
                     "firstName": "Markus",
                     "lastName": "Loser"
-                  }
+                  },
+                  "positionWorkload": "50"
                 },
                 {
                   "uri": {
@@ -1121,7 +1125,8 @@
                     "title": "Dr.",
                     "firstName": "George-Petru",
                     "lastName": "Ciordas-Hertel"
-                  }
+                  },
+                  "positionWorkload": "50"
                 },
                 {
                   "uri": {
@@ -1138,7 +1143,8 @@
                     },
                     "firstName": "Johanna",
                     "lastName": "Gramlich"
-                  }
+                  },
+                  "positionWorkload": "75"
                 },
                 {
                   "uri": {
@@ -1430,7 +1436,8 @@
                     },
                     "firstName": "David",
                     "lastName": "Brodesser"
-                  }
+                  },
+                  "positionWorkload": "5"
                 },
                 {
                   "uri": {
@@ -1783,7 +1790,8 @@
                     "title": "Dr.",
                     "firstName": "Clemens",
                     "lastName": "Fell"
-                  }
+                  },
+                  "positionWorkload": "50"
                 },
                 {
                   "uri": {
@@ -1817,7 +1825,8 @@
                     },
                     "firstName": "Jana",
                     "lastName": "Janze"
-                  }
+                  },
+                  "positionWorkload": "5"
                 },
                 {
                   "uri": {
@@ -1851,7 +1860,8 @@
                     },
                     "firstName": "Laura",
                     "lastName": "Rosenbauer"
-                  }
+                  },
+                  "positionWorkload": "5"
                 },
                 {
                   "uri": {
@@ -1942,7 +1952,8 @@
                     },
                     "firstName": "Daniel",
                     "lastName": "Biedermann"
-                  }
+                  },
+                  "positionWorkload": "25"
                 },
                 {
                   "uri": {
@@ -2127,7 +2138,8 @@
                     },
                     "firstName": "Nadina",
                     "lastName": "Doufrain"
-                  }
+                  },
+                  "positionWorkload": "75"
                 },
                 {
                   "uri": {
@@ -2293,7 +2305,8 @@
                     "firstName": "Moritz",
                     "lastName": "Ahlers"
                   },
-                  "positionType": "Teamleitung"
+                  "positionType": "Teamleitung",
+                  "positionWorkload": "75"
                 },
                 {
                   "uri": {
@@ -2361,7 +2374,8 @@
                     },
                     "firstName": "Jakob",
                     "lastName": "Schuster"
-                  }
+                  },
+                  "positionWorkload": "75"
                 },
                 {
                   "uri": {
@@ -2417,7 +2431,8 @@
                     },
                     "firstName": "Mareike",
                     "lastName": "Banaszak"
-                  }
+                  },
+                  "positionWorkload": "25"
                 },
                 {
                   "uri": {
@@ -2434,7 +2449,8 @@
                     },
                     "firstName": "Leon",
                     "lastName": "Lotz"
-                  }
+                  },
+                  "positionWorkload": "50"
                 },
                 {
                   "uri": {
@@ -2451,7 +2467,8 @@
                     },
                     "firstName": "Isabella",
                     "lastName": "Simicic"
-                  }
+                  },
+                  "positionWorkload": "25"
                 }
               ],
               "suborganizationOrientation": "horizontal",
@@ -2623,7 +2640,8 @@
                     "title": "Dr.",
                     "firstName": "Hanns Simon",
                     "lastName": "Eckhardt"
-                  }
+                  },
+                  "positionWorkload": "75"
                 },
                 {
                   "uri": {
@@ -2640,7 +2658,8 @@
                     },
                     "firstName": "Jan",
                     "lastName": "Götze"
-                  }
+                  },
+                  "positionWorkload": "75"
                 },
                 {
                   "uri": {
@@ -2657,7 +2676,8 @@
                     },
                     "firstName": "Phie",
                     "lastName": "Ott"
-                  }
+                  },
+                  "positionWorkload": "50"
                 }
               ],
               "organisations": [],
@@ -2748,7 +2768,8 @@
                     },
                     "firstName": "Linda",
                     "lastName": "Meier"
-                  }
+                  },
+                  "positionWorkload": "75"
                 },
                 {
                   "uri": {
@@ -2897,7 +2918,8 @@
                     },
                     "firstName": "Mareike",
                     "lastName": "Banaszak"
-                  }
+                  },
+                  "positionWorkload": "75"
                 },
                 {
                   "uri": {
@@ -2915,7 +2937,8 @@
                     "firstName": "Clemens",
                     "title": "Dr.",
                     "lastName": "Fell"
-                  }
+                  },
+                  "positionWorkload": "50"
                 },
                 {
                   "uri": {
@@ -2932,7 +2955,8 @@
                     },
                     "firstName": "Jana",
                     "lastName": "Janze"
-                  }
+                  },
+                  "positionWorkload": "100"
                 },
                 {
                   "uri": {
@@ -2949,7 +2973,8 @@
                     },
                     "firstName": "Leon",
                     "lastName": "Lotz"
-                  }
+                  },
+                  "positionWorkload": "50"
                 },
                 {
                   "uri": {
@@ -2966,7 +2991,8 @@
                     },
                     "firstName": "Laura",
                     "lastName": "Rosenbauer"
-                  }
+                  },
+                  "positionWorkload": "100"
                 },
                 {
                   "uri": {
@@ -2983,9 +3009,11 @@
                     },
                     "firstName": "Isabella",
                     "lastName": "Simicic"
-                  }
+                  },
+                  "positionWorkload": "75"
                 }
-              ]
+              ],
+              "purpose": ""
             },
             {
               "isMainOrganisation": false,
@@ -3020,7 +3048,8 @@
                     },
                     "firstName": "Daniel",
                     "lastName": "Biedermann"
-                  }
+                  },
+                  "positionWorkload": "75"
                 },
                 {
                   "uri": {
@@ -3037,7 +3066,8 @@
                     },
                     "firstName": "David",
                     "lastName": "Brodesser"
-                  }
+                  },
+                  "positionWorkload": "100"
                 },
                 {
                   "uri": {
@@ -3055,9 +3085,11 @@
                     "firstName": "George-Petru",
                     "title": "Dr.",
                     "lastName": "Ciordas-Hertel"
-                  }
+                  },
+                  "positionWorkload": "50"
                 }
-              ]
+              ],
+              "purpose": ""
             },
             {
               "isMainOrganisation": false,
@@ -3092,7 +3124,8 @@
                     },
                     "firstName": "Sybille",
                     "lastName": "Gräff"
-                  }
+                  },
+                  "positionWorkload": "5"
                 },
                 {
                   "uri": {
@@ -3109,7 +3142,8 @@
                     },
                     "firstName": "Jonas",
                     "lastName": "Hoffmann"
-                  }
+                  },
+                  "positionWorkload": "5"
                 },
                 {
                   "uri": {
@@ -3126,7 +3160,26 @@
                     },
                     "firstName": "Christian",
                     "lastName": "Kreuzer"
-                  }
+                  },
+                  "positionWorkload": "5"
+                },
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-e8d1485b42"
+                  },
+                  "person": {
+                    "gender": "w",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 185",
+                      "email": "+49 (69) 401270 185"
+                    },
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-7238fe7285"
+                    },
+                    "firstName": "Marie",
+                    "lastName": "Lindner"
+                  },
+                  "positionWorkload": "25"
                 },
                 {
                   "uri": {
@@ -3143,7 +3196,8 @@
                     },
                     "firstName": "Tobias",
                     "lastName": "Schuh"
-                  }
+                  },
+                  "positionWorkload": "5"
                 },
                 {
                   "uri": {
@@ -3160,9 +3214,11 @@
                     },
                     "firstName": "Lisa",
                     "lastName": "Strasser"
-                  }
+                  },
+                  "positionWorkload": "5"
                 }
-              ]
+              ],
+              "purpose": ""
             },
             {
               "isMainOrganisation": false,
@@ -3179,36 +3235,47 @@
               },
               "suborganizationOrientation": "horizontal",
               "type": "Crossfunktionales Team",
-              "name": "Aufbau FIT-SB",
+              "name": "Übergabe Sitzungsmanagement FIT-AB",
               "id": "naf33d910-034b-4ee0-ab64-ea8339902b52",
               "positions": [
-                {
-                  "uri": {
-                    "uri": "https://berlin.github.io/lod-organigram/position-fb081a1e54"
-                  },
-                  "person": {
-                    "gender": "1",
-                    "contact": {},
-                    "uri": {
-                      "uri": "https://berlin.github.io/lod-organigram/person-61e5923e83"
-                    },
-                    "firstName": "FIT-SB"
-                  }
-                },
                 {
                   "uri": {
                     "uri": "https://berlin.github.io/lod-organigram/position-0a43d9d2af"
                   },
                   "person": {
-                    "gender": "1",
-                    "contact": {},
+                    "gender": "w",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 167",
+                      "email": "johanna.gramlich@fitko.de"
+                    },
                     "uri": {
                       "uri": "https://berlin.github.io/lod-organigram/person-169e4a4c0b"
                     },
-                    "firstName": "K-Team"
-                  }
+                    "firstName": "Johanna",
+                    "lastName": "Gramlich"
+                  },
+                  "positionWorkload": "25"
+                },
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-fb081a1e54"
+                  },
+                  "person": {
+                    "gender": "m",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 155",
+                      "email": "pittobias.krichbaum@fitko.de"
+                    },
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-61e5923e83"
+                    },
+                    "firstName": "Pit Tobias",
+                    "lastName": "Krichbaum"
+                  },
+                  "positionWorkload": "25"
                 }
-              ]
+              ],
+              "purpose": ""
             },
             {
               "isMainOrganisation": false,
@@ -3225,9 +3292,63 @@
               },
               "suborganizationOrientation": "horizontal",
               "type": "Crossfunktionales Team",
-              "name": "Entwicklung Strategisches Finanzmanagement",
+              "name": "Aufbau strategisches Finanzmanagement",
               "id": "n521d992b-20d4-41f8-baf9-25d01b7eda28",
               "positions": [
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-a75a2bdb89"
+                  },
+                  "person": {
+                    "gender": "m",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 171",
+                      "email": "markus.loser@fitko.de"
+                    },
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-69004ea877"
+                    },
+                    "firstName": "Markus",
+                    "lastName": "Loser"
+                  },
+                  "positionWorkload": "25"
+                },
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-78b71450f1"
+                  },
+                  "person": {
+                    "gender": "w",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 156",
+                      "email": "linda.meier@fitko.de"
+                    },
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-54d5aed389"
+                    },
+                    "firstName": "Linda",
+                    "lastName": "Meier"
+                  },
+                  "positionWorkload": "25"
+                },
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-62689733af"
+                  },
+                  "person": {
+                    "gender": "w",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 158",
+                      "email": "Phie.Ott@fitko.de"
+                    },
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-a3a0dcbeb9"
+                    },
+                    "firstName": "Phie",
+                    "lastName": "Ott"
+                  },
+                  "positionWorkload": "25"
+                },
                 {
                   "uri": {
                     "uri": "https://berlin.github.io/lod-organigram/position-f58cbaf0b0"
@@ -3243,24 +3364,179 @@
                     },
                     "firstName": "Alexander",
                     "lastName": "Sturm"
-                  }
+                  },
+                  "positionWorkload": "25"
+                }
+              ],
+              "purpose": ""
+            },
+            {
+              "type": "Crossfunktionales Team",
+              "name": "Aufbau Systemumgebung",
+              "id": "nd5c9d59d-8fe5-4505-8c85-bdbd25e0f414",
+              "uri": {
+                "uri": "https://berlin.github.io/lod-organigram/organisation-e63c9716a2"
+              },
+              "isMainOrganisation": false,
+              "layout": {
+                "style": "light",
+                "bgColor": "",
+                "bgStyle": "default",
+                "grid": "none"
+              },
+              "address": {},
+              "contact": {},
+              "suborganizationOrientation": "horizontal",
+              "positions": [
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-f1364c4a03"
+                  },
+                  "person": {
+                    "gender": "m",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 113",
+                      "email": "moritz.ahlers@fitko.de"
+                    },
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-84ab0021a3"
+                    },
+                    "firstName": "Moritz",
+                    "lastName": "Ahlers"
+                  },
+                  "positionWorkload": "25"
                 },
                 {
                   "uri": {
-                    "uri": "https://berlin.github.io/lod-organigram/position-a75a2bdb89"
+                    "uri": "https://berlin.github.io/lod-organigram/position-6b42999254"
                   },
                   "person": {
-                    "gender": "1",
-                    "contact": {},
-                    "uri": {
-                      "uri": "https://berlin.github.io/lod-organigram/person-69004ea877"
+                    "gender": "w",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 108",
+                      "email": "Nadina.Doufrain@fitko.de"
                     },
-                    "firstName": "ACK"
-                  }
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-f4182d3018"
+                    },
+                    "firstName": "Nadina",
+                    "lastName": "Doufrain"
+                  },
+                  "positionWorkload": "25"
+                },
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-8691eab993"
+                  },
+                  "person": {
+                    "gender": "m",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 222",
+                      "email": "HannsSimon.Eckhardt@fitko.de"
+                    },
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-ebdb0d7f52"
+                    },
+                    "title": "Dr.",
+                    "firstName": "Hanns Simon",
+                    "lastName": "Eckhardt"
+                  },
+                  "positionWorkload": "25"
+                },
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-71107f2e1e"
+                  },
+                  "person": {
+                    "gender": "m",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 277",
+                      "email": "jan.goetze@fitko"
+                    },
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-51f46df33a"
+                    },
+                    "firstName": "Jan",
+                    "lastName": "Götze"
+                  },
+                  "positionWorkload": "25"
+                },
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-4889df9aed"
+                  },
+                  "person": {
+                    "gender": "m",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 171",
+                      "email": "markus.loser@fitko.de"
+                    },
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-493c24e45f"
+                    },
+                    "firstName": "Markus",
+                    "lastName": "Loser"
+                  },
+                  "positionWorkload": "25"
+                },
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-58a5f0a786"
+                  },
+                  "person": {
+                    "gender": "w",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 158",
+                      "email": "Phie.Ott@fitko.de"
+                    },
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-2656c7f3b7"
+                    },
+                    "firstName": "Phie",
+                    "lastName": "Ott"
+                  },
+                  "positionWorkload": "25"
+                },
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-da9448c18b"
+                  },
+                  "person": {
+                    "gender": "m",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 201",
+                      "email": "jakob.schuster@fitko.de"
+                    },
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-cd394a847a"
+                    },
+                    "firstName": "Jakob",
+                    "lastName": "Schuster"
+                  },
+                  "positionWorkload": "25"
+                },
+                {
+                  "uri": {
+                    "uri": "https://berlin.github.io/lod-organigram/position-45ab0e8ef8"
+                  },
+                  "person": {
+                    "gender": "m",
+                    "contact": {
+                      "telephone": "+49 (69) 401270 141",
+                      "email": "Alexander.Sturm@fitko.de"
+                    },
+                    "uri": {
+                      "uri": "https://berlin.github.io/lod-organigram/person-60bc2185d9"
+                    },
+                    "firstName": "Alexander",
+                    "lastName": "Sturm"
+                  },
+                  "positionWorkload": "25"
                 }
               ]
             }
-          ]
+          ],
+          "purpose": ""
         }
       ],
       "layout": {
@@ -3392,7 +3668,8 @@
                 "lastName": "Wittmann",
                 "title": "Dr."
               },
-              "positionType": "Sprecher"
+              "positionType": "Sprecher",
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3410,7 +3687,8 @@
                 "firstName": "Sebastian",
                 "lastName": "Quendt"
               },
-              "positionType": "Stellvertreter"
+              "positionType": "Stellvertreter",
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3427,7 +3705,8 @@
                 },
                 "firstName": "Markus",
                 "lastName": "Albert"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3444,7 +3723,8 @@
                 },
                 "firstName": "Mareike",
                 "lastName": "Banaszak"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3461,7 +3741,8 @@
                 },
                 "firstName": "Daniel",
                 "lastName": "Biedermann"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3478,7 +3759,8 @@
                 },
                 "firstName": "Philipp",
                 "lastName": "Birlo"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3495,7 +3777,8 @@
                 },
                 "firstName": "Andreas",
                 "lastName": "Braunroth"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3512,7 +3795,8 @@
                 },
                 "firstName": "Kai-Uwe",
                 "lastName": "Fechner"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3530,7 +3814,8 @@
                 "firstName": "Clemens",
                 "lastName": "Fell",
                 "title": "Dr."
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3547,7 +3832,8 @@
                 },
                 "firstName": "Andrea",
                 "lastName": "Frank"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3564,7 +3850,8 @@
                 },
                 "firstName": "Bianka",
                 "lastName": "Hampel"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3581,7 +3868,8 @@
                 },
                 "firstName": "Destiny Faye",
                 "lastName": "Ibarra"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3598,7 +3886,8 @@
                 },
                 "firstName": "Jörg",
                 "lastName": "Kremer"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3615,7 +3904,8 @@
                 },
                 "firstName": "Linda",
                 "lastName": "Meier"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3632,7 +3922,8 @@
                 },
                 "firstName": "Bianca",
                 "lastName": "Molitor"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3649,7 +3940,8 @@
                 },
                 "firstName": "Thomas",
                 "lastName": "Pinz"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3666,7 +3958,8 @@
                 },
                 "firstName": "Laura",
                 "lastName": "Rosenbauer"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3683,7 +3976,8 @@
                 },
                 "firstName": "Ümit",
                 "lastName": "Sönmez"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3700,7 +3994,8 @@
                 },
                 "firstName": "Michaela",
                 "lastName": "Schuldt"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3718,7 +4013,8 @@
                 "firstName": "Benjamin",
                 "lastName": "Schurig",
                 "title": "Dr."
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3735,13 +4031,15 @@
                 },
                 "firstName": "Hendrik",
                 "lastName": "Stier"
-              }
+              },
+              "positionWorkload": "5"
             }
           ],
           "suborganizationOrientation": "horizontal",
           "type": "Guilde",
           "name": "KI",
-          "id": "n042826b3-57af-4c24-aa03-9b3e4ad14e75"
+          "id": "n042826b3-57af-4c24-aa03-9b3e4ad14e75",
+          "purpose": ""
         },
         {
           "isMainOrganisation": false,
@@ -3773,7 +4071,8 @@
                 "firstName": "Cornelia",
                 "lastName": "Diebel"
               },
-              "positionType": "Sprecherin"
+              "positionType": "Sprecherin",
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3790,7 +4089,8 @@
                 },
                 "firstName": "Moritz",
                 "lastName": "Ahlers"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3807,7 +4107,8 @@
                 },
                 "firstName": "Stephan",
                 "lastName": "Bartholmei"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3824,7 +4125,8 @@
                 },
                 "firstName": "Daniel",
                 "lastName": "Biedermann"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3842,7 +4144,8 @@
                 "firstName": "Hanns Simon",
                 "lastName": "Eckhardt",
                 "title": "Dr."
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3859,7 +4162,8 @@
                 },
                 "firstName": "Johanna",
                 "lastName": "Gramlich"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3877,7 +4181,8 @@
                 "title": "Dr.",
                 "firstName": "Matthias",
                 "lastName": "Grönewald"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3894,7 +4199,8 @@
                 },
                 "firstName": "Franziska",
                 "lastName": "Hoffmeister"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3911,7 +4217,8 @@
                 },
                 "firstName": "Marco",
                 "lastName": "Holz"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3928,7 +4235,8 @@
                 },
                 "firstName": "Meinhard",
                 "lastName": "Kroll"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3945,7 +4253,8 @@
                 },
                 "firstName": "Ulrike",
                 "lastName": "Raab"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3962,7 +4271,8 @@
                 },
                 "firstName": "Hendrik",
                 "lastName": "Stier"
-              }
+              },
+              "positionWorkload": "5"
             },
             {
               "uri": {
@@ -3979,15 +4289,18 @@
                 },
                 "firstName": "Thomas",
                 "lastName": "Tursics"
-              }
+              },
+              "positionWorkload": "5"
             }
           ],
           "suborganizationOrientation": "horizontal",
           "type": "Guilde",
           "name": "Semantische Daten und Wissensrepräsentation",
-          "id": "nce2d321c-101d-4a6c-9803-5561cf6fb53e"
+          "id": "nce2d321c-101d-4a6c-9803-5561cf6fb53e",
+          "purpose": ""
         }
-      ]
+      ],
+      "purpose": ""
     }
   ]
 }
