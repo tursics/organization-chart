@@ -1051,6 +1051,77 @@
     background-color: #ffffffc0;
   }
 
+  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2 > .sphere > .oc-container {
+    border-radius: 0 !important;
+    clip-path: shape(
+      from 100% 50%,
+      arc to 92% 57% of 6%,
+      arc to 86% 67% of 6.5%,
+      arc to 81% 78% of 6.5%,
+      arc to 81.1744900929% 89.0915741234% of 6.5%,
+      arc to 100% 50% of 50% large cw)
+  }
+  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2:nth-child(1) > .sphere > .oc-container {
+    transform: rotate(49deg);
+    > .oc-heading, > .oc-content {
+      transform: rotate(-49deg);
+    }
+  }
+  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2:nth-child(2) > .sphere > .oc-container {
+    transform: rotate(0deg);
+    > .oc-heading, > .oc-content {
+      transform: rotate(-0deg);
+    }
+  }
+  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2:nth-child(3) > .sphere > .oc-container {
+    transform: rotate(300deg);
+    > .oc-heading, > .oc-content {
+      transform: rotate(-300deg);
+    }
+  }
+  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2:nth-child(4) > .sphere > .oc-container {
+    transform: rotate(263deg);
+    > .oc-heading {
+      transform: rotate(-263deg);
+    }
+    > .oc-content {
+      transform: rotate(-300deg);
+      > .sub-organisations {
+        transform: rotate(37deg);
+      }
+    }
+  }
+  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2:nth-child(5) > .sphere > .oc-container {
+    transform: rotate(225deg);
+    > .oc-heading {
+      transform: rotate(-225deg);
+    }
+    > .oc-content {
+      transform: rotate(-200deg);
+      > .sub-organisations {
+        transform: rotate(-25deg);
+      }
+    }
+  }
+  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2:nth-child(6) > .sphere > .oc-container {
+    transform: rotate(180deg);
+    > .oc-heading, > .oc-content {
+      transform: rotate(-180deg);
+    }
+  }
+  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2:nth-child(7) > .sphere > .oc-container {
+    transform: rotate(128deg);
+    > .oc-heading, > .oc-content {
+      transform: rotate(-128deg);
+    }
+  }
+  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2:nth-child(8) > .sphere > .oc-container {
+    transform: rotate(83deg);
+    > .oc-heading, > .oc-content {
+      transform: rotate(-83deg);
+    }
+  }
+
   .chart-container {
     position: relative;
     ul.sub-organisations.horizontal {
