@@ -1253,49 +1253,49 @@
 
             // 3 children
             &:nth-child(1):nth-last-child(3) { left: 50%; top: 27%; }
-            &:nth-child(2):nth-last-child(2) { left: 69%; top: 72%; }
-            &:nth-child(3):nth-last-child(1) { left: 31%; top: 72%; }
+            &:nth-child(2):nth-last-child(2) { left: 31%; top: 72%; }
+            &:nth-child(3):nth-last-child(1) { left: 69%; top: 72%; }
 
             // 4 children
-            &:nth-child(1):nth-last-child(4) { left: 69%; top: 27%; }
-            &:nth-child(2):nth-last-child(3) { left: 69%; top: 72%; }
-            &:nth-child(3):nth-last-child(2) { left: 31%; top: 72%; }
-            &:nth-child(4):nth-last-child(1) { left: 31%; top: 27%; }
+            &:nth-child(1):nth-last-child(4) { left: 31%; top: 27%; }
+            &:nth-child(2):nth-last-child(3) { left: 31%; top: 72%; }
+            &:nth-child(3):nth-last-child(2) { left: 69%; top: 72%; }
+            &:nth-child(4):nth-last-child(1) { left: 69%; top: 27%; }
 
             // 5 children
-            &:nth-child(1):nth-last-child(5) { left: 67%; top: 25%; }
-            &:nth-child(2):nth-last-child(4) { left: 74%; top: 66%; }
+            &:nth-child(1):nth-last-child(5) { left: 33%; top: 25%; }
+            &:nth-child(2):nth-last-child(4) { left: 26%; top: 66%; }
             &:nth-child(3):nth-last-child(3) { left: 50%; top: 85%; }
-            &:nth-child(4):nth-last-child(2) { left: 26%; top: 66%; }
-            &:nth-child(5):nth-last-child(1) { left: 33%; top: 25%; }
+            &:nth-child(4):nth-last-child(2) { left: 74%; top: 66%; }
+            &:nth-child(5):nth-last-child(1) { left: 67%; top: 25%; }
 
             // 6 children
-            &:nth-child(1):nth-last-child(6) { left: 67%; top: 25%; }
-            &:nth-child(2):nth-last-child(5) { left: 85%; top: 50%; }
-            &:nth-child(3):nth-last-child(4) { left: 67%; top: 75%; }
-            &:nth-child(4):nth-last-child(3) { left: 33%; top: 75%; }
-            &:nth-child(5):nth-last-child(2) { left: 15%; top: 50%; }
-            &:nth-child(6):nth-last-child(1) { left: 33%; top: 25%; }
+            &:nth-child(1):nth-last-child(6) { left: 33%; top: 25%; }
+            &:nth-child(2):nth-last-child(5) { left: 15%; top: 50%; }
+            &:nth-child(3):nth-last-child(4) { left: 33%; top: 75%; }
+            &:nth-child(4):nth-last-child(3) { left: 67%; top: 75%; }
+            &:nth-child(5):nth-last-child(2) { left: 85%; top: 50%; }
+            &:nth-child(6):nth-last-child(1) { left: 67%; top: 25%; }
 
             // 8 children
-            &:nth-child(1):nth-last-child(8) { left: 63%; top: 17%; }
-            &:nth-child(2):nth-last-child(7) { left: 85%; top: 34%; }
-            &:nth-child(3):nth-last-child(6) { left: 85%; top: 67%; }
-            &:nth-child(4):nth-last-child(5) { left: 63%; top: 83%; }
-            &:nth-child(5):nth-last-child(4) { left: 37%; top: 83%; }
-            &:nth-child(6):nth-last-child(3) { left: 15%; top: 67%; }
-            &:nth-child(7):nth-last-child(2) { left: 15%; top: 34%; }
-            &:nth-child(8):nth-last-child(1) { left: 37%; top: 17%; }
+            &:nth-child(1):nth-last-child(8) { left: 37%; top: 17%; }
+            &:nth-child(2):nth-last-child(7) { left: 15%; top: 34%; }
+            &:nth-child(3):nth-last-child(6) { left: 15%; top: 67%; }
+            &:nth-child(4):nth-last-child(5) { left: 37%; top: 83%; }
+            &:nth-child(5):nth-last-child(4) { left: 63%; top: 83%; }
+            &:nth-child(6):nth-last-child(3) { left: 85%; top: 67%; }
+            &:nth-child(7):nth-last-child(2) { left: 85%; top: 34%; }
+            &:nth-child(8):nth-last-child(1) { left: 63%; top: 17%; }
 
             // 9 children
-            &:nth-child(1):nth-last-child(9) { left: 63%; top: 17%; }
-            &:nth-child(2):nth-last-child(8) { left: 85%; top: 34%; }
-            &:nth-child(3):nth-last-child(7) { left: 85%; top: 67%; }
-            &:nth-child(4):nth-last-child(6) { left: 63%; top: 83%; }
-            &:nth-child(5):nth-last-child(5) { left: 37%; top: 83%; }
-            &:nth-child(6):nth-last-child(4) { left: 15%; top: 67%; }
-            &:nth-child(7):nth-last-child(3) { left: 15%; top: 34%; }
-            &:nth-child(8):nth-last-child(2) { left: 37%; top: 17%; }
+            &:nth-child(1):nth-last-child(9) { left: 37%; top: 17%; }
+            &:nth-child(2):nth-last-child(8) { left: 15%; top: 34%; }
+            &:nth-child(3):nth-last-child(7) { left: 15%; top: 67%; }
+            &:nth-child(4):nth-last-child(6) { left: 37%; top: 83%; }
+            &:nth-child(5):nth-last-child(5) { left: 63%; top: 83%; }
+            &:nth-child(6):nth-last-child(4) { left: 85%; top: 67%; }
+            &:nth-child(7):nth-last-child(3) { left: 85%; top: 34%; }
+            &:nth-child(8):nth-last-child(2) { left: 63%; top: 17%; }
             &:nth-child(9):nth-last-child(1) { left: 50%; top: 50%; }
 
             // hack
