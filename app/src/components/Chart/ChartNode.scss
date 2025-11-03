@@ -300,10 +300,10 @@
 
                     &[data-workload] .person {
                       background: none;
-                      border: .05em solid #00000040;
+                      border: .05em solid #00000080;
                     }
                     &[data-workload] .person::after {
-                      background: #00000040;
+                      background: #00000080;
                       content: '';
                       height: .9em;
                       left: 0;
