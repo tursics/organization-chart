@@ -28,6 +28,7 @@ const propTypes = {
   multipleSelect: PropTypes.bool,
   changeHierarchy: PropTypes.func,
   onClickNode: PropTypes.func,
+  onClickPerson: PropTypes.func,
   onContextMenu: PropTypes.func,
   onDragNode: PropTypes.func,
   onAddInitNode: PropTypes.func,
@@ -48,6 +49,7 @@ const ChartNode = forwardRef(
       multipleSelect,
       changeHierarchy,
       onClickNode,
+      onClickPerson,
       onContextMenu,
       onDragNode,
       level,
@@ -259,12 +261,16 @@ const ChartNode = forwardRef(
                       ds={ds}
                       data={data}
                       positions={getHalfData(data.positions, "left")}
+                      onClickNode={onClickNode}
+                      onClickPerson={onClickPerson}
                     />
 
                     <ChartNodePositions
                       ds={ds}
                       data={data}
                       positions={getHalfData(data.positions, "right")}
+                      onClickNode={onClickNode}
+                      onClickPerson={onClickPerson}
                     />
                   </div>
                 )}
@@ -274,6 +280,8 @@ const ChartNode = forwardRef(
                       ds={ds}
                       data={data}
                       positions={data.positions}
+                      onClickNode={onClickNode}
+                      onClickPerson={onClickPerson}
                     />
                   )}
                 {ds.departments && ds.departments.length > 0 && (
@@ -411,6 +419,7 @@ const ChartNode = forwardRef(
                         multipleSelect={multipleSelect}
                         changeHierarchy={changeHierarchy}
                         onClickNode={onClickNode}
+                        onClickPerson={onClickPerson}
                         onContextMenu={onContextMenu}
                         onDragNode={onDragNode}
                       />
@@ -454,6 +463,7 @@ const ChartNode = forwardRef(
                 multipleSelect={multipleSelect}
                 changeHierarchy={changeHierarchy}
                 onClickNode={onClickNode}
+                onClickPerson={onClickPerson}
                 onContextMenu={onContextMenu}
                 onDragNode={onDragNode}
               />

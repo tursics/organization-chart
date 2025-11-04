@@ -34,6 +34,7 @@ const propTypes = {
   collapsible: PropTypes.bool,
   multipleSelect: PropTypes.bool,
   onClickNode: PropTypes.func,
+  onClickPerson: PropTypes.func,
   onDragNode: PropTypes.func,
   onClickChart: PropTypes.func,
   sendDataUp: PropTypes.func,
@@ -68,6 +69,7 @@ const ChartContainer = forwardRef(
       collapsible,
       multipleSelect,
       onClickNode,
+      onClickPerson,
       onClickChart,
       sendDataUp,
       onContextMenu,
@@ -681,6 +683,7 @@ const ChartContainer = forwardRef(
                     multipleSelect={multipleSelect}
                     changeHierarchy={changeHierarchy}
                     onClickNode={onClickNode}
+                    onClickPerson={onClickPerson}
                     onContextMenu={onContextMenu}
                     onDragNode={onDragNode}
                     onAddInitNode={onAddInitNode}

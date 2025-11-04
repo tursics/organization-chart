@@ -3,7 +3,34 @@ import React, { forwardRef } from "react";
 import { isDefiend, getGenderedPosition } from "../../services/service";
 import "./ChartNode.scss";
 
-const ChartNodePositions = forwardRef(({ ds, data, positions }, ref) => {
+const ChartNodePositions = forwardRef(
+  (
+    {
+      ds,
+      data,
+      positions,
+      onClickNode,
+      onClickPerson
+    },
+    ref
+  ) => {
+    const clickPersonHandler = (event) => {
+      event.stopPropagation();
+      event.nativeEvent.stopImmediatePropagation();
+
+      const pos = event.target.dataset.position;
+      const identifier = event.target.dataset.identifier;
+      const person = positions[pos];
+      const selector = document.querySelectorAll("[data-identifier='" + identifier + "']");
+
+      if (onClickPerson && (selector.length > 1)) {
+        onClickPerson(person);
+      } else if (onClickNode) {
+        onClickNode(ds);
+      }
+//      selectNodeService.sendSelectedNodeInfo(ds.id);
+    };
+
   return (
     <ul
       className={`positions${
@@ -39,7 +66,11 @@ const ChartNodePositions = forwardRef(({ ds, data, positions }, ref) => {
                         " (" + position.positionStatus + ")"}
                     </span>
                   )}
-                  <h4 className="person">
+                  <h4 className="person"
+                    onClick={clickPersonHandler}
+                    data-position={j}
+                    data-identifier={position?.person?.contact.email}
+                  >
                     {position?.person?.salutation}
                     {position?.person?.title && " "}
                     {position?.person?.title}

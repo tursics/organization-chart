@@ -67,6 +67,22 @@ const Chart = forwardRef(({ data, update, sendDataUp, setSelected }, ref) => {
     // }
   };
 
+  const readSelectedPerson = (nodeData) => {
+    setSelected(null);
+    setSelectedNode(null);
+
+    const oldSelector = document.querySelectorAll('.twin');
+    oldSelector.forEach((el) => {
+      el.classList.remove('twin');
+    });
+
+    const identifier = nodeData.person.contact.email;
+    const selector = document.querySelectorAll("[data-identifier='" + identifier + "']");
+    selector.forEach((el) => {
+      el.classList.add('twin');
+    });
+  };
+
   const clearSelectedNode = () => {
     setSelected(null);
     setSelectedNode(null);
@@ -189,6 +205,7 @@ const Chart = forwardRef(({ data, update, sendDataUp, setSelected }, ref) => {
         collapsible={false}
         // multipleSelect={isMultipleSelect}
         onClickNode={readSelectedNode}
+        onClickPerson={readSelectedPerson}
         onClickChart={clearSelectedNode}
         sendDataUp={onChanged}
         onAddInitNode={onAddInitNode}
