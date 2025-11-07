@@ -219,6 +219,13 @@ const ChartNode = forwardRef(
             }}
           >
             <div
+              className={`oc-container-background`}
+              style={{
+                backgroundColor:
+                  ds?.layout && ds.layout?.bgColor ? ds.layout?.bgColor : "",
+              }}
+            ></div>
+            <div
               className="oc-heading"
               style={{
                 backgroundColor:

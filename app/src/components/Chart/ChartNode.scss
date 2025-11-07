@@ -226,7 +226,8 @@
         }
 
         &.hide,
-        &.sphere {
+        &.sphere,
+        &.bittensphere {
           > .oc-container {
             border-radius: 50%;
             height: 14rem;
@@ -384,13 +385,13 @@
             // head of children
             &:has(> .oc-content > ul.positions > li:first-child .position) > .oc-content > ul.positions > li:first-child,
             &:has(> .oc-content > .grid-container > ul:first-child.positions > li:first-child .position) > .oc-content > .grid-container > ul:first-child.positions > li:first-child {
-                left: 50%;
-                top: 0;
+              left: 50%;
+              top: 0;
             }
             &:has(> .oc-content > ul.positions > li:nth-child(2) .position) > .oc-content > ul.positions > li:nth-child(2),
             &:has(> .oc-content > .grid-container > ul:nth-child(2).positions > li:first-child .position) > .oc-content > .grid-container > ul:nth-child(2).positions > li:first-child {
-                left: calc(50% + 3em);
-                top: .4em;
+              left: calc(50% + 3em);
+              top: .4em;
             }
           }
 
@@ -1084,7 +1085,8 @@
   }
 
   li.oc-hierarchy.level-1 > .hide > .oc-container,
-  li.oc-hierarchy.level-1 > .sphere > .oc-container {
+  li.oc-hierarchy.level-1 > .sphere > .oc-container,
+  li.oc-hierarchy.level-1 > .bittensphere > .oc-container {
     border-radius: 5em !important;
 
     > .oc-content {
@@ -1092,87 +1094,81 @@
     }
   }
   li.oc-hierarchy.level-2 > .hide > .oc-container > .oc-content,
-  li.oc-hierarchy.level-2 > .sphere > .oc-container > .oc-content {
+  li.oc-hierarchy.level-2 > .sphere > .oc-container > .oc-content,
+  li.oc-hierarchy.level-2 > .bittensphere > .oc-container > .oc-content {
     background-color: #ffffff40;
   }
   li.oc-hierarchy.level-3 > .hide > .oc-container > .oc-content,
-  li.oc-hierarchy.level-3 > .sphere > .oc-container > .oc-content {
+  li.oc-hierarchy.level-3 > .sphere > .oc-container > .oc-content,
+  li.oc-hierarchy.level-3 > .bittensphere > .oc-container > .oc-content {
     background-color: #ffffff80;
   }
   li.oc-hierarchy.level-4 > .hide > .oc-container > .oc-content,
-  li.oc-hierarchy.level-4 > .sphere > .oc-container > .oc-content {
+  li.oc-hierarchy.level-4 > .sphere > .oc-container > .oc-content,
+  li.oc-hierarchy.level-4 > .bittensphere > .oc-container > .oc-content {
     background-color: #ffffffc0;
   }
 
-  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2 > .sphere > .oc-container {
-    border-radius: 0 !important;
+  .bittensphere > .oc-container {
+    background: none !important;
+    position: relative;
+  }
+  .bittensphere > .oc-container > .oc-container-background {
+    bottom: 0;
     clip-path: shape(
       from 100% 50%,
       arc to 92% 57% of 6%,
       arc to 86% 67% of 6.5%,
       arc to 81% 78% of 6.5%,
       arc to 81.1744900929% 89.0915741234% of 6.5%,
-      arc to 100% 50% of 50% large cw)
+      arc to 100% 50% of 50% large cw);
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
-  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2:nth-child(1) > .sphere > .oc-container {
+  li.oc-hierarchy:nth-child(1) > .bittensphere > .oc-container > .oc-container-background {
     transform: rotate(49deg);
-    > .oc-heading, > .oc-content {
-      transform: rotate(-49deg);
-    }
   }
-  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2:nth-child(2) > .sphere > .oc-container {
+  li.oc-hierarchy:nth-child(2) > .bittensphere > .oc-container > .oc-container-background {
     transform: rotate(0deg);
-    > .oc-heading, > .oc-content {
-      transform: rotate(-0deg);
-    }
   }
-  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2:nth-child(3) > .sphere > .oc-container {
+  li.oc-hierarchy:nth-child(3) > .bittensphere > .oc-container > .oc-container-background {
     transform: rotate(300deg);
-    > .oc-heading, > .oc-content {
-      transform: rotate(-300deg);
+  }
+  li.oc-hierarchy:nth-child(4) > .bittensphere > .oc-container {
+    > .oc-container-background {
+      transform: rotate(263deg);
+    }
+
+    // head of children
+    &:has(> .oc-content > ul.positions > li:first-child .position) > .oc-content > ul.positions > li:first-child,
+    &:has(> .oc-content > .grid-container > ul:first-child.positions > li:first-child .position) > .oc-content > .grid-container > ul:first-child.positions > li:first-child {
+      left: 23% !important;
+      top: 7% !important;
     }
   }
-  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2:nth-child(4) > .sphere > .oc-container {
-    transform: rotate(263deg);
-    > .oc-heading {
-      transform: rotate(-263deg);
+  li.oc-hierarchy:nth-child(5) > .bittensphere > .oc-container {
+    > .oc-container-background {
+      transform: rotate(225deg);
     }
-    > .oc-content {
-      transform: rotate(-300deg);
-      > .sub-organisations {
-        transform: rotate(37deg);
-      }
-    }
-  }
-  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2:nth-child(5) > .sphere > .oc-container {
-    transform: rotate(225deg);
-    > .oc-heading {
-      transform: rotate(-225deg);
-    }
-    > .oc-content {
-      transform: rotate(-200deg);
-      > .sub-organisations {
-        transform: rotate(-25deg);
-      }
+
+    // head of children
+    &:has(> .oc-content > ul.positions > li:first-child .position) > .oc-content > ul.positions > li:first-child,
+    &:has(> .oc-content > .grid-container > ul:first-child.positions > li:first-child .position) > .oc-content > .grid-container > ul:first-child.positions > li:first-child {
+      left: 77% !important;
+      top: 7% !important;
     }
   }
-  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2:nth-child(6) > .sphere > .oc-container {
+  li.oc-hierarchy:nth-child(6) > .bittensphere > .oc-container > .oc-container-background {
     transform: rotate(180deg);
-    > .oc-heading, > .oc-content {
-      transform: rotate(-180deg);
-    }
   }
-  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2:nth-child(7) > .sphere > .oc-container {
+  li.oc-hierarchy:nth-child(7) > .bittensphere > .oc-container > .oc-container-background {
     transform: rotate(128deg);
-    > .oc-heading, > .oc-content {
-      transform: rotate(-128deg);
-    }
   }
-  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2:nth-child(8) > .sphere > .oc-container {
+  li.oc-hierarchy:nth-child(8) > .bittensphere > .oc-container > .oc-container-background {
     transform: rotate(83deg);
-    > .oc-heading, > .oc-content {
-      transform: rotate(-83deg);
-    }
   }
 
   .chart-container {
@@ -1354,7 +1350,8 @@
       position: relative;
     }
     .oc-node.hide > .oc-container,
-    .oc-node.sphere > .oc-container {
+    .oc-node.sphere > .oc-container,
+    .oc-node.bittensphere > .oc-container {
       > .oc-content {
         padding: 0;
 
