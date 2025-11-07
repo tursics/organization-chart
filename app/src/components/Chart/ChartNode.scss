@@ -273,6 +273,29 @@
                     margin: 0 !important;
                     position: relative;
 
+                    &::before {
+                      background: #eee;
+                      border: 0 solid #666;
+                      border-radius: 0 .5em .5em .5em;
+                      content: attr(data-tooltip);
+                      font-size: 1.25em;
+                      height: 0;
+                      left: 1.45em;
+                      overflow: hidden;
+                      padding: 0 .25em;
+                      pointer-events: none;
+                      position: absolute;
+                      top: .75em;
+                      white-space: nowrap;
+                      transition: border-width 250ms, height 250ms, padding 250ms;
+                      z-index: 9999;
+                    }
+                    &:hover::before {
+                      border-width: 1px;
+                      height: 2em;
+                      padding: .25em;
+                    }
+
                     .position {
                       background: #fff;
                       border-radius: 50%;

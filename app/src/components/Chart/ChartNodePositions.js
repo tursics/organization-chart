@@ -55,6 +55,13 @@ const ChartNodePositions = forwardRef(
                 <div
                   className="ms-1 mb-1"
                   data-workload={position?.positionWorkload || '100'}
+                  data-tooltip=
+                    {""
+                    + (position?.person?.salutation || "")
+                    + (position?.person?.title ? " " + position?.person?.title : "")
+                    + (position?.person?.firstName ? " " + position?.person?.firstName : "")
+                    + (position?.person?.lastName ? " " + position?.person?.lastName : "")
+                    }
                 >
                   {position.positionType && (
                     <span className="position">
