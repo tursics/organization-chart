@@ -27,7 +27,7 @@ const NewDocumetModal = (props) => {
 
     const fetchData = async (fileToLoad) => {
       try {
-        const response = await fetch(`data/templates/${fileToLoad}.json`); // Fetch the JSON file from the public directory
+        const response = await fetch(`data/templates/${fileToLoad}.json`, { cache: "reload" }); // Fetch the JSON file from the public directory
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
