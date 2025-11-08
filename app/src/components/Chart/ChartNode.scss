@@ -1093,6 +1093,10 @@
   .bittensphere > .oc-container {
     background: none !important;
     position: relative;
+
+    > .oc-content {
+      background: none !important;
+    }
   }
   .bittensphere > .oc-container > .oc-container-background {
     bottom: 0;

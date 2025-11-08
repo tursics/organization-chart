@@ -110,6 +110,7 @@ const NewDocumetModal = (props) => {
                     <option value="fitkoShort">FITKO mit Teamleitungen</option>
                     <option value="fitkoLong">FITKO mit allen Mitarbeitenden</option>
                     <option value="fitkoSphere">FITKO als Kreise</option>
+                    <option value="fitkoBitten">FITKO angebissen</option>
                   </Form.Select>
                 </Form.Group>
               </Col>
