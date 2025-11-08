@@ -278,6 +278,7 @@
                       background: #eee;
                       border: 0 solid #666;
                       border-radius: 0 .5em .5em .5em;
+                      color: #000;
                       content: attr(data-tooltip);
                       font-size: 1.25em;
                       height: 0;
@@ -289,7 +290,7 @@
                       top: .75em;
                       white-space: nowrap;
                       transition: border-width 250ms, height 250ms, padding 250ms;
-                      z-index: 9999;
+                      z-index: 10;
                     }
                     &:hover::before {
                       border-width: 1px;
@@ -386,7 +387,9 @@
             &:has(> .oc-content > ul.positions > li:first-child .position) > .oc-content > ul.positions > li:first-child,
             &:has(> .oc-content > .grid-container > ul:first-child.positions > li:first-child .position) > .oc-content > .grid-container > ul:first-child.positions > li:first-child {
               left: 50%;
+              position: absolute;
               top: 0;
+              z-index: 9;
             }
             &:has(> .oc-content > ul.positions > li:nth-child(2) .position) > .oc-content > ul.positions > li:nth-child(2),
             &:has(> .oc-content > .grid-container > ul:nth-child(2).positions > li:first-child .position) > .oc-content > .grid-container > ul:nth-child(2).positions > li:first-child {
@@ -1064,6 +1067,25 @@
               content: none;
             }
           }
+        }
+      }
+
+      &:has(.oc-node.hide > .oc-container > .oc-content ul.positions li > div:hover) {
+        z-index: 1;
+        .oc-node.hide > .oc-container > .oc-content ul.positions li:has(> div:hover) {
+          z-index: 1;
+        }
+      }
+      &:has(.oc-node.sphere > .oc-container > .oc-content ul.positions li > div:hover) {
+        z-index: 1;
+        .oc-node.sphere > .oc-container > .oc-content ul.positions li:has(> div:hover) {
+          z-index: 1;
+        }
+      }
+      &:has(.oc-node.bittensphere > .oc-container > .oc-content ul.positions li > div:hover) {
+        z-index: 1;
+        .oc-node.bittensphere > .oc-container > .oc-content ul.positions li:has(> div:hover) {
+          z-index: 1;
         }
       }
     }
