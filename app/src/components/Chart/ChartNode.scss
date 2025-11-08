@@ -226,8 +226,8 @@
         }
 
         &.hide,
-        &.sphere,
-        &.bittensphere {
+        &.sphere, &.compactsphere,
+        &.bittensphere, &.compactbittensphere {
           > .oc-container {
             border-radius: 50%;
             height: 14rem;
@@ -1076,15 +1076,19 @@
           z-index: 1;
         }
       }
-      &:has(.oc-node.sphere > .oc-container > .oc-content ul.positions li > div:hover) {
+      &:has(.oc-node.sphere > .oc-container > .oc-content ul.positions li > div:hover),
+      &:has(.oc-node.compactsphere > .oc-container > .oc-content ul.positions li > div:hover) {
         z-index: 1;
-        .oc-node.sphere > .oc-container > .oc-content ul.positions li:has(> div:hover) {
+        .oc-node.sphere > .oc-container > .oc-content ul.positions li:has(> div:hover),
+        .oc-node.compactsphere > .oc-container > .oc-content ul.positions li:has(> div:hover) {
           z-index: 1;
         }
       }
-      &:has(.oc-node.bittensphere > .oc-container > .oc-content ul.positions li > div:hover) {
+      &:has(.oc-node.bittensphere > .oc-container > .oc-content ul.positions li > div:hover),
+      &:has(.oc-node.compactbittensphere > .oc-container > .oc-content ul.positions li > div:hover) {
         z-index: 1;
-        .oc-node.bittensphere > .oc-container > .oc-content ul.positions li:has(> div:hover) {
+        .oc-node.bittensphere > .oc-container > .oc-content ul.positions li:has(> div:hover),
+        .oc-node.compactbittensphere > .oc-container > .oc-content ul.positions li:has(> div:hover) {
           z-index: 1;
         }
       }
@@ -1108,11 +1112,14 @@
 
   li.oc-hierarchy.level-1 > .hide > .oc-container,
   li.oc-hierarchy.level-1 > .sphere > .oc-container,
-  li.oc-hierarchy.level-1 > .bittensphere > .oc-container {
+  li.oc-hierarchy.level-1 > .compactsphere > .oc-container,
+  li.oc-hierarchy.level-1 > .bittensphere > .oc-container,
+  li.oc-hierarchy.level-1 > .compactbittensphere > .oc-container {
     border-radius: 5em !important;
   }
 
-  .bittensphere > .oc-container {
+  .bittensphere > .oc-container,
+  .compactbittensphere > .oc-container {
     background: none !important;
     position: relative;
 
@@ -1120,7 +1127,8 @@
       background: none !important;
     }
   }
-  .bittensphere > .oc-container > .oc-container-background {
+  .bittensphere > .oc-container > .oc-container-background,
+  .compactbittensphere > .oc-container > .oc-container-background {
     bottom: 0;
     clip-path: shape(
       from 100% 50%,
@@ -1135,16 +1143,20 @@
     right: 0;
     top: 0;
   }
-  li.oc-hierarchy:nth-child(1) > .bittensphere > .oc-container > .oc-container-background {
+  li.oc-hierarchy:nth-child(1) > .bittensphere > .oc-container > .oc-container-background,
+  li.oc-hierarchy:nth-child(1) > .compactbittensphere > .oc-container > .oc-container-background {
     transform: rotate(49deg);
   }
-  li.oc-hierarchy:nth-child(2) > .bittensphere > .oc-container > .oc-container-background {
+  li.oc-hierarchy:nth-child(2) > .bittensphere > .oc-container > .oc-container-background,
+  li.oc-hierarchy:nth-child(2) > .compactbittensphere > .oc-container > .oc-container-background {
     transform: rotate(0deg);
   }
-  li.oc-hierarchy:nth-child(3) > .bittensphere > .oc-container > .oc-container-background {
+  li.oc-hierarchy:nth-child(3) > .bittensphere > .oc-container > .oc-container-background,
+  li.oc-hierarchy:nth-child(3) > .compactbittensphere > .oc-container > .oc-container-background {
     transform: rotate(300deg);
   }
-  li.oc-hierarchy:nth-child(4) > .bittensphere > .oc-container {
+  li.oc-hierarchy:nth-child(4) > .bittensphere > .oc-container,
+  li.oc-hierarchy:nth-child(4) > .compactbittensphere > .oc-container {
     > .oc-container-background {
       transform: rotate(263deg);
     }
@@ -1156,7 +1168,8 @@
       top: 7% !important;
     }
   }
-  li.oc-hierarchy:nth-child(5) > .bittensphere > .oc-container {
+  li.oc-hierarchy:nth-child(5) > .bittensphere > .oc-container,
+  li.oc-hierarchy:nth-child(5) > .compactbittensphere > .oc-container {
     > .oc-container-background {
       transform: rotate(225deg);
     }
@@ -1168,13 +1181,16 @@
       top: 7% !important;
     }
   }
-  li.oc-hierarchy:nth-child(6) > .bittensphere > .oc-container > .oc-container-background {
+  li.oc-hierarchy:nth-child(6) > .bittensphere > .oc-container > .oc-container-background,
+  li.oc-hierarchy:nth-child(6) > .compactbittensphere > .oc-container > .oc-container-background {
     transform: rotate(180deg);
   }
-  li.oc-hierarchy:nth-child(7) > .bittensphere > .oc-container > .oc-container-background {
+  li.oc-hierarchy:nth-child(7) > .bittensphere > .oc-container > .oc-container-background,
+  li.oc-hierarchy:nth-child(7) > .compactbittensphere > .oc-container > .oc-container-background {
     transform: rotate(128deg);
   }
-  li.oc-hierarchy:nth-child(8) > .bittensphere > .oc-container > .oc-container-background {
+  li.oc-hierarchy:nth-child(8) > .bittensphere > .oc-container > .oc-container-background,
+  li.oc-hierarchy:nth-child(8) > .compactbittensphere > .oc-container > .oc-container-background {
     transform: rotate(83deg);
   }
 
@@ -1358,7 +1374,9 @@
     }
     .oc-node.hide > .oc-container,
     .oc-node.sphere > .oc-container,
-    .oc-node.bittensphere > .oc-container {
+    .oc-node.compactsphere > .oc-container,
+    .oc-node.bittensphere > .oc-container,
+    .oc-node.compactbittensphere > .oc-container {
       > .oc-content {
         padding: 0;
 
@@ -1519,6 +1537,27 @@
         > .oc-heading {
           padding: 0 0.2em;
           top: 3em;
+        }
+      }
+    }
+
+    .oc-node.compactsphere > .oc-container,
+    .oc-node.compactbittensphere > .oc-container {
+      // 2 children
+      &:has(> .oc-content > ul.sub-organisations.embed > li:first-child:nth-last-child(2)) {
+        height: 14em;
+        width: 14em;
+        > .oc-heading {
+          top: 52%;
+        }
+      }
+
+      // 3 children
+      &:has(> .oc-content > ul.sub-organisations.embed > li:first-child:nth-last-child(3)) {
+        height: 17em;
+        width: 17em;
+        > .oc-heading {
+          top: 51%;
         }
       }
     }

@@ -109,14 +109,16 @@
               "type": "string",
               "title": "Stil",
               "default": "default",
-              "enum": ["default", "emphasized", "light", "hide", "sphere", "bittensphere"],
+              "enum": ["default", "emphasized", "light", "hide", "sphere", "compactsphere", "bittensphere", "compactbittensphere"],
               "enumNames": [
                 "Standard",
                 "Hervorgehoben",
                 "Zurückgenommen",
                 "Verbindung",
                 "Kreisbereich",
-                "Angebissener Kreisbereich"
+                "Kreisbereich (kompakt)",
+                "Angebissener Kreisbereich",
+                "Angebissener Kreisbereich (kompakt)"
               ]
             },
             "bgColor": {

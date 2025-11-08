@@ -32,7 +32,7 @@
         {
           "isMainOrganisation": false,
           "layout": {
-            "style": "sphere",
+            "style": "compactsphere",
             "bgColor": "#c5e1a5",
             "frameColor": "#8bc34a",
             "backgroundColor": "#c5e1a5",
@@ -139,7 +139,7 @@
         {
           "isMainOrganisation": false,
           "layout": {
-            "style": "sphere",
+            "style": "compactsphere",
             "bgColor": "#c5e1a5",
             "frameColor": "#8bc34a",
             "backgroundColor": "#c5e1a5",
