@@ -1088,25 +1088,6 @@
   li.oc-hierarchy.level-1 > .sphere > .oc-container,
   li.oc-hierarchy.level-1 > .bittensphere > .oc-container {
     border-radius: 5em !important;
-
-    > .oc-content {
-      background-color: #ffffff00;
-    }
-  }
-  li.oc-hierarchy.level-2 > .hide > .oc-container > .oc-content,
-  li.oc-hierarchy.level-2 > .sphere > .oc-container > .oc-content,
-  li.oc-hierarchy.level-2 > .bittensphere > .oc-container > .oc-content {
-    background-color: #ffffff40;
-  }
-  li.oc-hierarchy.level-3 > .hide > .oc-container > .oc-content,
-  li.oc-hierarchy.level-3 > .sphere > .oc-container > .oc-content,
-  li.oc-hierarchy.level-3 > .bittensphere > .oc-container > .oc-content {
-    background-color: #ffffff80;
-  }
-  li.oc-hierarchy.level-4 > .hide > .oc-container > .oc-content,
-  li.oc-hierarchy.level-4 > .sphere > .oc-container > .oc-content,
-  li.oc-hierarchy.level-4 > .bittensphere > .oc-container > .oc-content {
-    background-color: #ffffffc0;
   }
 
   .bittensphere > .oc-container {

@@ -124,6 +124,8 @@ const OrganisationTab = ({ sendDataUp, selected, setSelected, dsDigger }) => {
           title: "Stil",
         },
         bgColor: {},
+        frameColor: {},
+        backgroundColor: {},
         bgStyle: {
           "ui:disabled": !formData.current.layout?.bgColor,
           "ui:widget": "radio",

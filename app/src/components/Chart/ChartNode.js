@@ -12,6 +12,7 @@ import {
   dragNodeService,
   selectNodeService,
   getContrastTextColor,
+  getContrastTextColorDefaultBlack,
   getHalfData,
   computeBackgroundColor,
 } from "../../services/service";
@@ -215,7 +216,7 @@ const ChartNode = forwardRef(
             }`}
             style={{
               backgroundColor:
-                ds?.layout && ds.layout?.bgColor ? ds.layout?.bgColor : "",
+                ds?.layout && ds.layout?.frameColor ? ds.layout?.frameColor : "",
             }}
           >
             <div
@@ -261,7 +262,12 @@ const ChartNode = forwardRef(
               )}
             </div>
             {(ds.departments || ds.positions || ds.contact || ds.address) && (
-              <div className="oc-content">
+              <div className="oc-content"
+                style={{
+                  backgroundColor: ds.layout?.backgroundColor,
+                  color: `${getContrastTextColorDefaultBlack(ds.layout?.backgroundColor)}`,
+                }}
+              >
                 {ds.positions && ds.layout?.grid === "grid2" && (
                   <div className="grid-container">
                     <ChartNodePositions
