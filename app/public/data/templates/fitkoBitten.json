@@ -685,7 +685,7 @@
             {
               "isMainOrganisation": false,
               "layout": {
-                "style": "bittensphere",
+                "style": "sphere",
                 "bgColor": "#ffd54f",
                 "frameColor": "#ffb300",
                 "backgroundColor": "#ffd54f",
