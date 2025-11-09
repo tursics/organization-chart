@@ -1194,6 +1194,100 @@
     transform: rotate(83deg);
   }
 
+  // it's a hack
+  li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2 {
+    > .oc-node > .oc-container > .oc-content > ul.departments {
+      display: block;
+      height: 100%;
+      padding: 0;
+      position: absolute;
+      width: 100%;
+
+      &::after {
+        background-color: #29b6f6;
+        content: "";
+        display: block;
+        height: .2em;
+        position: absolute;
+        left: -11em;
+        top: 50%;
+        transform: translate(.5em, -.1em);
+        width: 10em;
+      }
+      &::before {
+        border-bottom: 1em solid transparent;
+        border-right: 2em solid #29b6f6;
+        border-top: 1em solid transparent;
+        content: '';
+        height: 0;
+        left: -11em;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        width: 0 !important;
+      }
+    }
+    &:nth-child(1) > .oc-node > .oc-container > .oc-content > ul.departments {
+      transform: rotate(206+49deg);
+      &::after, &::before {
+        left: -13em;
+        width: 11em;
+      }
+    }
+    &:nth-child(2) > .oc-node > .oc-container > .oc-content > ul.departments {
+      transform: rotate(206+0deg);
+      &::after, &::before {
+        left: -15em;
+        width: 13em;
+      }
+    }
+    &:nth-child(3) > .oc-node > .oc-container > .oc-content > ul.departments {
+      transform: rotate(206+300deg);
+      &::after, &::before {
+        left: -15em;
+        width: 13em;
+      }
+    }
+    &:nth-child(4) > .oc-node > .oc-container > .oc-content > ul.departments {
+      transform: rotate(206+263deg);
+      &::after, &::before {
+        left: -7em;
+        width: 5em;
+      }
+    }
+    &:nth-child(5) > .oc-node > .oc-container > .oc-content > ul.departments {
+      transform: rotate(206+225deg);
+      &::after, &::before {
+        left: -7em;
+        width: 5em;
+      }
+    }
+    &:nth-child(6) > .oc-node > .oc-container > .oc-content > ul.departments {
+      transform: rotate(206+180deg);
+      &::after, &::before {
+        left: -8em;
+        width: 5em;
+      }
+    }
+    &:nth-child(7) > .oc-node > .oc-container > .oc-content > ul.departments {
+      transform: rotate(206+128deg);
+      &::after, &::before {
+        left: -9em;
+        width: 7em;
+      }
+    }
+    &:nth-child(8) > .oc-node > .oc-container > .oc-content > ul.departments {
+      transform: rotate(206+83deg);
+      &::after, &::before {
+        left: -4em;
+        width: 2em;
+      }
+    }
+    &:nth-child(9) > .oc-node > .oc-container > .oc-content > ul.departments {
+      display: none;
+    }
+  }
+
   .chart-container {
     position: relative;
     ul.sub-organisations.horizontal {
