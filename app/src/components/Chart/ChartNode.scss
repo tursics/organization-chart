@@ -1073,7 +1073,7 @@
       &:has(.oc-node.hide > .oc-container > .oc-content ul.positions li > div:hover) {
         z-index: 1;
         .oc-node.hide > .oc-container > .oc-content ul.positions li:has(> div:hover) {
-          z-index: 1;
+//          z-index: 1;
         }
       }
       &:has(.oc-node.sphere > .oc-container > .oc-content ul.positions li > div:hover),
@@ -1081,7 +1081,7 @@
         z-index: 1;
         .oc-node.sphere > .oc-container > .oc-content ul.positions li:has(> div:hover),
         .oc-node.compactsphere > .oc-container > .oc-content ul.positions li:has(> div:hover) {
-          z-index: 1;
+//          z-index: 1;
         }
       }
       &:has(.oc-node.bittensphere > .oc-container > .oc-content ul.positions li > div:hover),
@@ -1089,7 +1089,7 @@
         z-index: 1;
         .oc-node.bittensphere > .oc-container > .oc-content ul.positions li:has(> div:hover),
         .oc-node.compactbittensphere > .oc-container > .oc-content ul.positions li:has(> div:hover) {
-          z-index: 1;
+//          z-index: 1;
         }
       }
     }
@@ -1196,7 +1196,10 @@
 
   // it's a hack
   li.oc-hierarchy.level-1:first-child li.oc-hierarchy.level-2 {
-    > .oc-node > .oc-container > .oc-content > ul.departments {
+    > .oc-node.sphere > .oc-container > .oc-content > ul.departments,
+    > .oc-node.compactsphere > .oc-container > .oc-content > ul.departments,
+    > .oc-node.bittensphere > .oc-container > .oc-content > ul.departments,
+    > .oc-node.compactbittensphere > .oc-container > .oc-content > ul.departments {
       display: block;
       height: 100%;
       padding: 0;
@@ -1207,11 +1210,11 @@
         background-color: #29b6f6;
         content: "";
         display: block;
-        height: .2em;
+        height: .4em;
         position: absolute;
         left: -11em;
         top: 50%;
-        transform: translate(.5em, -.1em);
+        transform: translate(.5em, -.2em);
         width: 10em;
       }
       &::before {
