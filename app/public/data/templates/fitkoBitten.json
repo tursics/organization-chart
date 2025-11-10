@@ -485,7 +485,7 @@
                     "firstName": "Marie",
                     "lastName": "Lindner"
                   },
-                  "positionWorkload": "75"
+                  "positionWorkload": "25"
                 },
                 {
                   "uri": {
@@ -3099,7 +3099,7 @@
                     "firstName": "Marie",
                     "lastName": "Lindner"
                   },
-                  "positionWorkload": "25"
+                  "positionWorkload": "75"
                 },
                 {
                   "uri": {
@@ -3532,7 +3532,7 @@
     },
     {
       "type": "Virtuell",
-      "name": "Guilden",
+      "name": "Gilden",
       "id": "nf0e13efd-0a43-42e4-8a8b-6bbe69bc7a8d",
       "uri": {
         "uri": "https://berlin.github.io/lod-organigram/organisation-3160921e5a"
