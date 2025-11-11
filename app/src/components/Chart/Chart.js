@@ -71,15 +71,42 @@ const Chart = forwardRef(({ data, update, sendDataUp, setSelected }, ref) => {
     setSelected(null);
     setSelectedNode(null);
 
-    const oldSelector = document.querySelectorAll('.twin');
+    let oldSelector = document.querySelectorAll('.twin');
     oldSelector.forEach((el) => {
       el.classList.remove('twin');
+    });
+    oldSelector = document.querySelectorAll('.twinlink');
+    oldSelector.forEach((el) => {
+      el.remove();
     });
 
     const identifier = nodeData.person.contact.email;
     const selector = document.querySelectorAll("[data-identifier='" + identifier + "']");
+/*    const root = document.querySelector('.chart');
+    const pager = document.querySelector('.paper');
+    const matrix = root.style.transform.split('(')[1].split(')')[0].split(',');
+    const pmatrix = pager.style.transform.split('(')[1].split(')')[0].split(',');*/
+
     selector.forEach((el) => {
       el.classList.add('twin');
+
+/*      let left = el.getBoundingClientRect().x / pmatrix[0] - root.getBoundingClientRect().x;
+      let top = el.getBoundingClientRect().y / pmatrix[3] - root.getBoundingClientRect().y;
+
+      left = left - matrix[4] / matrix[0] / pmatrix[0];
+      top = top - matrix[5] / matrix[3] / pmatrix[3];
+console.log(matrix);
+console.log(pmatrix);
+
+const rect = el.getBoundingClientRect();
+console.log(rect);
+
+      const elem = document.createElement('span');
+      elem.innerHTML = 'Foo Bar Buz';
+      elem.className = 'twinlink';
+      elem.style.left = (left) + 'px';
+      elem.style.top = (top) + 'px';
+      root.appendChild(elem);*/
     });
   };
 
@@ -216,7 +243,7 @@ const Chart = forwardRef(({ data, update, sendDataUp, setSelected }, ref) => {
         }}
         pan={true}
         zoom={true}
-        draggable={true}
+        draggable={false}
         contentEditable={true}
       />
       {contextMenuStyle && (
