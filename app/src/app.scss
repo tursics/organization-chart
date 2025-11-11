@@ -133,6 +133,7 @@ body {
           }
           &.active {
             background-color: $primary;
+            color: $gray-400;
           }
         }
       }
