@@ -48,7 +48,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-efb4a85a2a"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 166",
                   "email": "michael.pfleger@fitko.de"
@@ -83,7 +82,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-58c411d427"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 177",
                       "email": "Nina.Baierl@fitko.de"
@@ -122,7 +120,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-a8a722ee92"
                   },
                   "person": {
-                    "gender": "1",
                     "contact": {},
                     "uri": {
                       "uri": "https://berlin.github.io/lod-organigram/person-935bbd7fc4"
@@ -165,7 +162,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-00779a8dfd"
               },
               "person": {
-                "gender": "w",
                 "contact": {
                   "telephone": "+49 (69) 401270 105",
                   "email": "Ariana.Neves@fitko.de"
@@ -199,7 +195,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-ecf1a392d4"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 147",
                       "email": "Mareike.Barthelmeh@fitko.de"
@@ -216,7 +211,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-615e90abe5"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 163",
                       "email": "lea.friedmann@fitko.de"
@@ -233,7 +227,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-1a5c48ac9a"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 107",
                       "email": "Annika.Hitzel@fitko.de"
@@ -250,7 +243,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-2d1727e737"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 122",
                       "email": "Sophia.CatalanMedina@fitko.de"
@@ -267,7 +259,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-988fe95a7a"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "email": "AdrianRaul.Pechar@fitko.de"
                     },
@@ -304,7 +295,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-97e3871795"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 143",
                       "email": "anke.flemming@fitko.de"
@@ -321,7 +311,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-9d556a4774"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 128",
                       "email": "thomas.pinz@fitko.de"
@@ -359,7 +348,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-3d6620f04a"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 120",
                       "email": "martin.jedrzejowski@fitko.de"
@@ -376,7 +364,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-8343b48d17"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "email": "anjeschka.linier@fitko.de"
                     },
@@ -420,7 +407,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-063a81ce50"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 126",
                   "email": "Yacine.Jung@fitko.de"
@@ -455,7 +441,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-bc83c55dec"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 179",
                       "email": "Moritz.Dittrich@fitko.de"
@@ -472,7 +457,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-f3be925f2e"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 185",
                       "email": "marie.lindner@fitko.de"
@@ -490,7 +474,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-09ac367863"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 112",
                       "email": "Jonas.Meinig@fitko.de"
@@ -529,7 +512,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-7bf716fe06"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 228",
                       "email": "leopold.klemencic@fitko.de"
@@ -546,7 +528,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-5cad86a8a0"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 155",
                       "email": "pittobias.krichbaum@fitko.de"
@@ -564,7 +545,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-01b7677424"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 181",
                       "email": "Bianca.Molitor@fitko.de"
@@ -581,7 +561,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-ac5266acbe"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+ 49 (69) 401270 144",
                       "email": "johannes.volz@fitko.de"
@@ -598,7 +577,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-8b1d8139a3"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 127",
                       "email": "Veronika.Weprich@fitko.de"
@@ -615,7 +593,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-57f685a3cc"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 176",
                       "email": "bianka.zurek@fitko.de"
@@ -660,7 +637,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-c89d7c4103"
               },
               "person": {
-                "gender": "w",
                 "contact": {
                   "telephone": "+49 (69) 401270 104",
                   "email": "Ulrike.Czech@fitko.de"
@@ -695,7 +671,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-7cd8e4b49a"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 102",
                       "email": "Sybille.Graeff@fitko.de"
@@ -713,7 +688,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-b6e94cf238"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 180",
                       "email": "Andrea.Frank@fitko.de"
@@ -730,7 +704,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-5ecde548a4"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 133",
                       "email": "Bianka.Hampel@fitko.de"
@@ -747,7 +720,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-518ed87174"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 218",
                       "email": "Jonas-M.Hoffmann@fitko.de"
@@ -764,7 +736,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-0fc4dd5752"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 182",
                       "email": "Destiny.Ibarra@fitko.de"
@@ -781,7 +752,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-296264964d"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 229",
                       "email": "marion.opitz@fitko.de"
@@ -798,7 +768,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-fce16c0c3b"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 183",
                       "email": "Chantelle.Walldorf@fitko.de"
@@ -836,7 +805,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-d8d4ae0631"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 141",
                       "email": "Alexander.Sturm@fitko.de"
@@ -855,7 +823,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-73c8a018bb"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 219",
                       "email": "katharina.liehr@fitko.de"
@@ -872,7 +839,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-51e07569e7"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 171",
                       "email": "markus.loser@fitko.de"
@@ -890,7 +856,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-c36cd9fb72"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 224",
                       "email": "tanja.zeiss@fitko.de"
@@ -928,7 +893,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-50be74909f"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 194",
                       "email": "moritz.beyer@fitko.de"
@@ -945,7 +909,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-96182be72d"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 123",
                       "email": "fabio.carriero@fitko.de"
@@ -962,7 +925,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-5ba2dfbc79"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 215",
                       "email": "nina.seidenberg@fitko.de"
@@ -979,7 +941,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-1b5b412774"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 131",
                       "email": "uemit.Soenmez@fitko.de"
@@ -1025,7 +986,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-f89c456dd6"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 103",
                   "email": "joerg.kremer@fitko.de"
@@ -1059,7 +1019,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-b92e1b1c10"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 162",
                       "email": "dominik.braun@fitko.de"
@@ -1076,7 +1035,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-f14bec7287"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 178",
                       "email": "George-Petru.Ciordas-Hertel@fitko.de"
@@ -1095,7 +1053,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-7407c35255"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 167",
                       "email": "johanna.gramlich@fitko.de"
@@ -1113,7 +1070,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-2caeedffa4"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 139",
                       "email": "Marco.Holz@fitko.de"
@@ -1130,7 +1086,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-9411b97310"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 109",
                       "email": "Alexander.Hoose@fitko.de"
@@ -1147,7 +1102,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-0ccdd3d1ed"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "email": "tobias.huber@fitko.de"
                     },
@@ -1163,7 +1117,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-dbfdccd952"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 207",
                       "email": "josephine.see@fitko.de"
@@ -1180,7 +1133,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-44fc0f2b02"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "email": "Silvan.Verhoeven@fitko.de"
                     },
@@ -1217,7 +1169,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-169e0205e7"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 152",
                       "email": "andreas.braunroth@fitko.de"
@@ -1234,7 +1185,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-e8656f4232"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 217",
                       "email": "cornelia.diebel@fitko.de"
@@ -1251,7 +1201,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-d623eef943"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 142",
                       "email": "Tobias.Schuh@fitko.de"
@@ -1289,7 +1238,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-fedf709f6d"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 153",
                       "email": "markus.albert@fitko.de"
@@ -1335,7 +1283,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-beb5257168"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 138",
                   "email": "Stephan.Bartholmei@fitko.de"
@@ -1369,7 +1316,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-101c062378"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 146",
                       "email": "david.brodesser@fitko.de"
@@ -1387,7 +1333,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-8b627f1a69"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 187",
                       "email": "martin.fraeulin@fitko.de"
@@ -1404,7 +1349,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-82c4ebf272"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 223",
                       "email": "franziska.hoffmeister@fitko.de"
@@ -1421,7 +1365,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-21b04bccf1"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 213",
                       "email": "meinhard.kroll@fitko.de"
@@ -1438,7 +1381,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-391633c30c"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 136",
                       "email": "Hauke.Traulsen@fitko.de"
@@ -1456,7 +1398,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-4b51ce0eb9"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 197",
                       "email": "janpascal.wittmann@fitko.de"
@@ -1495,7 +1436,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-be68cc4287"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 106",
                       "email": "Thorsten.Maid@fitko.de"
@@ -1513,7 +1453,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-6cf8e79db9"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 199",
                       "email": "philipp.birlo@fitko.de"
@@ -1530,7 +1469,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-ca35bb3f39"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 164",
                       "email": "valeria.blesius@fitko.de"
@@ -1547,7 +1485,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-c59b355dc8"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 140",
                       "email": "martin.georg@fitko.de"
@@ -1564,7 +1501,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-db0dd761a4"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 125",
                       "email": "dennis.mund@fitko.de"
@@ -1581,7 +1517,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-ae0f694e7e"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 149",
                       "email": "sebastian.quendt@fitko.de"
@@ -1598,7 +1533,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-780e6d38ad"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 208",
                       "email": "mark-fabian.slaby@fitko.de"
@@ -1615,7 +1549,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-50d6f9ee1e"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 151",
                       "email": "antje.zahn@fitko.de"
@@ -1653,7 +1586,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-b08acc9d52"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 134",
                       "email": "Lisa.Eckhardt@fitko.de"
@@ -1671,7 +1603,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-366bafdde3"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 137",
                       "email": "Tristan.Anding@fitko.de"
@@ -1689,7 +1620,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-4fec9314ad"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 205",
                       "email": "frank.beutell@fitko.de"
@@ -1706,7 +1636,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-4c2116b212"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 184",
                       "email": "Kai-Uwe.Fechner@fitko.de"
@@ -1723,7 +1652,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-052c0a77ea"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 196",
                       "email": "clemens.fell@fitko.de"
@@ -1742,7 +1670,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-f9d81b05b0"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 204",
                       "email": "joanna.groumpas@fitko.de"
@@ -1759,7 +1686,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-cfcca6a21a"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 230",
                       "email": "jana.janze@fitko.de"
@@ -1777,7 +1703,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-bd63d2c3d9"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 173",
                       "email": "luca.mollenhauer@fitko.de"
@@ -1794,7 +1719,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-84de56317e"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 198",
                       "email": "laura.rosenbauer@fitko.de"
@@ -1812,7 +1736,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-420298664c"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 130",
                       "email": "Annette.Schmidt-Hansen@fitko.de"
@@ -1829,7 +1752,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-ea47363a14"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 212",
                       "email": "benjamin.schurig@fitko.de"
@@ -1868,7 +1790,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-1a76cbafc1"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 154",
                       "email": "thomas.tursics@fitko.de"
@@ -1886,7 +1807,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-eacd3da0fc"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 172",
                       "email": "daniel.biedermann@fitko.de"
@@ -1904,7 +1824,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-00cf2fe1aa"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 124",
                       "email": "matthias.groenewald@fitko.de"
@@ -1923,7 +1842,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-6aaf317eec"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 175",
                       "email": "anne.ott@fitko.de"
@@ -1940,7 +1858,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-8f44a8f1be"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 231",
                       "email": "nils.preuss@fitko.de"
@@ -1957,7 +1874,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-2e8b409b17"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 110",
                       "email": "Ulrike.Raab@fitko.de"
@@ -1974,7 +1890,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-8acecedde1"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 119",
                       "email": "hendrik.stier@fitko.de"
@@ -2020,7 +1935,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-e6d71de9e0"
               },
               "person": {
-                "gender": "w",
                 "contact": {
                   "telephone": "+49 (69) 401270 111",
                   "email": "Christine.Kamburg@fitko.de"
@@ -2054,7 +1968,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-1d041cc72b"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 108",
                       "email": "Nadina.Doufrain@fitko.de"
@@ -2072,7 +1985,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-90dbbf5231"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 200",
                       "email": "eda.guemues@fitko.de"
@@ -2089,7 +2001,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-491c6ebadb"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 145",
                       "email": "christian.kreuzer@fitko.de"
@@ -2106,7 +2017,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-07629053d6"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 214",
                       "email": "georgia.markquart@fitko.de"
@@ -2145,7 +2055,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-32b86ed612"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 174",
                       "email": "michaela.schuldt@fitko.de"
@@ -2184,7 +2093,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-ad2a495aab"
                   },
                   "person": {
-                    "gender": "1",
                     "contact": {},
                     "uri": {
                       "uri": "https://berlin.github.io/lod-organigram/person-bb0e8468a9"
@@ -2220,7 +2128,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-bf564faaa7"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 113",
                       "email": "moritz.ahlers@fitko.de"
@@ -2239,7 +2146,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-8ad9d692d5"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 206",
                       "email": "martin.haubold@fitko.de"
@@ -2256,7 +2162,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-d7abaca265"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 160",
                       "email": "jonas.hofmann@fitko.de"
@@ -2273,7 +2178,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-6f05bbacc5"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 121",
                       "email": "Emanuela.Hundz@fitko.de"
@@ -2290,7 +2194,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-bb6d2b8bd2"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 201",
                       "email": "jakob.schuster@fitko.de"
@@ -2308,7 +2211,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-40d5cc4c6d"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 190",
                       "email": "katja.seidel@fitko.de"
@@ -2347,7 +2249,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-b25b139fb7"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 148",
                       "email": "mareike.banaszak@fitko.de"
@@ -2365,7 +2266,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-0f9bef4869"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 170",
                       "email": "leon.lotz@fitko.de"
@@ -2383,7 +2283,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-006ff1444e"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 168",
                       "email": "isabella.simicic@fitko.de"
@@ -2430,7 +2329,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-3c7d49467d"
               },
               "person": {
-                "gender": "w",
                 "contact": {
                   "telephone": "49 (69) 401270 159",
                   "email": "annaluisa.lippold@fitko.de"
@@ -2465,7 +2363,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-b3c1330b09"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 189",
                       "email": "michaela.eid@fitko.de"
@@ -2482,7 +2379,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-e981e01ffb"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 151 70611329",
                       "email": "verena.fercho@fitko.de"
@@ -2500,7 +2396,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-da1ab961c0"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 157",
                       "email": "Tanja.Gampfer@fitko.de"
@@ -2517,7 +2412,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-54c7a770e3"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 188",
                       "email": "maximilian.walter@fitko.de"
@@ -2555,7 +2449,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-438973f000"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 222",
                       "email": "HannsSimon.Eckhardt@fitko.de"
@@ -2574,7 +2467,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-329e9c6805"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 277",
                       "email": "jan.goetze@fitko"
@@ -2592,7 +2484,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-65d78af807"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 158",
                       "email": "Phie.Ott@fitko.de"
@@ -2632,7 +2523,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-9748496054"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 221",
                       "email": "andreas.berkenkopf@fitko.de"
@@ -2649,7 +2539,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-2c4d2d1022"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 225",
                       "email": "hansjoachim.hack@fitko.de"
@@ -2666,7 +2555,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-d4406253b9"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 202",
                       "email": "dennis.hummel@fitko.de"
@@ -2684,7 +2572,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-aced0c0d64"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 156",
                       "email": "linda.meier@fitko.de"
@@ -2702,7 +2589,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-b47bf0bd19"
                   },
                   "person": {
-                    "gender": "1",
                     "contact": {},
                     "uri": {
                       "uri": "https://berlin.github.io/lod-organigram/person-b8d24143c3"
@@ -2716,7 +2602,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-e726ab27f1"
                   },
                   "person": {
-                    "gender": "1",
                     "contact": {},
                     "uri": {
                       "uri": "https://berlin.github.io/lod-organigram/person-3858605bae"
@@ -2730,7 +2615,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-e93ab13953"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 203",
                       "email": "claudia.feyziShandi@fitko.de"
@@ -2769,7 +2653,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-fa025d0c79"
                   },
                   "person": {
-                    "gender": "1",
                     "contact": {},
                     "uri": {
                       "uri": "https://berlin.github.io/lod-organigram/person-5be2b12b4c"
@@ -2826,7 +2709,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-407352e097"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 148",
                       "email": "mareike.banaszak@fitko.de"
@@ -2844,7 +2726,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-fb5785d627"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 196",
                       "email": "clemens.fell@fitko.de"
@@ -2863,7 +2744,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-b44690fac2"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 230",
                       "email": "jana.janze@fitko.de"
@@ -2881,7 +2761,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-631d68d9c4"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 170",
                       "email": "leon.lotz@fitko.de"
@@ -2899,7 +2778,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-36371436a4"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 198",
                       "email": "laura.rosenbauer@fitko.de"
@@ -2917,7 +2795,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-d0fb0bda3f"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 168",
                       "email": "isabella.simicic@fitko.de"
@@ -2956,7 +2833,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-277684e0d9"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 172",
                       "email": "daniel.biedermann@fitko.de"
@@ -2974,7 +2850,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-c1a9b6d189"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 146",
                       "email": "david.brodesser@fitko.de"
@@ -2992,7 +2867,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-73ac415851"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 178",
                       "email": "George-Petru.Ciordas-Hertel@fitko.de"
@@ -3032,7 +2906,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-cb17fec739"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 102",
                       "email": "Sybille.Graeff@fitko.de"
@@ -3050,7 +2923,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-b213f90c10"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 218",
                       "email": "Jonas-M.Hoffmann@fitko.de"
@@ -3068,7 +2940,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-4219b7a60a"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 145",
                       "email": "christian.kreuzer@fitko.de"
@@ -3086,7 +2957,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-e8d1485b42"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 185",
                       "email": "marie.lindner@fitko.de"
@@ -3104,7 +2974,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-e53ffe31a3"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 142",
                       "email": "Tobias.Schuh@fitko.de"
@@ -3122,7 +2991,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-d7853fa59a"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 134",
                       "email": "Lisa.Eckhardt@fitko.de"
@@ -3161,7 +3029,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-0a43d9d2af"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 167",
                       "email": "johanna.gramlich@fitko.de"
@@ -3179,7 +3046,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-fb081a1e54"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 155",
                       "email": "pittobias.krichbaum@fitko.de"
@@ -3218,7 +3084,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-a75a2bdb89"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 171",
                       "email": "markus.loser@fitko.de"
@@ -3236,7 +3101,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-78b71450f1"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 156",
                       "email": "linda.meier@fitko.de"
@@ -3254,7 +3118,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-62689733af"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 158",
                       "email": "Phie.Ott@fitko.de"
@@ -3272,7 +3135,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-f58cbaf0b0"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 141",
                       "email": "Alexander.Sturm@fitko.de"
@@ -3311,7 +3173,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-f1364c4a03"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 113",
                       "email": "moritz.ahlers@fitko.de"
@@ -3329,7 +3190,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-6b42999254"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 108",
                       "email": "Nadina.Doufrain@fitko.de"
@@ -3347,7 +3207,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-8691eab993"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 222",
                       "email": "HannsSimon.Eckhardt@fitko.de"
@@ -3366,7 +3225,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-71107f2e1e"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 277",
                       "email": "jan.goetze@fitko"
@@ -3384,7 +3242,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-4889df9aed"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 171",
                       "email": "markus.loser@fitko.de"
@@ -3402,7 +3259,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-58a5f0a786"
                   },
                   "person": {
-                    "gender": "w",
                     "contact": {
                       "telephone": "+49 (69) 401270 158",
                       "email": "Phie.Ott@fitko.de"
@@ -3420,7 +3276,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-da9448c18b"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 201",
                       "email": "jakob.schuster@fitko.de"
@@ -3438,7 +3293,6 @@
                     "uri": "https://berlin.github.io/lod-organigram/position-45ab0e8ef8"
                   },
                   "person": {
-                    "gender": "m",
                     "contact": {
                       "telephone": "+49 (69) 401270 141",
                       "email": "Alexander.Sturm@fitko.de"
@@ -3489,7 +3343,6 @@
             "uri": "https://berlin.github.io/lod-organigram/position-f56f647319"
           },
           "person": {
-            "gender": "m",
             "contact": {
               "telephone": "+49 (69) 401270 101",
               "email": "andre.goebel@fitko.de"
@@ -3557,7 +3410,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-e0ef75f418"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 197",
                   "email": "janpascal.wittmann@fitko.de"
@@ -3577,7 +3429,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-5207ac334e"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 149",
                   "email": "sebastian.quendt@fitko.de"
@@ -3596,7 +3447,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-b70b857be7"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 153",
                   "email": "markus.albert@fitko.de"
@@ -3614,7 +3464,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-1ef0da93fa"
               },
               "person": {
-                "gender": "w",
                 "contact": {
                   "telephone": "+49 (69) 401270 148",
                   "email": "mareike.banaszak@fitko.de"
@@ -3632,7 +3481,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-58745a7ad8"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 172",
                   "email": "daniel.biedermann@fitko.de"
@@ -3650,7 +3498,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-e63f5a7f77"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 199",
                   "email": "philipp.birlo@fitko.de"
@@ -3668,7 +3515,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-b3acc21407"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 152",
                   "email": "andreas.braunroth@fitko.de"
@@ -3686,7 +3532,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-f546bab526"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 184",
                   "email": "Kai-Uwe.Fechner@fitko.de"
@@ -3704,7 +3549,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-9af7a6c380"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 196",
                   "email": "clemens.fell@fitko.de"
@@ -3723,7 +3567,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-f7c3ca4bf0"
               },
               "person": {
-                "gender": "w",
                 "contact": {
                   "telephone": "+49 (69) 401270 180",
                   "email": "Andrea.Frank@fitko.de"
@@ -3741,7 +3584,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-69c982f521"
               },
               "person": {
-                "gender": "w",
                 "contact": {
                   "telephone": "+49 (69) 401270 133",
                   "email": "Bianka.Hampel@fitko.de"
@@ -3759,7 +3601,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-a5a7162d1a"
               },
               "person": {
-                "gender": "w",
                 "contact": {
                   "telephone": "+49 (69) 401270 182",
                   "email": "Destiny.Ibarra@fitko.de"
@@ -3777,7 +3618,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-126a0eab90"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 103",
                   "email": "joerg.kremer@fitko.de"
@@ -3795,7 +3635,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-085a04c505"
               },
               "person": {
-                "gender": "w",
                 "contact": {
                   "telephone": "+49 (69) 401270 156",
                   "email": "linda.meier@fitko.de"
@@ -3813,7 +3652,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-67a3359d0f"
               },
               "person": {
-                "gender": "w",
                 "contact": {
                   "telephone": "+49 (69) 401270 181",
                   "email": "Bianca.Molitor@fitko.de"
@@ -3831,7 +3669,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-7cc7e341bf"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 128",
                   "email": "thomas.pinz@fitko.de"
@@ -3849,7 +3686,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-f9171ff8de"
               },
               "person": {
-                "gender": "w",
                 "contact": {
                   "telephone": "+49 (69) 401270 198",
                   "email": "laura.rosenbauer@fitko.de"
@@ -3867,7 +3703,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-e8fc54e723"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 131",
                   "email": "uemit.Soenmez@fitko.de"
@@ -3885,7 +3720,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-63c8f66954"
               },
               "person": {
-                "gender": "w",
                 "contact": {
                   "telephone": "+49 (69) 401270 174",
                   "email": "michaela.schuldt@fitko.de"
@@ -3903,7 +3737,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-f9cd816eb7"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 212",
                   "email": "benjamin.schurig@fitko.de"
@@ -3922,7 +3755,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-caf5c40b37"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 119",
                   "email": "hendrik.stier@fitko.de"
@@ -3961,7 +3793,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-0201641173"
               },
               "person": {
-                "gender": "w",
                 "contact": {
                   "telephone": "+49 (69) 401270 217",
                   "email": "cornelia.diebel@fitko.de"
@@ -3980,7 +3811,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-f9cfaba5be"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 113",
                   "email": "moritz.ahlers@fitko.de"
@@ -3998,7 +3828,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-6b1c88faf6"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 138",
                   "email": "Stephan.Bartholmei@fitko.de"
@@ -4016,7 +3845,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-a82fbff846"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 172",
                   "email": "daniel.biedermann@fitko.de"
@@ -4034,7 +3862,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-9a7e3a76a5"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 222",
                   "email": "HannsSimon.Eckhardt@fitko.de"
@@ -4053,7 +3880,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-c0598c5762"
               },
               "person": {
-                "gender": "w",
                 "contact": {
                   "telephone": "+49 (69) 401270 167",
                   "email": "johanna.gramlich@fitko.de"
@@ -4071,7 +3897,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-246dfbbca6"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 124",
                   "email": "matthias.groenewald@fitko.de"
@@ -4090,7 +3915,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-1d1bbbdaa6"
               },
               "person": {
-                "gender": "w",
                 "contact": {
                   "telephone": "+49 (69) 401270 223",
                   "email": "franziska.hoffmeister@fitko.de"
@@ -4108,7 +3932,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-12624935cf"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 139",
                   "email": "Marco.Holz@fitko.de"
@@ -4126,7 +3949,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-80f18103dd"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 213",
                   "email": "meinhard.kroll@fitko.de"
@@ -4144,7 +3966,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-86dcb1faa5"
               },
               "person": {
-                "gender": "w",
                 "contact": {
                   "telephone": "+49 (69) 401270 110",
                   "email": "Ulrike.Raab@fitko.de"
@@ -4162,7 +3983,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-8227f4b73c"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 119",
                   "email": "hendrik.stier@fitko.de"
@@ -4180,7 +4000,6 @@
                 "uri": "https://berlin.github.io/lod-organigram/position-8c85f950ec"
               },
               "person": {
-                "gender": "m",
                 "contact": {
                   "telephone": "+49 (69) 401270 154",
                   "email": "thomas.tursics@fitko.de"
